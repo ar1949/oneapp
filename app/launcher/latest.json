@@ -1,8 +1,8 @@
 {
-  "version": "1.0.15",
-  "size": 8493368,
-  "sha256": "7945c12a34c71f63a0ef35787e460cf2cc700b79f68f12cc98db6810d83ccae2",
-  "notes": "修正窗口尺寸被二次放大：DPI-unaware 进程下用 GetDeviceCaps 判定真实缩放，窗口回到 774×456 客户区（你的 125% 屏上约 968×570）",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.15/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 14:40:56"
+  "version": "1.0.16",
+  "size": 8492882,
+  "sha256": "68dbfb97b55326b001de110615c00876c553ca4759ce83cb84a80f36ffeac709",
+  "notes": "彻底关掉「保存密码」弹窗：密码框不再用 type=password（那是浏览器弹窗的唯一触发条件），改成文本框 + -webkit-text-security 画圆点，显示效果不变；命令行再补 --disable-sync / --disable-features=PasswordManager",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.16/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 14:50:01"
 }
