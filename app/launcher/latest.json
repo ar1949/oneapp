@@ -1,8 +1,8 @@
 {
-  "version": "1.0.27",
-  "size": 8497064,
-  "sha256": "e376a609203abd25963822379836d19fcaf594129462dd3b6c910675a391f8e5",
-  "notes": "修复「更新完成后点完成又重下一遍」：uStart 在完成态仍然调 /api/update/start，导致 14GB 包被重复下载；现在完成态点它就是收起面板",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.27/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 15:38:05"
+  "version": "1.0.28",
+  "size": 8498839,
+  "sha256": "39b164739fc166752704e6ddedbe76031ba8db27d376c3ba41f75e2763b1d11c",
+  "notes": "修复换壳时弹「Failed to remove temporary directory」英文错误框：退出前把 PyInstaller 解包目录改名并留空壳，bootloader 删空目录必然成功；同时启动时自动清理历史残留（本机实测堆了 229 个 / 3.6GB）",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.28/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 15:43:13"
 }
