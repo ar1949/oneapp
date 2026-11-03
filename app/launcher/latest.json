@@ -1,8 +1,8 @@
 {
-  "version": "1.0.11",
-  "size": 8471852,
-  "sha256": "aa8ade9079329b844901ead6d34d894c715ea65e08cebf46d292783c9f3d674a",
-  "notes": "单实例判定收紧：被唤醒后再点图标不会误判成'旧实例已退出'而多开一个窗口；多余窗口的清理只在能确认自己窗口时执行",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.11/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 12:39:57"
+  "version": "1.0.12",
+  "size": 8471139,
+  "sha256": "9dadeee770b1980e2ab81912a52f2292a6c31c03093d4e357344b3d57be82787",
+  "notes": "关掉多余的旧窗口不再把当前启动器带崩（页面 beforeunload 会发 /api/quit，改成确认窗口真的没了才退）",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.12/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 12:42:54"
 }
