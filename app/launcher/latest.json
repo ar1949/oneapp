@@ -1,8 +1,8 @@
 {
-  "version": "1.0.33",
-  "size": 8499712,
-  "sha256": "5e6c885f2cb083740bb28f85ad547210d5f8ca16cf1156d4f03818ad6d2da5db",
-  "notes": "版本号更新（最终验收）：自更新全链路 —— 静默下载、弹窗确认、窗口不消失、自动重连、旧版自动清理",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.33/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 15:59:48"
+  "version": "1.0.34",
+  "size": 8500592,
+  "sha256": "f25bf73a5c9994459c925e108a50301a2766712661561f0f3929850a73401a95",
+  "notes": "点「立即重启」后显示部署进度百分比，版本号真正变化才提示更新成功（之前窗口不关、版本 60 秒才刷新，看起来像没反应）",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.34/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 16:06:08"
 }
