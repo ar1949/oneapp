@@ -1,11 +1,11 @@
 {
-  "version_code": 6,
-  "version_name": "1.0.5",
-  "apk": "https://cdn.jsdelivr.net/gh/ar1949/oneapp@v1.0.5/app/onetap-mgmt-1.0.5.apk",
-  "size": 2434389,
-  "sha256": "045de54cd1e5febba34aba0afbfb3b823b388f16a875970c80ceea1c726cc2ba",
-  "notes": "更新改为全程走公网 CDN；不再回连本地服务器；服务器地址已混淆；清单与安装包均带校验",
-  "updated": "2026-11-03 10:44:18",
+  "version_code": 7,
+  "version_name": "1.0.6",
+  "apk": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@v1.0.6/app/onetap-mgmt-1.0.6.apk",
+  "size": 2434139,
+  "sha256": "e9f8df582d5a8979f14a3d727ff9dda0fae232b3a554ae8eeba8080660dd668c",
+  "notes": "更新改走公网 CDN：安装包四源自动回退；服务器地址已混淆；带 sha256 校验",
+  "updated": "2026-11-03 10:57:25",
   "channel": "android",
   "min_supported": 1
 }
