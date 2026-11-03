@@ -1,8 +1,8 @@
 {
-  "version": "1.0.18",
-  "size": 8493307,
-  "sha256": "90cb77daa527aa62ba347712c626185821055aee697a05a954c4d6027444c58b",
-  "notes": "修复「升级完没有窗口」：换壳时不再提前杀浏览器（交给新实例关，并等窗口真的消失）；开窗重试 3 次→5 次、间隔递增；杀浏览器改用 taskkill /T 连子进程一起收",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.18/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 15:00:04"
+  "version": "1.0.19",
+  "size": 8493967,
+  "sha256": "87dd96eb6cf038fc4d331f1310f78d2e37b1c95180a0ce5b2ba797460eaaac3a",
+  "notes": "修复「界面提示有新版本但点立即重启没反应」：清理旧版时误删了刚下载的新包，改为只删与已装版本 sha 相同的残留；删旧版失败时保留书签下次重试",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.19/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 15:02:41"
 }
