@@ -1,8 +1,8 @@
 {
-  "version": "1.0.6",
-  "size": 8466413,
-  "sha256": "322ac00b30050b4ed969f5584c8ec38213f900d6927faeaa4b69417e212cdd3d",
-  "notes": "换壳主路径改为进程内完成：改名运行中的 exe（Windows 允许）→ 写入新壳 → os.startfile 以双击方式拉起 → 立即硬退出，全程不再经过 cmd/bat（实测经 cmd start 会让新壳卡在按需解包）；立即重启改为先回响应再换壳",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.6/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 12:23:06"
+  "version": "1.0.7",
+  "size": 8466022,
+  "sha256": "9ea77eb8415578878a72c092b30a14e06cae8d5fd0057eee4c43f6bf8dada33b",
+  "notes": "只允许一个启动器窗口：新实例拿到单实例锁后，先精确关闭残留的 ONETAP 启动器窗口（不动游戏窗口、不动你其它浏览器）；换壳/重启硬退出前主动关掉自己的 Edge 窗口，不再遗留孤儿窗口",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.7/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 12:26:13"
 }
