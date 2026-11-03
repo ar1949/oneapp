@@ -1,8 +1,8 @@
 {
-  "version": "1.0.22",
-  "size": 8495946,
-  "sha256": "a96d525908c1cbe839da31543e01987162e08f547b26b70f2f215be10d1d6997",
-  "notes": "修复「升级后无窗口」（第三次，找到真因）：换壳拉起的进程会继承旧进程已失效的 stdout/stderr 句柄，浏览器拿到坏句柄后进程起得来但窗口不出。改为打包后无条件接管 stdio，并在拉浏览器时显式丢弃 stdio",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.22/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 15:14:20"
+  "version": "1.0.23",
+  "size": 8495746,
+  "sha256": "164564d3b9bb09a9120ca39ac5d6402d4b83abdd3127c27162591e626482e340",
+  "notes": "换壳不再重开窗口：HTTP 服务改用固定端口 47320，换壳时保留旧窗口，新进程起来后旧窗口自己连回来；检测到已有窗口就跳过重开（从换壳进程里拉新浏览器窗口，实测这台机器永远出不来）",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.23/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 15:16:56"
 }
