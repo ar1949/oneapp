@@ -1,8 +1,8 @@
 {
-  "version": "1.0.25",
-  "size": 8496590,
-  "sha256": "cfe2cc9f94244e441bdb5347920f2cfc0e602dae092e9e9c9dc9b5f4ca13ec98",
-  "notes": "换壳完成后自动收起「有新版本」弹窗（之前升级完了还提示升级）；重启提示改为「窗口会自动重连，不会关闭」",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.25/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 15:23:34"
+  "version": "1.0.26",
+  "size": 8497078,
+  "sha256": "f7c778bb192e026875bb61dac0a82ea484869a4e83fa6a796273ebfffcd2cc97",
+  "notes": "验证「换壳后自动收起更新弹窗」+ 收尾",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.26/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 15:26:41"
 }
