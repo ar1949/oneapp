@@ -1,8 +1,8 @@
 {
-  "version": "1.0.30",
-  "size": 8499246,
-  "sha256": "fe5c532d9de979bf68b9c2730fe3db85ad0b60edfe591e526f6e9c3734f5ae0e",
-  "notes": "换壳时序修正：放锁必须在拉起新进程之前；等新进程加载完 dll 再改名解包目录（修 Failed to load Python DLL 与换壳后无进程）",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.30/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 15:48:24"
+  "version": "1.0.31",
+  "size": 8499310,
+  "sha256": "b6fc78215fe59b836c0284784b68e575d65dc2cabc19a8de99bb60aa06f041f7",
+  "notes": "换壳时机移到「窗口已开好」之后：冷启动换壳时新进程没有窗口可复用、只能自己拉浏览器（那条路走不通）；现在先开窗再换壳，走已验证的固定端口复用路径",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.31/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 15:50:32"
 }
