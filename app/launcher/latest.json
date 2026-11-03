@@ -1,8 +1,8 @@
 {
-  "version": "1.0.12",
-  "size": 8471139,
-  "sha256": "9dadeee770b1980e2ab81912a52f2292a6c31c03093d4e357344b3d57be82787",
-  "notes": "关掉多余的旧窗口不再把当前启动器带崩（页面 beforeunload 会发 /api/quit，改成确认窗口真的没了才退）",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.12/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 12:42:54"
+  "version": "1.0.13",
+  "size": 8472625,
+  "sha256": "5ad28057224bfe8dd7c6986c16d527359193308fe1dede2575af1586914e9b78",
+  "notes": "① 修复断线面板 HTML 被删导致整段脚本中断、界面一直显示'检测中/连接中'（核心故障）② 窗口标题改为 ONETAP启动器 V1.0.x（版本号内嵌进包）③ 窗口高度 600→540 ④ 内测群二维码改为虹光渐变",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.13/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 14:17:11"
 }
