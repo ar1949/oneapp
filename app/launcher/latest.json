@@ -1,8 +1,8 @@
 {
-  "version": "1.0.9",
-  "size": 8468933,
-  "sha256": "2cbc7470fd9d855c987ed11f2c6087d4ec65f78198c13fd26c0664b6c95c4f7f",
-  "notes": "自动退出改成看窗口而不是看请求（Chromium 会节流后台窗口的定时器，原来切到后台30秒就被误杀）；窗口确认出现后才启动退出监控",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.9/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 12:33:13"
+  "version": "1.0.10",
+  "size": 8471550,
+  "sha256": "098a2d364dfddb90f9e5a88ee27b99fc10bb9c05ca1ef892af051e35a3f7b78e",
+  "notes": "窗口收敛到底：① 记住自己那个窗口的句柄，再点图标只把它叫到前面并把历史遗留的其它启动器窗口关掉 ② 认不出自己窗口时绝不动手，避免把仅有的窗口也关掉",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.10/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 12:37:36"
 }
