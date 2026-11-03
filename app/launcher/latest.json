@@ -1,8 +1,8 @@
 {
-  "version": "1.0.17",
-  "size": 8493772,
-  "sha256": "dbf5197cc94fad1d37201f230e5d16c054d56fb6a2fac1f5cf70051402786c40",
-  "notes": "断网判定改进：区分「服务器忙」和「自己断网」——后台探公共 DNS，本机也没网时显示「网络不通」而不是误报服务器慢",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.17/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 14:57:05"
+  "version": "1.0.18",
+  "size": 8493307,
+  "sha256": "90cb77daa527aa62ba347712c626185821055aee697a05a954c4d6027444c58b",
+  "notes": "修复「升级完没有窗口」：换壳时不再提前杀浏览器（交给新实例关，并等窗口真的消失）；开窗重试 3 次→5 次、间隔递增；杀浏览器改用 taskkill /T 连子进程一起收",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.18/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 15:00:04"
 }
