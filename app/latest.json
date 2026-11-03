@@ -1,0 +1,11 @@
+{
+  "version_code": 4,
+  "version_name": "1.0.3",
+  "apk": "/dl/app/onetap-mgmt-1.0.3.apk",
+  "size": 2433970,
+  "sha256": "adc80a8804cbbea46d80834733862f24417511f66432ab8aaec0af7126e7eeef",
+  "notes": "修复平板 / 折叠屏布局；外网改为 https://onetap.yyyyy.pro:50443/；新增自动更新与镜像源兜底",
+  "updated": "2026-11-03 09:33:35",
+  "apk_mirror": "https://cdn.jsdelivr.net/gh/ar1949/oneapp@v1.0.3/app/onetap-mgmt-1.0.3.apk",
+  "mirror_note": "jsDelivr CDN（GitHub ar1949/oneapp），家里断网也能下"
+}
