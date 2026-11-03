@@ -1,8 +1,8 @@
 {
-  "version": "1.0.14",
-  "size": 8492297,
-  "sha256": "a59ef9b022b286e3b7e63ba0b7cb88dec4b2bd1b04c3409b767ae14248821ac7",
-  "notes": "① 页脚版本号改为启动器版本（原来显示的是客户端版本）② 窗口客户区钉死 774×456（125%缩放下约 968×570），不再被浏览器缓存的旧尺寸覆盖 ③ 关掉 Edge「保存密码到 Microsoft 账户」弹窗 ④ 无浏览器兜底：扩展探测到 Edge/Chrome/Brave/Vivaldi/360/QQ/搜狗 + 注册表 App Paths，全都找不到时启用内置 Win32 原生界面（不依赖任何浏览器）",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.14/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 14:39:19"
+  "version": "1.0.15",
+  "size": 8493368,
+  "sha256": "7945c12a34c71f63a0ef35787e460cf2cc700b79f68f12cc98db6810d83ccae2",
+  "notes": "修正窗口尺寸被二次放大：DPI-unaware 进程下用 GetDeviceCaps 判定真实缩放，窗口回到 774×456 客户区（你的 125% 屏上约 968×570）",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.15/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 14:40:56"
 }
