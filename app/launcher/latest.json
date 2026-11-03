@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
-  "size": 8455010,
-  "sha256": "5ff9acf1b40850bece810b77f602c866c76d517c14bd887fbe8c740c634f7e82",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.0/app/launcher/ONETAPLauncher.bin",
-  "notes": "界面压缩；二维码收进页脚；断线框全窗居中；更新后自动重启并清理旧版；更新源迁到 CDN",
-  "updated": "2026-11-03 11:37:37"
+  "version": "1.0.2",
+  "size": 8456437,
+  "sha256": "78e4e34423f72f0820a83e018bde6d55f819806df9333135650f634b0bd9b8bc",
+  "notes": "修复换壳死循环：.new 残留导致每次启动都排程换壳后立即退出（双击没反应）；批处理增加 copy 失败回滚，杜绝 exe 丢失；同一版最多重试 3 次",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.2/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 12:07:05"
 }
