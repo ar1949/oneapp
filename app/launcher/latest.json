@@ -1,8 +1,8 @@
 {
-  "version": "1.0.10",
-  "size": 8471550,
-  "sha256": "098a2d364dfddb90f9e5a88ee27b99fc10bb9c05ca1ef892af051e35a3f7b78e",
-  "notes": "窗口收敛到底：① 记住自己那个窗口的句柄，再点图标只把它叫到前面并把历史遗留的其它启动器窗口关掉 ② 认不出自己窗口时绝不动手，避免把仅有的窗口也关掉",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.10/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 12:37:36"
+  "version": "1.0.11",
+  "size": 8471852,
+  "sha256": "aa8ade9079329b844901ead6d34d894c715ea65e08cebf46d292783c9f3d674a",
+  "notes": "单实例判定收紧：被唤醒后再点图标不会误判成'旧实例已退出'而多开一个窗口；多余窗口的清理只在能确认自己窗口时执行",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.11/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 12:39:57"
 }
