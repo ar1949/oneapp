@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "size": 8455344,
+  "sha256": "5de22c936336d8b0e981229113e3f53df3ddf16e60a2933efa906066d4b4cb2a",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.0/app/launcher/ONETAPLauncher.exe",
+  "notes": "界面压缩；二维码收进页脚；断线框全窗居中；更新后自动重启并清理旧版；更新源迁到 CDN",
+  "updated": "2026-11-03 11:35:18"
+}
