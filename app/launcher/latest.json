@@ -1,8 +1,8 @@
 {
-  "version": "1.0.23",
-  "size": 8495746,
-  "sha256": "164564d3b9bb09a9120ca39ac5d6402d4b83abdd3127c27162591e626482e340",
-  "notes": "换壳不再重开窗口：HTTP 服务改用固定端口 47320，换壳时保留旧窗口，新进程起来后旧窗口自己连回来；检测到已有窗口就跳过重开（从换壳进程里拉新浏览器窗口，实测这台机器永远出不来）",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.23/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 15:16:56"
+  "version": "1.0.24",
+  "size": 8493977,
+  "sha256": "5f62854b911e4b184c621c3b2b3a4a67102cbf94cf664c96fbb09d35ff51d9de",
+  "notes": "验证换壳不重开窗口：固定 HTTP 端口 47320，换壳时保留旧窗口由它自动重连",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.24/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 15:19:43"
 }
