@@ -1,8 +1,8 @@
 {
-  "version": "1.0.5",
-  "size": 8465218,
-  "sha256": "895570c3a5be61af714f49f0d4b533e2ae97ab3d83774d25b896e1b368b50c44",
-  "notes": "新增启动打点 appdata/launcher-boot.log（定位卡在哪一步）；修复 windowed 模式下 stdio 为 None 导致 print 抛异常后弹出隐藏错误框把进程卡死",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.5/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 12:17:55"
+  "version": "1.0.6",
+  "size": 8466413,
+  "sha256": "322ac00b30050b4ed969f5584c8ec38213f900d6927faeaa4b69417e212cdd3d",
+  "notes": "换壳主路径改为进程内完成：改名运行中的 exe（Windows 允许）→ 写入新壳 → os.startfile 以双击方式拉起 → 立即硬退出，全程不再经过 cmd/bat（实测经 cmd start 会让新壳卡在按需解包）；立即重启改为先回响应再换壳",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.6/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 12:23:06"
 }
