@@ -1,8 +1,8 @@
 {
-  "version": "1.0.29",
-  "size": 8497804,
-  "sha256": "ae226f74f18d09e7c4b24bb8f61b3f30a426869798fef41abecf1c0c0a55f396",
-  "notes": "修复换壳后新进程报「Failed to load Python DLL」：PyInstaller 用 _MEIPASS2 让子进程复用父进程解包目录，改名后必须摘掉该变量让新进程自行解包",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.29/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 15:45:41"
+  "version": "1.0.30",
+  "size": 8499246,
+  "sha256": "fe5c532d9de979bf68b9c2730fe3db85ad0b60edfe591e526f6e9c3734f5ae0e",
+  "notes": "换壳时序修正：放锁必须在拉起新进程之前；等新进程加载完 dll 再改名解包目录（修 Failed to load Python DLL 与换壳后无进程）",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.30/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 15:48:24"
 }
