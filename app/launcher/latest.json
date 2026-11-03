@@ -1,8 +1,8 @@
 {
-  "version": "1.0.4",
-  "size": 8462873,
-  "sha256": "91b641741c8f010d9792c42ba89bdce9984871b2d6b8f1545c7ac0da11915350",
-  "notes": "换壳第二次加固（真因）：换壳时老进程仍占 47311，新壳被单实例分支拦下并卡在唤醒窗口，导致两边都没窗口。① 换壳批处理在拉起新壳前先清掉同类进程并等 2 秒；② 唤醒老窗口限时 2.5 秒，老进程已退出则新进程接管启动；③ 唤醒后复查锁是否还活着",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.4/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 12:15:39"
+  "version": "1.0.5",
+  "size": 8465218,
+  "sha256": "895570c3a5be61af714f49f0d4b533e2ae97ab3d83774d25b896e1b368b50c44",
+  "notes": "新增启动打点 appdata/launcher-boot.log（定位卡在哪一步）；修复 windowed 模式下 stdio 为 None 导致 print 抛异常后弹出隐藏错误框把进程卡死",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.5/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 12:17:55"
 }
