@@ -1,8 +1,8 @@
 {
-  "version": "1.0.7",
-  "size": 8466022,
-  "sha256": "9ea77eb8415578878a72c092b30a14e06cae8d5fd0057eee4c43f6bf8dada33b",
-  "notes": "只允许一个启动器窗口：新实例拿到单实例锁后，先精确关闭残留的 ONETAP 启动器窗口（不动游戏窗口、不动你其它浏览器）；换壳/重启硬退出前主动关掉自己的 Edge 窗口，不再遗留孤儿窗口",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.7/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 12:26:13"
+  "version": "1.0.8",
+  "size": 8469435,
+  "sha256": "2165970595a8a6ff4ac6b45ef3e02e5b7a74af605adcfb8d3c9bb80e9fa4bb9c",
+  "notes": "窗口只留一个（第二次加固）：拉起 Edge 后必须确认 ONETAP 窗口真的出现，没出现就关掉重试（最多3次）——修掉换壳后'进程活着但没窗口'；清孤儿窗口放到确认流程里",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.8/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 12:28:21"
 }
