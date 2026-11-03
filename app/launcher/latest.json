@@ -1,8 +1,8 @@
 {
-  "version": "1.0.20",
-  "size": 8494232,
-  "sha256": "af15367a6b6e7b898208d2d79d092077b1c03a285bc93fd8de417781b68168ab",
-  "notes": "修复「升级后启动器没有窗口」：换壳前用 taskkill /T 把浏览器进程树杀干净，新实例检测到刚换壳先等 3 秒再开窗口（之前旧 Edge 半退出会把新窗口请求吞掉）",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.20/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 15:05:45"
+  "version": "1.0.21",
+  "size": 8494402,
+  "sha256": "ee3a99a3612d690404f127bc6a5585cca652c3119bf65c4bcb41760e78e1e88d",
+  "notes": "修复升级后无窗口（第二次）：Edge 会自己 relaunch，按 pid 杀不干净，改为按 user-data-dir 精确清理所有相关进程，再等 2 秒开窗",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.21/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 15:08:23"
 }
