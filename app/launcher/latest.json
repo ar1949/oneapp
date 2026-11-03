@@ -1,8 +1,8 @@
 {
-  "version": "1.0.2",
-  "size": 8456437,
-  "sha256": "78e4e34423f72f0820a83e018bde6d55f819806df9333135650f634b0bd9b8bc",
-  "notes": "修复换壳死循环：.new 残留导致每次启动都排程换壳后立即退出（双击没反应）；批处理增加 copy 失败回滚，杜绝 exe 丢失；同一版最多重试 3 次",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.2/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 12:07:05"
+  "version": "1.0.3",
+  "size": 8462843,
+  "sha256": "66a938ed2ddef5a3ae5e6cd291f7510bb912ce54f4dfe33b8bf0a918c78d5f20",
+  "notes": "换壳彻底加固：① 残留 .new 自愈（当前 exe 已是目标版就清掉继续启动，根治死循环）② 换壳后立即硬退出，不再留卡死进程占锁 ③ 僵尸单实例锁自动清理 ④ 换壳批处理 copy 失败回滚 + 新壳 30 秒没起来自动退回旧版 ⑤ 单实例锁异常时也保证窗口能出来",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.3/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 12:11:19"
 }
