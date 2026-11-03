@@ -1,8 +1,8 @@
 {
-  "version": "1.0.26",
-  "size": 8497078,
-  "sha256": "f7c778bb192e026875bb61dac0a82ea484869a4e83fa6a796273ebfffcd2cc97",
-  "notes": "验证「换壳后自动收起更新弹窗」+ 收尾",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.26/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 15:26:41"
+  "version": "1.0.27",
+  "size": 8497064,
+  "sha256": "e376a609203abd25963822379836d19fcaf594129462dd3b6c910675a391f8e5",
+  "notes": "修复「更新完成后点完成又重下一遍」：uStart 在完成态仍然调 /api/update/start，导致 14GB 包被重复下载；现在完成态点它就是收起面板",
+  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.27/app/launcher/ONETAPLauncher.bin",
+  "updated": "2026-11-03 15:38:05"
 }
