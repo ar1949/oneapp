@@ -3,8 +3,8 @@
   "channel": "stable",
   "client_version": "1.0.20261102.1",
   "min_version": "1.0.20261102.1",
-  "released": "2026-11-04 12:47:30",
-  "notes": "当前无可用增量包，保持现有版本即可。",
+  "released": "2026-11-04 12:49:19",
+  "notes": "内容版本 1.0.20261102.1（分卷未变）。启动器与下载器各自独立更新，不再通过内容补丁分发壳，避免壳被补丁降级后又自更新上来。",
   "install_order": [
     "baseline-1.0.20261102.1",
     "shell-launcher-1.0.35"
@@ -282,12 +282,12 @@
         {
           "type": "ghproxy",
           "weight": 100,
-          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/213e5bfc3a102715d5dfe9c5efca270b7b9d1b6f/app/launcher"
+          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/c96fd740ec25c3e1d88d22c84b659f0cd3d09bb4/app/launcher"
         },
         {
           "type": "github",
           "weight": 40,
-          "base": "https://raw.githubusercontent.com/ar1949/oneapp/213e5bfc3a102715d5dfe9c5efca270b7b9d1b6f/app/launcher",
+          "base": "https://raw.githubusercontent.com/ar1949/oneapp/c96fd740ec25c3e1d88d22c84b659f0cd3d09bb4/app/launcher",
           "file": "ONETAPLauncher.bin"
         }
       ]
