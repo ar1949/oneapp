@@ -1,10 +1,10 @@
 {
-  "version": "1.0.39",
-  "size": 8961242,
-  "sha256": "3e17212068dba6a327c1e3be733d3a9931b551d32f0341bd58799c6ed38c36c2",
-  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPLauncher-1.0.39.bin",
+  "version": "1.0.40",
+  "size": 8960325,
+  "sha256": "56a142030cae021727690584907e450c69818b9897a0b26d2b3df32d1cc8075e",
+  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPLauncher-1.0.40.bin",
   "release_tag": "v1.0.20261102.1",
-  "asset_name": "ONETAPLauncher-1.0.39.bin",
-  "released": "2026-11-05 02:39:02",
-  "notes": "窗口放大 / 等级区域 / 进入游戏与注销双按钮 / 高等级会员主题"
+  "asset_name": "ONETAPLauncher-1.0.40.bin",
+  "released": "2026-11-05 03:21:27",
+  "notes": "修复换壳升级后窗口未放大：复用窗口路径补 fit_window"
 }
