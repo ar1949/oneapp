@@ -3,7 +3,7 @@
   "channel": "stable",
   "client_version": "1.0.20261102.1",
   "min_version": "1.0.20261102.1",
-  "released": "2026-11-04 13:02:26",
+  "released": "2026-11-04 13:15:06",
   "notes": "内容版本 1.0.20261102.1（分卷未变）。启动器与下载器各自独立更新，不再通过内容补丁分发壳。",
   "install_order": [
     "baseline-1.0.20261102.1",
@@ -283,12 +283,12 @@
         {
           "type": "ghproxy",
           "weight": 100,
-          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/9ca8dd3fa2a69183f7c723f9be2b2a1e339f0af2/app/launcher"
+          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/4b75fb30925c17061d224a558ba84e826a91fdf9/app/launcher"
         },
         {
           "type": "github",
           "weight": 40,
-          "base": "https://raw.githubusercontent.com/ar1949/oneapp/9ca8dd3fa2a69183f7c723f9be2b2a1e339f0af2/app/launcher",
+          "base": "https://raw.githubusercontent.com/ar1949/oneapp/4b75fb30925c17061d224a558ba84e826a91fdf9/app/launcher",
           "file": "ONETAPLauncher.bin"
         }
       ]
@@ -297,26 +297,26 @@
       "id": "shell-downloader-1.0.0",
       "kind": "shell",
       "version": "1.0.0",
-      "total_bytes": 9042862,
-      "total_sha256": "197c2ec2cf7faf59967030e51658fde3c8052ea0881e774b34f38427937fb649",
+      "total_bytes": 9044482,
+      "total_sha256": "3c87b4f06d2f9eb95b751a016de55f810bb47f38a9951c4e085bb80da70b6397",
       "parts": [
         {
           "index": 1,
           "name": "ONETAPDownloader.bin",
-          "size": 9042862,
-          "sha256": "197c2ec2cf7faf59967030e51658fde3c8052ea0881e774b34f38427937fb649"
+          "size": 9044482,
+          "sha256": "3c87b4f06d2f9eb95b751a016de55f810bb47f38a9951c4e085bb80da70b6397"
         }
       ],
       "sources": [
         {
           "type": "ghproxy",
           "weight": 100,
-          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/9ca8dd3fa2a69183f7c723f9be2b2a1e339f0af2/app/downloader"
+          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/4b75fb30925c17061d224a558ba84e826a91fdf9/app/downloader"
         },
         {
           "type": "github",
           "weight": 40,
-          "base": "https://raw.githubusercontent.com/ar1949/oneapp/9ca8dd3fa2a69183f7c723f9be2b2a1e339f0af2/app/downloader",
+          "base": "https://raw.githubusercontent.com/ar1949/oneapp/4b75fb30925c17061d224a558ba84e826a91fdf9/app/downloader",
           "file": "ONETAPDownloader.bin"
         }
       ]
