@@ -3,11 +3,12 @@
   "channel": "stable",
   "client_version": "1.0.20261102.1",
   "min_version": "1.0.20261102.1",
-  "released": "2026-11-04 12:49:19",
-  "notes": "内容版本 1.0.20261102.1（分卷未变）。启动器与下载器各自独立更新，不再通过内容补丁分发壳，避免壳被补丁降级后又自更新上来。",
+  "released": "2026-11-04 13:01:10",
+  "notes": "内容版本 1.0.20261102.1（分卷未变）。启动器与下载器各自独立更新，不再通过内容补丁分发壳。",
   "install_order": [
     "baseline-1.0.20261102.1",
-    "shell-launcher-1.0.35"
+    "shell-launcher-1.0.35",
+    "shell-downloader-1.0.0"
   ],
   "assets": [
     {
@@ -282,13 +283,41 @@
         {
           "type": "ghproxy",
           "weight": 100,
-          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/c96fd740ec25c3e1d88d22c84b659f0cd3d09bb4/app/launcher"
+          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/e2341728733acf6a473ea2b7233c205caf9f9ece/app/launcher"
         },
         {
           "type": "github",
           "weight": 40,
-          "base": "https://raw.githubusercontent.com/ar1949/oneapp/c96fd740ec25c3e1d88d22c84b659f0cd3d09bb4/app/launcher",
+          "base": "https://raw.githubusercontent.com/ar1949/oneapp/e2341728733acf6a473ea2b7233c205caf9f9ece/app/launcher",
           "file": "ONETAPLauncher.bin"
+        }
+      ]
+    },
+    {
+      "id": "shell-downloader-1.0.0",
+      "kind": "shell",
+      "version": "1.0.0",
+      "total_bytes": 9042862,
+      "total_sha256": "197c2ec2cf7faf59967030e51658fde3c8052ea0881e774b34f38427937fb649",
+      "parts": [
+        {
+          "index": 1,
+          "name": "ONETAPDownloader.bin",
+          "size": 9042862,
+          "sha256": "197c2ec2cf7faf59967030e51658fde3c8052ea0881e774b34f38427937fb649"
+        }
+      ],
+      "sources": [
+        {
+          "type": "ghproxy",
+          "weight": 100,
+          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/e2341728733acf6a473ea2b7233c205caf9f9ece/app/downloader"
+        },
+        {
+          "type": "github",
+          "weight": 40,
+          "base": "https://raw.githubusercontent.com/ar1949/oneapp/e2341728733acf6a473ea2b7233c205caf9f9ece/app/downloader",
+          "file": "ONETAPDownloader.bin"
         }
       ]
     }
