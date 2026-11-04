@@ -1,10 +1,10 @@
 {
-  "version": "1.0.37",
-  "size": 8954913,
-  "sha256": "dd5919d4f5f43a313198c2fdfe287bed4ab6ba4d2c7530a2bf9ff6e5884e5213",
-  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPLauncher-1.0.37.bin",
+  "version": "1.0.38",
+  "size": 8958657,
+  "sha256": "4defc78b5a535e5c48e3272f4c810f60083fa33ec7f8b3c00cb27c672b1e94a8",
+  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPLauncher-1.0.38.bin",
   "release_tag": "v1.0.20261102.1",
-  "asset_name": "ONETAPLauncher-1.0.37.bin",
-  "released": "2026-11-04 19:46:47",
-  "notes": "修换壳后 ui.html 丢失白页：_strip_pyi_env + 7 秒自愈；去掉 gcore 旧镜像源"
+  "asset_name": "ONETAPLauncher-1.0.38.bin",
+  "released": "2026-11-04 23:05:23",
+  "notes": "镜像清单新鲜度保护：壳版本/released 双下界 + 不可变 tag 定址 + 内网清单兜底；无合格候选只用缓存并标 stale"
 }
