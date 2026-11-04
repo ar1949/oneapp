@@ -3,12 +3,12 @@
   "channel": "stable",
   "client_version": "1.0.20261102.1",
   "min_version": "1.0.20261102.1",
-  "released": "2026-11-04 17:52:19",
-  "notes": "下载器 v1.0.3：换壳后资源丢失自愈；8 路最优线程；网页假页拦截；AnonDrop 直链修正；自检改读统一清单",
+  "released": "2026-11-04 18:02:05",
+  "notes": "下载器 v1.0.4：自愈重启+干净窗口；8 路最优；假页拦截；AnonDrop 修正；自检改读统一清单",
   "install_order": [
     "baseline-1.0.20261102.1",
     "shell-launcher-1.0.35",
-    "shell-downloader-1.0.3"
+    "shell-downloader-1.0.4"
   ],
   "assets": [
     {
@@ -283,28 +283,28 @@
         {
           "type": "ghproxy",
           "weight": 100,
-          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/4ef2ad2bd795b92f0f15f978754bdd453fc49a53/app/launcher"
+          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/e7adc825df409986b91f7c5bfb4624b78b57d4ec/app/launcher"
         },
         {
           "type": "github",
           "weight": 40,
-          "base": "https://raw.githubusercontent.com/ar1949/oneapp/4ef2ad2bd795b92f0f15f978754bdd453fc49a53/app/launcher",
+          "base": "https://raw.githubusercontent.com/ar1949/oneapp/e7adc825df409986b91f7c5bfb4624b78b57d4ec/app/launcher",
           "file": "ONETAPLauncher.bin"
         }
       ]
     },
     {
-      "id": "shell-downloader-1.0.3",
+      "id": "shell-downloader-1.0.4",
       "kind": "shell",
-      "version": "1.0.3",
-      "total_bytes": 9051527,
-      "total_sha256": "c8e4d170dfd9ce86d83d78039ca4f391046beaefb4c009efdef397ba7f631a42",
+      "version": "1.0.4",
+      "total_bytes": 9053267,
+      "total_sha256": "c8e53939300737f3cdb4f327793a02886888064c331f0d62260f515375fa29ac",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPDownloader-1.0.3.bin",
-          "size": 9051527,
-          "sha256": "c8e4d170dfd9ce86d83d78039ca4f391046beaefb4c009efdef397ba7f631a42"
+          "name": "ONETAPDownloader-1.0.4.bin",
+          "size": 9053267,
+          "sha256": "c8e53939300737f3cdb4f327793a02886888064c331f0d62260f515375fa29ac"
         }
       ],
       "sources": [
