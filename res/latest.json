@@ -3,11 +3,11 @@
   "channel": "stable",
   "client_version": "1.0.20261102.1",
   "min_version": "1.0.20261102.1",
-  "released": "2026-11-05 02:39:02",
+  "released": "2026-11-05 03:21:27",
   "notes": "启动器/下载器修复：①单实例（连点两次只唤醒已开窗口，进程仍是一套）②断网不再要求手填服务器地址，改自动重试+中文提示 ③界面/状态栏/日志/自检一律不出现 IP·域名·端口 ④游戏进程也只允许开一个。客户端内容未变，本次只更壳（8MB 补丁，不用重下 14GB）。",
   "install_order": [
     "baseline-1.0.20261102.1",
-    "shell-launcher-1.0.39",
+    "shell-launcher-1.0.40",
     "shell-downloader-1.0.5"
   ],
   "assets": [
@@ -266,17 +266,17 @@
       ]
     },
     {
-      "id": "shell-launcher-1.0.39",
+      "id": "shell-launcher-1.0.40",
       "kind": "shell",
-      "version": "1.0.39",
-      "total_bytes": 8961242,
-      "total_sha256": "3e17212068dba6a327c1e3be733d3a9931b551d32f0341bd58799c6ed38c36c2",
+      "version": "1.0.40",
+      "total_bytes": 8960325,
+      "total_sha256": "56a142030cae021727690584907e450c69818b9897a0b26d2b3df32d1cc8075e",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPLauncher-1.0.39.bin",
-          "size": 8961242,
-          "sha256": "3e17212068dba6a327c1e3be733d3a9931b551d32f0341bd58799c6ed38c36c2"
+          "name": "ONETAPLauncher-1.0.40.bin",
+          "size": 8960325,
+          "sha256": "56a142030cae021727690584907e450c69818b9897a0b26d2b3df32d1cc8075e"
         }
       ],
       "sources": [
@@ -319,6 +319,5 @@
         }
       ]
     }
-  ],
-  "manifest_ref": "res-50fda230bea2"
+  ]
 }
