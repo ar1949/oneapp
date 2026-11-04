@@ -3,12 +3,12 @@
   "channel": "stable",
   "client_version": "1.0.20261102.1",
   "min_version": "1.0.20261102.1",
-  "released": "2026-11-04 19:46:47",
-  "notes": "修换壳后 ui.html 丢失白页：_strip_pyi_env + 7 秒自愈；去掉 gcore 旧镜像源",
+  "released": "2026-11-04 23:05:23",
+  "notes": "启动器/下载器修复：①单实例（连点两次只唤醒已开窗口，进程仍是一套）②断网不再要求手填服务器地址，改自动重试+中文提示 ③界面/状态栏/日志/自检一律不出现 IP·域名·端口 ④游戏进程也只允许开一个。客户端内容未变，本次只更壳（8MB 补丁，不用重下 14GB）。",
   "install_order": [
     "baseline-1.0.20261102.1",
-    "shell-launcher-1.0.37",
-    "shell-downloader-1.0.4"
+    "shell-launcher-1.0.38",
+    "shell-downloader-1.0.5"
   ],
   "assets": [
     {
@@ -266,17 +266,17 @@
       ]
     },
     {
-      "id": "shell-launcher-1.0.37",
+      "id": "shell-launcher-1.0.38",
       "kind": "shell",
-      "version": "1.0.37",
-      "total_bytes": 8954913,
-      "total_sha256": "dd5919d4f5f43a313198c2fdfe287bed4ab6ba4d2c7530a2bf9ff6e5884e5213",
+      "version": "1.0.38",
+      "total_bytes": 8958657,
+      "total_sha256": "4defc78b5a535e5c48e3272f4c810f60083fa33ec7f8b3c00cb27c672b1e94a8",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPLauncher-1.0.37.bin",
-          "size": 8954913,
-          "sha256": "dd5919d4f5f43a313198c2fdfe287bed4ab6ba4d2c7530a2bf9ff6e5884e5213"
+          "name": "ONETAPLauncher-1.0.38.bin",
+          "size": 8958657,
+          "sha256": "4defc78b5a535e5c48e3272f4c810f60083fa33ec7f8b3c00cb27c672b1e94a8"
         }
       ],
       "sources": [
@@ -293,17 +293,17 @@
       ]
     },
     {
-      "id": "shell-downloader-1.0.4",
+      "id": "shell-downloader-1.0.5",
       "kind": "shell",
-      "version": "1.0.4",
-      "total_bytes": 9053267,
-      "total_sha256": "c8e53939300737f3cdb4f327793a02886888064c331f0d62260f515375fa29ac",
+      "version": "1.0.5",
+      "total_bytes": 9056597,
+      "total_sha256": "1a3795d41bb6d0270a454a21fbd175e26dfb02f54aadf0b42e5ccc6aff87fd0c",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPDownloader-1.0.4.bin",
-          "size": 9053267,
-          "sha256": "c8e53939300737f3cdb4f327793a02886888064c331f0d62260f515375fa29ac"
+          "name": "ONETAPDownloader-1.0.5.bin",
+          "size": 9056597,
+          "sha256": "1a3795d41bb6d0270a454a21fbd175e26dfb02f54aadf0b42e5ccc6aff87fd0c"
         }
       ],
       "sources": [
