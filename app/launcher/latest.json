@@ -1,8 +1,10 @@
 {
-  "version": "1.0.35",
-  "size": 8498546,
-  "sha256": "9b5873a2eeb6821f24a50c78a071b4148a9a49f20d743f0d71f8347bd6ddf57b",
-  "notes": "让你看到新版的部署进度条：点立即重启后按百分比推进，版本真变了才提示更新成功",
-  "url": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@launcher-v1.0.35/app/launcher/ONETAPLauncher.bin",
-  "updated": "2026-11-03 16:07:19"
+  "version": "1.0.36",
+  "size": 8952355,
+  "sha256": "49324a57aa47fa1fdf5e81a158c2ea91fcb74ce820c9664556f44f196a5f330e",
+  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPLauncher-1.0.36.bin",
+  "release_tag": "v1.0.20261102.1",
+  "asset_name": "ONETAPLauncher-1.0.36.bin",
+  "released": "2026-11-04 18:42:55",
+  "notes": "启动器改读统一资源清单；壳下载源切换至 GitHub release 资产，去掉 raw 单点"
 }
