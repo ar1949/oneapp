@@ -1,10 +1,10 @@
 {
-  "version": "1.0.38",
-  "size": 8958657,
-  "sha256": "4defc78b5a535e5c48e3272f4c810f60083fa33ec7f8b3c00cb27c672b1e94a8",
-  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPLauncher-1.0.38.bin",
+  "version": "1.0.39",
+  "size": 8961242,
+  "sha256": "3e17212068dba6a327c1e3be733d3a9931b551d32f0341bd58799c6ed38c36c2",
+  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPLauncher-1.0.39.bin",
   "release_tag": "v1.0.20261102.1",
-  "asset_name": "ONETAPLauncher-1.0.38.bin",
-  "released": "2026-11-04 23:05:23",
-  "notes": "镜像清单新鲜度保护：壳版本/released 双下界 + 不可变 tag 定址 + 内网清单兜底；无合格候选只用缓存并标 stale"
+  "asset_name": "ONETAPLauncher-1.0.39.bin",
+  "released": "2026-11-05 02:39:02",
+  "notes": "窗口放大 / 等级区域 / 进入游戏与注销双按钮 / 高等级会员主题"
 }
