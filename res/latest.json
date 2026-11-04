@@ -1,0 +1,316 @@
+{
+  "schema": 1,
+  "channel": "stable",
+  "client_version": "1.0.20261102.2",
+  "min_version": "1.0.20261102.1",
+  "released": "2026-11-04 12:35:48",
+  "notes": "启动器/下载器修复：①单实例（连点两次只唤醒已开窗口，进程仍是一套）②断网不再要求手填服务器地址，改自动重试+中文提示 ③界面/状态栏/日志/自检一律不出现 IP·域名·端口 ④游戏进程也只允许开一个。客户端内容未变，本次只更壳（8MB 补丁，不用重下 14GB）。",
+  "install_order": [
+    "baseline-1.0.20261102.1",
+    "shell-launcher-1.0.35",
+    "patch-1.0.20261102.1_to_1.0.20261102.2"
+  ],
+  "assets": [
+    {
+      "id": "baseline-1.0.20261102.1",
+      "kind": "baseline",
+      "version": "1.0.20261102.1",
+      "total_bytes": 15136687959,
+      "total_sha256": "db2e4e8e99012a64b52f8f87492a9a7925477d4e77a28a7d5dbf62d5dc808445",
+      "parts": [
+        {
+          "index": 1,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part01",
+          "size": 419430400,
+          "sha256": "6139bb459eab2ccfdb825e9a3824ae72cc2197c98853f6596e8a9d0cc646f60f"
+        },
+        {
+          "index": 2,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part02",
+          "size": 419430400,
+          "sha256": "12bc7c68e3a1f05839f39a4482676a2066b26e9bc34fb663d0ce05b7c3ff9fac"
+        },
+        {
+          "index": 3,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part03",
+          "size": 419430400,
+          "sha256": "ef98d3bfefacff8fc5edf88104505d546b7531a5103443ac97781b0fa8ef6334"
+        },
+        {
+          "index": 4,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part04",
+          "size": 419430400,
+          "sha256": "a7230971fcb3ae20950f6e54020f387a0b4e17b481f2342746f8940e803b1a08"
+        },
+        {
+          "index": 5,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part05",
+          "size": 419430400,
+          "sha256": "daf483431eecc5244c8610ba133047cc2b0e5acaa991dfa409c417fd378b76e2"
+        },
+        {
+          "index": 6,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part06",
+          "size": 419430400,
+          "sha256": "3a36ba260eaed7aa204afae5a3721867c64ea9fd4ac9a2d1784d6f074e50cd6e"
+        },
+        {
+          "index": 7,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part07",
+          "size": 419430400,
+          "sha256": "9cd339366061981517d62f380b1823b2be358fdcbccc76f3ae491bcd0a9c4007"
+        },
+        {
+          "index": 8,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part08",
+          "size": 419430400,
+          "sha256": "93c53baf4618f403ffee50a968a3aa73000d8699fc410af83921973dd509ae43"
+        },
+        {
+          "index": 9,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part09",
+          "size": 419430400,
+          "sha256": "a136d9b4a97696b51002e86b356319c1fec46879d8366e08bae079dad3b3a5fb"
+        },
+        {
+          "index": 10,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part10",
+          "size": 419430400,
+          "sha256": "7d3b9b6749843ec5573e0ea274764c88bb160b8ef169f70217dd76a30ed0a8d9"
+        },
+        {
+          "index": 11,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part11",
+          "size": 419430400,
+          "sha256": "d483671a2dee98473f8c8af87bb9b5719aef3a12668eca5657692f6efe9001e7"
+        },
+        {
+          "index": 12,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part12",
+          "size": 419430400,
+          "sha256": "d8cfcfc77f231399f8968192bc547347a987e6c919452e472f143ba02881a838"
+        },
+        {
+          "index": 13,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part13",
+          "size": 419430400,
+          "sha256": "a0ae9b73a3f6d1310be1a51e3d102b37d85c6d3b8a9bd49ab53bf2314e71b358"
+        },
+        {
+          "index": 14,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part14",
+          "size": 419430400,
+          "sha256": "6ffa799ce40d40d2d9e3a0039239f20a3f2b5e415472d9e44bba4239c5fb9965"
+        },
+        {
+          "index": 15,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part15",
+          "size": 419430400,
+          "sha256": "6310b303fd138bbc79459e40ecb87b23db349938cecc30a06095c2f1834c1cf4"
+        },
+        {
+          "index": 16,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part16",
+          "size": 419430400,
+          "sha256": "b52ceccf83eb0b4b0528c9656713ee4c11b6a1e2e0e550e951dab90ca1d94fdd"
+        },
+        {
+          "index": 17,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part17",
+          "size": 419430400,
+          "sha256": "06dcd3e7a11fb1b58c853afb5fdaf700507610ee5789ee72936e1857c207609a"
+        },
+        {
+          "index": 18,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part18",
+          "size": 419430400,
+          "sha256": "edc323834c58c6ef6c60eb38936c2c256d1f05dd5dfcd8913b8d8678d2e176d2"
+        },
+        {
+          "index": 19,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part19",
+          "size": 419430400,
+          "sha256": "64f8829b204b9b9691982d0a01c31df33892b0cb61f95025e635057e7b498224"
+        },
+        {
+          "index": 20,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part20",
+          "size": 419430400,
+          "sha256": "60d11e5375e71c2a2b8fe02bcbaf8ff5b4962daf55fa0652908438ba98a28604"
+        },
+        {
+          "index": 21,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part21",
+          "size": 419430400,
+          "sha256": "db7ea986dce16a610395079c0fc10e61600ee2a9cccd5ccd9e51208130571646"
+        },
+        {
+          "index": 22,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part22",
+          "size": 419430400,
+          "sha256": "cafcdbb28c630413968d294ae435aca90628594ce53e37465f144d12d46fca79"
+        },
+        {
+          "index": 23,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part23",
+          "size": 419430400,
+          "sha256": "9ed35a3f253ee7bdb767ba5e78b9f2751c3685c64d8cb74b6eb83bc0f8d34f5f"
+        },
+        {
+          "index": 24,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part24",
+          "size": 419430400,
+          "sha256": "bcd52dde217e7a3d2cf1f8e860b1ed6b00d870a1668611bd683bf77fd36e33c1"
+        },
+        {
+          "index": 25,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part25",
+          "size": 419430400,
+          "sha256": "e649c765363426602a60c74face7a27faff7d0be73b0f1668e84634ddbfdd0e0"
+        },
+        {
+          "index": 26,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part26",
+          "size": 419430400,
+          "sha256": "ec1d299e5013ceac8ae2b7ab0e7a685a896539107efc568f04630cd5854a081d"
+        },
+        {
+          "index": 27,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part27",
+          "size": 419430400,
+          "sha256": "738883cac948b865d974c0ed5f4092dc66c3c306db7b3166e944ec0f27225243"
+        },
+        {
+          "index": 28,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part28",
+          "size": 419430400,
+          "sha256": "d3fd0c755d3505c8d730fe3884bb7ebfb974f638d279ce47f61452514ebdf80a"
+        },
+        {
+          "index": 29,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part29",
+          "size": 419430400,
+          "sha256": "9b3ede47090e78dc8805c16590803e6210e5059120c91eb36b4a0c6a5b3bd9e8"
+        },
+        {
+          "index": 30,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part30",
+          "size": 419430400,
+          "sha256": "6fade3afe438d3ac9bf6aefa8bfef84417f750a2b64ec6f4104641cb3a040409"
+        },
+        {
+          "index": 31,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part31",
+          "size": 419430400,
+          "sha256": "614e0d5f46fd492bc1d9e59636b5edda8aec5c38e5b2e1e2b61e1e373f2317b8"
+        },
+        {
+          "index": 32,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part32",
+          "size": 419430400,
+          "sha256": "009c852bc7dc62731ca43499c90e34bc5a4ace7296c7067067e51de1fe5ecea3"
+        },
+        {
+          "index": 33,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part33",
+          "size": 419430400,
+          "sha256": "b243ac52960490d1b073e6990650178411cf4d5169e41d608f2f4c57bca02c11"
+        },
+        {
+          "index": 34,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part34",
+          "size": 419430400,
+          "sha256": "688f9446165bcb89abe21c6b8d5a809b62842bf41d922c10634fb92e824798e9"
+        },
+        {
+          "index": 35,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part35",
+          "size": 419430400,
+          "sha256": "0138d06751f5b7b8081bc926b422dd28fa4453f3a4bd6d45d48c79244a191acb"
+        },
+        {
+          "index": 36,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part36",
+          "size": 419430400,
+          "sha256": "1ff29276fdbe3cbd750aeb0782efae1b27c1284ba71127631f3ed7b281ec0c10"
+        },
+        {
+          "index": 37,
+          "name": "ONETAP_client_1.0.20261102.1.zip.part37",
+          "size": 37193559,
+          "sha256": "a1fbeb3918342e3322f972a28d816daf76a4f59b0dcf29d857ca553366785552"
+        }
+      ],
+      "sources": [
+        {
+          "type": "fj",
+          "weight": 100,
+          "share": "CFycXBcK",
+          "folder": 2023843607
+        },
+        {
+          "type": "ghproxy",
+          "weight": 60,
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1"
+        },
+        {
+          "type": "github",
+          "weight": 40,
+          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1"
+        },
+        {
+          "type": "anondrop",
+          "weight": 5,
+          "map": "res/anondrop-map.json"
+        }
+      ]
+    },
+    {
+      "id": "shell-launcher-1.0.35",
+      "kind": "shell",
+      "version": "1.0.35",
+      "total_bytes": 8498546,
+      "total_sha256": "9b5873a2eeb6821f24a50c78a071b4148a9a49f20d743f0d71f8347bd6ddf57b",
+      "parts": [
+        {
+          "index": 1,
+          "name": "ONETAPLauncher.bin",
+          "size": 8498546,
+          "sha256": "9b5873a2eeb6821f24a50c78a071b4148a9a49f20d743f0d71f8347bd6ddf57b"
+        }
+      ],
+      "sources": [
+        {
+          "type": "github",
+          "weight": 100,
+          "base": "https://raw.githubusercontent.com/ar1949/oneapp/cde1590997ea5a133614b363e68300273c390859/app/launcher",
+          "file": "ONETAPLauncher.bin"
+        }
+      ]
+    },
+    {
+      "id": "patch-1.0.20261102.1_to_1.0.20261102.2",
+      "kind": "patch",
+      "from": "1.0.20261102.1",
+      "to": "1.0.20261102.2",
+      "total_bytes": 8265367,
+      "total_sha256": "365332f611b6b0bafd5ae436f8989639ac9531423335ef1c9117c83ff57631ce",
+      "parts": [
+        {
+          "index": 1,
+          "name": "ONETAP_patch_1.0.20261102.1_to_1.0.20261102.2.zip",
+          "size": 8265367,
+          "sha256": "365332f611b6b0bafd5ae436f8989639ac9531423335ef1c9117c83ff57631ce"
+        }
+      ],
+      "sources": [
+        {
+          "type": "github",
+          "weight": 100,
+          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.2",
+          "file": "ONETAP_patch_1.0.20261102.1_to_1.0.20261102.2.zip"
+        }
+      ]
+    }
+  ]
+}
