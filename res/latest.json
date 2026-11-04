@@ -3,11 +3,11 @@
   "channel": "stable",
   "client_version": "1.0.20261102.1",
   "min_version": "1.0.20261102.1",
-  "released": "2026-11-04 18:02:05",
-  "notes": "下载器 v1.0.4：自愈重启+干净窗口；8 路最优；假页拦截；AnonDrop 修正；自检改读统一清单",
+  "released": "2026-11-04 18:46:30",
+  "notes": "启动器壳 v1.0.36：改读统一资源清单；壳下载源切换至 GitHub release 资产，去掉 raw 单点",
   "install_order": [
     "baseline-1.0.20261102.1",
-    "shell-launcher-1.0.35",
+    "shell-launcher-1.0.36",
     "shell-downloader-1.0.4"
   ],
   "assets": [
@@ -266,30 +266,29 @@
       ]
     },
     {
-      "id": "shell-launcher-1.0.35",
+      "id": "shell-launcher-1.0.36",
       "kind": "shell",
-      "version": "1.0.35",
-      "total_bytes": 8498546,
-      "total_sha256": "9b5873a2eeb6821f24a50c78a071b4148a9a49f20d743f0d71f8347bd6ddf57b",
+      "version": "1.0.36",
+      "total_bytes": 8952355,
+      "total_sha256": "49324a57aa47fa1fdf5e81a158c2ea91fcb74ce820c9664556f44f196a5f330e",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPLauncher.bin",
-          "size": 8498546,
-          "sha256": "9b5873a2eeb6821f24a50c78a071b4148a9a49f20d743f0d71f8347bd6ddf57b"
+          "name": "ONETAPLauncher-1.0.36.bin",
+          "size": 8952355,
+          "sha256": "49324a57aa47fa1fdf5e81a158c2ea91fcb74ce820c9664556f44f196a5f330e"
         }
       ],
       "sources": [
         {
           "type": "ghproxy",
           "weight": 100,
-          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/e7adc825df409986b91f7c5bfb4624b78b57d4ec/app/launcher"
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1"
         },
         {
           "type": "github",
-          "weight": 40,
-          "base": "https://raw.githubusercontent.com/ar1949/oneapp/e7adc825df409986b91f7c5bfb4624b78b57d4ec/app/launcher",
-          "file": "ONETAPLauncher.bin"
+          "weight": 60,
+          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1"
         }
       ]
     },
