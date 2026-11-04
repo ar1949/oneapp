@@ -3,11 +3,11 @@
   "channel": "stable",
   "client_version": "1.0.20261102.1",
   "min_version": "1.0.20261102.1",
-  "released": "2026-11-04 18:46:30",
-  "notes": "启动器壳 v1.0.36：改读统一资源清单；壳下载源切换至 GitHub release 资产，去掉 raw 单点",
+  "released": "2026-11-04 19:46:47",
+  "notes": "修换壳后 ui.html 丢失白页：_strip_pyi_env + 7 秒自愈；去掉 gcore 旧镜像源",
   "install_order": [
     "baseline-1.0.20261102.1",
-    "shell-launcher-1.0.36",
+    "shell-launcher-1.0.37",
     "shell-downloader-1.0.4"
   ],
   "assets": [
@@ -266,17 +266,17 @@
       ]
     },
     {
-      "id": "shell-launcher-1.0.36",
+      "id": "shell-launcher-1.0.37",
       "kind": "shell",
-      "version": "1.0.36",
-      "total_bytes": 8952355,
-      "total_sha256": "49324a57aa47fa1fdf5e81a158c2ea91fcb74ce820c9664556f44f196a5f330e",
+      "version": "1.0.37",
+      "total_bytes": 8954913,
+      "total_sha256": "dd5919d4f5f43a313198c2fdfe287bed4ab6ba4d2c7530a2bf9ff6e5884e5213",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPLauncher-1.0.36.bin",
-          "size": 8952355,
-          "sha256": "49324a57aa47fa1fdf5e81a158c2ea91fcb74ce820c9664556f44f196a5f330e"
+          "name": "ONETAPLauncher-1.0.37.bin",
+          "size": 8954913,
+          "sha256": "dd5919d4f5f43a313198c2fdfe287bed4ab6ba4d2c7530a2bf9ff6e5884e5213"
         }
       ],
       "sources": [
