@@ -1,9 +1,11 @@
 {
-  "product": "downloader",
-  "version": "1.0.0",
-  "size": 9044482,
-  "sha256": "3c87b4f06d2f9eb95b751a016de55f810bb47f38a9951c4e085bb80da70b6397",
-  "url": "",
-  "released": "2026-11-04 13:11:46",
-  "notes": "多源引擎 + 壳走统一清单；四通道按测速×权重分配，逐卷 sha 校验"
+ "product": "downloader",
+ "version": "1.0.1",
+ "size": 9049568,
+ "sha256": "0a56c44fa6483258bd9fa8e2c6e9fa7bd7d261250a1e01dcdd10c0ee5b3e3e03",
+ "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPDownloader-1.0.1.bin",
+ "release_tag": "v1.0.20261102.1",
+ "asset_name": "ONETAPDownloader-1.0.1.bin",
+ "released": "2026-11-04 17:33:23",
+ "notes": "线程上限 16→10（实测 8 路最快）；网页假页拦截（防镜像返回 HTML 当分卷）；AnonDrop 直链修正（支持 Range）；自检改读统一清单"
 }
