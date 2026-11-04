@@ -311,12 +311,12 @@
         {
           "type": "ghproxy",
           "weight": 100,
-          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/4b75fb30925c17061d224a558ba84e826a91fdf9/app/downloader"
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1"
         },
         {
           "type": "github",
           "weight": 40,
-          "base": "https://raw.githubusercontent.com/ar1949/oneapp/4b75fb30925c17061d224a558ba84e826a91fdf9/app/downloader",
+          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1",
           "file": "ONETAPDownloader.bin"
         }
       ]
