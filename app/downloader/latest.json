@@ -1,11 +1,11 @@
 {
  "product": "downloader",
- "version": "1.0.3",
- "size": 9051527,
- "sha256": "c8e4d170dfd9ce86d83d78039ca4f391046beaefb4c009efdef397ba7f631a42",
- "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPDownloader-1.0.3.bin",
+ "version": "1.0.4",
+ "size": 9053267,
+ "sha256": "c8e53939300737f3cdb4f327793a02886888064c331f0d62260f515375fa29ac",
+ "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPDownloader-1.0.4.bin",
  "release_tag": "v1.0.20261102.1",
- "asset_name": "ONETAPDownloader-1.0.3.bin",
- "released": "2026-11-04 17:50:52",
- "notes": "换壳后资源丢失自愈；线程 8 路最优；网页假页拦截；AnonDrop 支持 Range；自检改读统一清单"
+ "asset_name": "ONETAPDownloader-1.0.4.bin",
+ "released": "2026-11-04 18:02:01",
+ "notes": "自愈重启并重开干净窗口；8 路最优线程；网页假页拦截；AnonDrop 支持 Range；自检改读统一清单"
 }
