@@ -3,7 +3,7 @@
   "channel": "stable",
   "client_version": "1.0.20261102.1",
   "min_version": "1.0.20261102.1",
-  "released": "2026-11-04 13:01:10",
+  "released": "2026-11-04 13:02:26",
   "notes": "内容版本 1.0.20261102.1（分卷未变）。启动器与下载器各自独立更新，不再通过内容补丁分发壳。",
   "install_order": [
     "baseline-1.0.20261102.1",
@@ -283,12 +283,12 @@
         {
           "type": "ghproxy",
           "weight": 100,
-          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/e2341728733acf6a473ea2b7233c205caf9f9ece/app/launcher"
+          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/9ca8dd3fa2a69183f7c723f9be2b2a1e339f0af2/app/launcher"
         },
         {
           "type": "github",
           "weight": 40,
-          "base": "https://raw.githubusercontent.com/ar1949/oneapp/e2341728733acf6a473ea2b7233c205caf9f9ece/app/launcher",
+          "base": "https://raw.githubusercontent.com/ar1949/oneapp/9ca8dd3fa2a69183f7c723f9be2b2a1e339f0af2/app/launcher",
           "file": "ONETAPLauncher.bin"
         }
       ]
@@ -311,12 +311,12 @@
         {
           "type": "ghproxy",
           "weight": 100,
-          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/e2341728733acf6a473ea2b7233c205caf9f9ece/app/downloader"
+          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/9ca8dd3fa2a69183f7c723f9be2b2a1e339f0af2/app/downloader"
         },
         {
           "type": "github",
           "weight": 40,
-          "base": "https://raw.githubusercontent.com/ar1949/oneapp/e2341728733acf6a473ea2b7233c205caf9f9ece/app/downloader",
+          "base": "https://raw.githubusercontent.com/ar1949/oneapp/9ca8dd3fa2a69183f7c723f9be2b2a1e339f0af2/app/downloader",
           "file": "ONETAPDownloader.bin"
         }
       ]
