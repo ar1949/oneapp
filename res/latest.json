@@ -1,14 +1,13 @@
 {
   "schema": 1,
   "channel": "stable",
-  "client_version": "1.0.20261102.2",
+  "client_version": "1.0.20261102.1",
   "min_version": "1.0.20261102.1",
-  "released": "2026-11-04 12:36:44",
-  "notes": "壳程序修复：①单实例，重复启动只唤醒已有窗口；②断网不再要求手填地址，改为自动重试并给出中文提示；③界面、状态栏、日志与自检一律不显示地址与端口；④主进程只允许一个实例。本次内容未变化，仅更新壳，无需重新下载完整内容。",
+  "released": "2026-11-04 12:47:30",
+  "notes": "当前无可用增量包，保持现有版本即可。",
   "install_order": [
     "baseline-1.0.20261102.1",
-    "shell-launcher-1.0.35",
-    "patch-1.0.20261102.1_to_1.0.20261102.2"
+    "shell-launcher-1.0.35"
   ],
   "assets": [
     {
@@ -281,34 +280,15 @@
       ],
       "sources": [
         {
-          "type": "github",
+          "type": "ghproxy",
           "weight": 100,
-          "base": "https://raw.githubusercontent.com/ar1949/oneapp/3bb54b9284eb936fda6ce8060fafa9f7de2cd449/app/launcher",
+          "base": "https://gh-proxy.com/https://raw.githubusercontent.com/ar1949/oneapp/213e5bfc3a102715d5dfe9c5efca270b7b9d1b6f/app/launcher"
+        },
+        {
+          "type": "github",
+          "weight": 40,
+          "base": "https://raw.githubusercontent.com/ar1949/oneapp/213e5bfc3a102715d5dfe9c5efca270b7b9d1b6f/app/launcher",
           "file": "ONETAPLauncher.bin"
-        }
-      ]
-    },
-    {
-      "id": "patch-1.0.20261102.1_to_1.0.20261102.2",
-      "kind": "patch",
-      "from": "1.0.20261102.1",
-      "to": "1.0.20261102.2",
-      "total_bytes": 8265367,
-      "total_sha256": "365332f611b6b0bafd5ae436f8989639ac9531423335ef1c9117c83ff57631ce",
-      "parts": [
-        {
-          "index": 1,
-          "name": "ONETAP_patch_1.0.20261102.1_to_1.0.20261102.2.zip",
-          "size": 8265367,
-          "sha256": "365332f611b6b0bafd5ae436f8989639ac9531423335ef1c9117c83ff57631ce"
-        }
-      ],
-      "sources": [
-        {
-          "type": "github",
-          "weight": 100,
-          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.2",
-          "file": "ONETAP_patch_1.0.20261102.1_to_1.0.20261102.2.zip"
         }
       ]
     }
