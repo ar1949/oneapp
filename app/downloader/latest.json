@@ -1,11 +1,10 @@
 {
-  "product": "downloader",
-  "version": "1.0.7",
-  "size": 9059375,
-  "sha256": "67e3d17923db3991f5859f2ca5c8c7bb85d5dcf99a4569c57d83f6efe7d62057",
-  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPDownloader-1.0.7.bin",
+  "version": "1.0.8",
+  "size": 9054917,
+  "sha256": "5e9b4f53e8ba3730212631b42377742a46d83bf537038b90d7986e0a0c79655d",
+  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPDownloader-1.0.8.bin",
   "release_tag": "v1.0.20261102.1",
-  "asset_name": "ONETAPDownloader-1.0.7.bin",
-  "released": "2026-11-05 15:09:21",
-  "notes": "下载器 1.0.7：修复启动包监控线程取消竞态（取消后残留线程与新建任务抢写状态）；启动包入口/自动解压不变"
+  "asset_name": "ONETAPDownloader-1.0.8.bin",
+  "released": "2026-11-05 17:41:33",
+  "notes": "按文档15安全协同要求改造：进群二维码改从后台/api/qr取(sha256缓存防篡改、显示群号可复制)；下载线路同源app/downloader后端；管理口不再拼http明文URL；界面/日志不暴露IP/域名/端口"
 }
