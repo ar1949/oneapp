@@ -1,10 +1,10 @@
 {
-  "version": "1.0.40",
-  "size": 8960325,
-  "sha256": "56a142030cae021727690584907e450c69818b9897a0b26d2b3df32d1cc8075e",
-  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPLauncher-1.0.40.bin",
+  "version": "1.0.41",
+  "size": 8953683,
+  "sha256": "ec8732bda4f37dcab8a68871c8f6f372df96d5a22c4b9a5aa00a44c603225740",
+  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPLauncher-1.0.41.bin",
   "release_tag": "v1.0.20261102.1",
-  "asset_name": "ONETAPLauncher-1.0.40.bin",
-  "released": "2026-11-05 03:21:27",
-  "notes": "修复换壳升级后窗口未放大：复用窗口路径补 fit_window"
+  "asset_name": "ONETAPLauncher-1.0.41.bin",
+  "released": "2026-11-05 17:41:33",
+  "notes": "按文档15安全协同要求改造：进群二维码改从后台/api/qr取(sha256缓存防篡改、显示群号可复制)；登录/注册/版本接口接入backend_base(LAN 8080 / WAN明文50080遇403切TLS 50443)；管理口不再拼http明文URL；界面/日志不暴露IP/域名/端口"
 }
