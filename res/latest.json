@@ -3,13 +3,13 @@
   "channel": "stable",
   "client_version": "1.0.20261102.1",
   "min_version": "1.0.20261102.1",
-  "released": "2026-11-05 15:09:34",
-  "notes": "启动器/下载器修复：①单实例（连点两次只唤醒已开窗口，进程仍是一套）②断网不再要求手填服务器地址，改自动重试+中文提示 ③界面/状态栏/日志/自检一律不出现 IP·域名·端口 ④游戏进程也只允许开一个。客户端内容未变，本次只更壳（8MB 补丁，不用重下 14GB）。",
+  "released": "2026-11-05 17:48:17",
+  "notes": "启动器/下载器安全协同加固（文档15）：进群二维码改由后台动态下发并本地校验防篡改、登录/注册/版本接口统一走HTTPS域名(遇明文口403自动切TLS重试)、界面与日志不再出现服务器地址/端口。客户端内容未变，本次只更壳。",
   "install_order": [
     "baseline-1.0.20261102.1",
-    "shell-launcher-1.0.40",
-    "shell-downloader-1.0.7",
-    "starter-1.0.40"
+    "shell-launcher-1.0.41",
+    "shell-downloader-1.0.8",
+    "starter-1.0.41"
   ],
   "assets": [
     {
@@ -267,17 +267,17 @@
       ]
     },
     {
-      "id": "shell-launcher-1.0.40",
+      "id": "shell-launcher-1.0.41",
       "kind": "shell",
-      "version": "1.0.40",
-      "total_bytes": 8960325,
-      "total_sha256": "56a142030cae021727690584907e450c69818b9897a0b26d2b3df32d1cc8075e",
+      "version": "1.0.41",
+      "total_bytes": 8953683,
+      "total_sha256": "ec8732bda4f37dcab8a68871c8f6f372df96d5a22c4b9a5aa00a44c603225740",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPLauncher-1.0.40.bin",
-          "size": 8960325,
-          "sha256": "56a142030cae021727690584907e450c69818b9897a0b26d2b3df32d1cc8075e"
+          "name": "ONETAPLauncher-1.0.41.bin",
+          "size": 8953683,
+          "sha256": "ec8732bda4f37dcab8a68871c8f6f372df96d5a22c4b9a5aa00a44c603225740"
         }
       ],
       "sources": [
@@ -294,17 +294,17 @@
       ]
     },
     {
-      "id": "shell-downloader-1.0.7",
+      "id": "shell-downloader-1.0.8",
       "kind": "shell",
-      "version": "1.0.7",
-      "total_bytes": 9059375,
-      "total_sha256": "67e3d17923db3991f5859f2ca5c8c7bb85d5dcf99a4569c57d83f6efe7d62057",
+      "version": "1.0.8",
+      "total_bytes": 9054917,
+      "total_sha256": "5e9b4f53e8ba3730212631b42377742a46d83bf537038b90d7986e0a0c79655d",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPDownloader-1.0.7.bin",
-          "size": 9059375,
-          "sha256": "67e3d17923db3991f5859f2ca5c8c7bb85d5dcf99a4569c57d83f6efe7d62057"
+          "name": "ONETAPDownloader-1.0.8.bin",
+          "size": 9054917,
+          "sha256": "5e9b4f53e8ba3730212631b42377742a46d83bf537038b90d7986e0a0c79655d"
         }
       ],
       "sources": [
@@ -321,17 +321,17 @@
       ]
     },
     {
-      "id": "starter-1.0.40",
+      "id": "starter-1.0.41",
       "kind": "starter",
-      "version": "1.0.40",
-      "total_bytes": 17719402,
-      "total_sha256": "e44576499044aa54a7ff0f8b7ae4a9b9981da90b2f364142ac806f113178fdc8",
+      "version": "1.0.41",
+      "total_bytes": 17697051,
+      "total_sha256": "79352ea133bea20dcb07eff3f298b0336e3a65db332e7d121d0e7a42ff9faa04",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPStarter-1.0.40.zip",
-          "size": 17719402,
-          "sha256": "e44576499044aa54a7ff0f8b7ae4a9b9981da90b2f364142ac806f113178fdc8"
+          "name": "ONETAPStarter-1.0.41.zip",
+          "size": 17697051,
+          "sha256": "79352ea133bea20dcb07eff3f298b0336e3a65db332e7d121d0e7a42ff9faa04"
         }
       ],
       "sources": [
@@ -347,6 +347,5 @@
         }
       ]
     }
-  ],
-  "manifest_ref": "res-d7432689c279"
+  ]
 }
