@@ -1,11 +1,11 @@
 {
- "product": "downloader",
- "version": "1.0.5",
- "size": 9056597,
- "sha256": "1a3795d41bb6d0270a454a21fbd175e26dfb02f54aadf0b42e5ccc6aff87fd0c",
- "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPDownloader-1.0.5.bin",
- "release_tag": "v1.0.20261102.1",
- "asset_name": "ONETAPDownloader-1.0.5.bin",
- "released": "2026-11-04 23:05:23",
- "notes": "同启动器：清单新鲜度双下界 + @tag 定址 + 内网兜底；分卷下载前缀保持 @main 不变"
+  "product": "downloader",
+  "version": "1.0.6",
+  "size": 9061769,
+  "sha256": "223d7dcad4a2d85d49270286ab6a646110b9fc7417af104af483d36842fa3383",
+  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1/ONETAPDownloader-1.0.6.bin",
+  "release_tag": "v1.0.20261102.1",
+  "asset_name": "ONETAPDownloader-1.0.6.bin",
+  "released": "2026-11-05 12:20:56",
+  "notes": "下载器新增「启动包」入口：可从统一清单拉取启动包并自动解压补齐启动器/下载器壳（B-b 方案）"
 }
