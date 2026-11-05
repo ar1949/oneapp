@@ -3,12 +3,13 @@
   "channel": "stable",
   "client_version": "1.0.20261102.1",
   "min_version": "1.0.20261102.1",
-  "released": "2026-11-05 03:21:27",
+  "released": "2026-11-05 12:24:15",
   "notes": "启动器/下载器修复：①单实例（连点两次只唤醒已开窗口，进程仍是一套）②断网不再要求手填服务器地址，改自动重试+中文提示 ③界面/状态栏/日志/自检一律不出现 IP·域名·端口 ④游戏进程也只允许开一个。客户端内容未变，本次只更壳（8MB 补丁，不用重下 14GB）。",
   "install_order": [
     "baseline-1.0.20261102.1",
     "shell-launcher-1.0.40",
-    "shell-downloader-1.0.5"
+    "shell-downloader-1.0.6",
+    "starter-1.0.40"
   ],
   "assets": [
     {
@@ -293,17 +294,44 @@
       ]
     },
     {
-      "id": "shell-downloader-1.0.5",
+      "id": "shell-downloader-1.0.6",
       "kind": "shell",
-      "version": "1.0.5",
-      "total_bytes": 9056597,
-      "total_sha256": "1a3795d41bb6d0270a454a21fbd175e26dfb02f54aadf0b42e5ccc6aff87fd0c",
+      "version": "1.0.6",
+      "total_bytes": 9061769,
+      "total_sha256": "223d7dcad4a2d85d49270286ab6a646110b9fc7417af104af483d36842fa3383",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPDownloader-1.0.5.bin",
-          "size": 9056597,
-          "sha256": "1a3795d41bb6d0270a454a21fbd175e26dfb02f54aadf0b42e5ccc6aff87fd0c"
+          "name": "ONETAPDownloader-1.0.6.bin",
+          "size": 9061769,
+          "sha256": "223d7dcad4a2d85d49270286ab6a646110b9fc7417af104af483d36842fa3383"
+        }
+      ],
+      "sources": [
+        {
+          "type": "ghproxy",
+          "weight": 100,
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1"
+        },
+        {
+          "type": "github",
+          "weight": 60,
+          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.20261102.1"
+        }
+      ]
+    },
+    {
+      "id": "starter-1.0.40",
+      "kind": "starter",
+      "version": "1.0.40",
+      "total_bytes": 17719402,
+      "total_sha256": "e44576499044aa54a7ff0f8b7ae4a9b9981da90b2f364142ac806f113178fdc8",
+      "parts": [
+        {
+          "index": 1,
+          "name": "ONETAPStarter-1.0.40.zip",
+          "size": 17719402,
+          "sha256": "e44576499044aa54a7ff0f8b7ae4a9b9981da90b2f364142ac806f113178fdc8"
         }
       ],
       "sources": [
@@ -319,6 +347,5 @@
         }
       ]
     }
-  ],
-  "manifest_ref": "res-d95f507c2825"
+  ]
 }
