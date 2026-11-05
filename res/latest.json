@@ -3,8 +3,8 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-06 03:24:38",
-  "notes": "ONETAP v1.0.0 首个正式整合包：客户端 136 卷 / 13.08 GB；启动器与下载器版本号重新从 1.0.0 起算",
+  "released": "2026-11-06 06:47:16",
+  "notes": "ONETAP v1.0.0 正式版：客户端 136 卷 / 13.08 GB；修复下载器 fj 目录分页（原 limit=110 会漏最后 26 卷）；真实下载源走 res/sources.enc",
   "install_order": [
     "baseline-1.0.0",
     "shell-launcher-1.0.0",
@@ -870,8 +870,8 @@
         {
           "index": 1,
           "name": "ONETAPDownloader-1.0.0.bin",
-          "size": 9236453,
-          "sha256": "370a7d869034278fb4dcc126354c64d480ebeda4784a27a7706fdbe463c3d72d"
+          "size": 9236158,
+          "sha256": "0e52709cfc52bd0339c2a553399ad11b800a7668c3414b0185186483195944d3"
         }
       ],
       "sources": [
