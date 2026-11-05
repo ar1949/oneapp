@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
-  "size": 9236453,
-  "sha256": "370a7d869034278fb4dcc126354c64d480ebeda4784a27a7706fdbe463c3d72d",
-  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.0.bin",
-  "release_tag": "v1.0.0",
-  "asset_name": "ONETAPDownloader-1.0.0.bin",
-  "released": "2026-11-06 03:24:38",
-  "notes": "v1.0.0 基线版：界面精简（只显示最新版本/线路/卷数/体积/进度/速度）；修复安装目录点不开；新增网盘下载入口；下载源改由加密清单下发"
+ "version": "1.0.0",
+ "size": 9236158,
+ "sha256": "0e52709cfc52bd0339c2a553399ad11b800a7668c3414b0185186483195944d3",
+ "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.0.bin",
+ "release_tag": "v1.0.0",
+ "asset_name": "ONETAPDownloader-1.0.0.bin",
+ "released": "2026-11-06 06:47:48",
+ "notes": "v1.0.0 正式版：修复 fj 目录分页（原 limit=110 漏最后 26 卷）；下载源改由 res/sources.enc 下发"
 }
