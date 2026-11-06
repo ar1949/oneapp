@@ -854,8 +854,23 @@
       ],
       "sources": [
         {
-          "type": "github",
+          "type": "ghproxy",
           "weight": 100,
+          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 99,
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 98,
+          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "github",
+          "weight": 50,
           "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
         }
       ]
@@ -876,8 +891,23 @@
       ],
       "sources": [
         {
-          "type": "github",
+          "type": "ghproxy",
           "weight": 100,
+          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 99,
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 98,
+          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "github",
+          "weight": 50,
           "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
         }
       ],
