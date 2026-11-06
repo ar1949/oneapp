@@ -1,10 +1,10 @@
 {
- "version": "1.0.1",
- "size": 8957210,
- "sha256": "2d8fe5125169f002b81d1f6b1d1b89b31dcc0c0d266dc2f75a1b1fd58a16ea8f",
- "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.1.bin",
+ "version": "1.0.2",
+ "size": 8956276,
+ "sha256": "236dc8ae16ff9def7195c60e282e678e72403056c094bd941fde3a1a857c7311",
+ "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.2.bin",
  "release_tag": "v1.0.0",
- "asset_name": "ONETAPLauncher-1.0.1.bin",
- "released": "2026-11-06 11:01:48",
- "notes": "1.0.1：选目录修复 / 自检修复 / 单实例"
+ "asset_name": "ONETAPLauncher-1.0.2.bin",
+ "released": "2026-11-06 11:43:02",
+ "notes": "浏览器探测与启动速度修复"
 }
