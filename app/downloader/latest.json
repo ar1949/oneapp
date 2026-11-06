@@ -1,10 +1,14 @@
 {
- "version": "1.0.4",
- "size": 9250416,
- "sha256": "0f422817a1aa1dfa462377cb8f966d6371f6931f44a60265b1583e1bfa4c23f0",
- "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.4.bin",
- "release_tag": "v1.0.0",
- "asset_name": "ONETAPDownloader-1.0.4.bin",
- "released": "2026-11-06 11:43:02",
- "notes": "浏览器探测与启动速度修复"
+  "version": "1.0.5",
+  "sha256": "dc398f5c8c03ebedd588c8846df84784e4288f8aeaadc14f617a46fc84e252b4",
+  "size": 9254266,
+  "url": "",
+  "urls": [
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.5.bin"
+  ],
+  "notes": "解压后状态修复+启动器补齐",
+  "released": "2026-11-06 13:49:31",
+  "asset_name": "ONETAPDownloader-1.0.5.bin",
+  "release_tag": "v1.0.0",
+  "exe_name": "下载器v1.0.5.exe"
 }
