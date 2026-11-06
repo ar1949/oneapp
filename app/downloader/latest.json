@@ -1,10 +1,10 @@
 {
- "version": "1.0.1",
- "size": 9248716,
- "sha256": "931788374e881bb2ee19ad9b67ce12698c38fd04bdcdbffabfe3790c3c1593c0",
- "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.1.bin",
+ "version": "1.0.2",
+ "size": 9250413,
+ "sha256": "53313ac3c18ec7b2b1f3941e7203313ef3fe5b5061c9927282cbbec7f4634684",
+ "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.2.bin",
  "release_tag": "v1.0.0",
- "asset_name": "ONETAPDownloader-1.0.1.bin",
- "released": "2026-11-06 11:01:48",
- "notes": "1.0.1：选目录修复 / 自检修复 / 单实例"
+ "asset_name": "ONETAPDownloader-1.0.2.bin",
+ "released": "2026-11-06 11:18:21",
+ "notes": "1.0.2：无 Edge 时用其它 Chromium 开独立窗口"
 }
