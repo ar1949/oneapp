@@ -1,14 +1,14 @@
 {
-  "version": "1.0.5",
-  "sha256": "dc398f5c8c03ebedd588c8846df84784e4288f8aeaadc14f617a46fc84e252b4",
-  "size": 9254266,
+  "version": "1.0.6",
+  "sha256": "ffbf44b375980240e761dd706a8b6755f6f1f8313d46606986a826d1d0661a23",
+  "size": 9293844,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.5.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.6.bin"
   ],
-  "notes": "解压后状态修复+启动器补齐",
-  "released": "2026-11-06 13:49:31",
-  "asset_name": "ONETAPDownloader-1.0.5.bin",
+  "notes": "启动画面+epoch+补丁链+方向闸",
+  "released": "2026-11-06 14:58:04",
+  "asset_name": "ONETAPDownloader-1.0.6.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.5.exe"
+  "exe_name": "下载器v1.0.6.exe"
 }
