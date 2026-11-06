@@ -1,14 +1,14 @@
 {
-  "version": "1.0.3",
-  "sha256": "cc35e1190859839f9227a1d0c3fdd69d4e0d96725ab2708144941ac3bf386f64",
-  "size": 9158959,
+  "version": "1.0.4",
+  "sha256": "b687e750305330732f7ac89d11f0cfcb23644688cc9a02937e35357f10ce92a9",
+  "size": 9159184,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.3.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.4.bin"
   ],
-  "notes": "启动画面+epoch+308兜底+方向闸",
-  "released": "2026-11-06 14:57:09",
-  "asset_name": "ONETAPLauncher-1.0.3.bin",
+  "notes": "修复外网线路登录提示「服务器维护中」：游戏地址先解析为 IPv4 再交给登录器",
+  "released": "2026-11-06 15:51:17",
+  "asset_name": "ONETAPLauncher-1.0.4.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.3.exe"
+  "exe_name": "启动器v1.0.4.exe"
 }
