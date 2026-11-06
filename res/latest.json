@@ -3,8 +3,8 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-06 09:53:58",
-  "notes": "v1.0.0：修复自检把 1.0.0 误判为非法版本号；网盘入口常显；下载器含蓝奏源适配器",
+  "released": "2026-11-06 10:28:37",
+  "notes": "v1.0.0：启动器/下载器改为文件锁单实例（一次只能一个）；修复版本号 1.0.0 被判非法；网盘入口常显",
   "install_order": [
     "baseline-1.0.0",
     "shell-launcher-1.0.0",
@@ -848,8 +848,8 @@
         {
           "index": 1,
           "name": "ONETAPLauncher-1.0.0.bin",
-          "size": 9127202,
-          "sha256": "1c8ba76f101d53751f3e5895479052161a072de3c77b7ed6e2064e4499fbc108"
+          "size": 8957302,
+          "sha256": "5d51957298ff8f678759458572a2f1ffc31b2012d40791763e9be21cc4dda6eb"
         }
       ],
       "sources": [
