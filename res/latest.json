@@ -3,12 +3,12 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-06 11:24:55",
-  "notes": "下载器 1.0.3：修复选目录后路径拿不到（SHBrowseForFolderW 未声明 restype，64 位指针被截断）；无 Edge 时改用其它 Chromium 开独立窗口",
+  "released": "2026-11-06 11:43:02",
+  "notes": "壳：启动器 1.0.2 / 下载器 1.0.4。修复浏览器路径转义损坏、profile 改持久目录（Chrome 首启慢）、壳更新强制刷新清单、支持 360极速/QQ/搜狗内核",
   "install_order": [
     "baseline-1.0.0",
-    "shell-launcher-1.0.1",
-    "shell-downloader-1.0.3"
+    "shell-launcher-1.0.2",
+    "shell-downloader-1.0.4"
   ],
   "assets": [
     {
@@ -839,17 +839,17 @@
       "sources_note": "真实下载源在 res/sources.enc（加密），本字段由客户端解密后覆盖"
     },
     {
-      "id": "shell-launcher-1.0.1",
+      "id": "shell-launcher-1.0.2",
       "kind": "shell",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "total_bytes": 9127202,
       "total_sha256": "1c8ba76f101d53751f3e5895479052161a072de3c77b7ed6e2064e4499fbc108",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPLauncher-1.0.1.bin",
-          "size": 8957210,
-          "sha256": "2d8fe5125169f002b81d1f6b1d1b89b31dcc0c0d266dc2f75a1b1fd58a16ea8f"
+          "name": "ONETAPLauncher-1.0.2.bin",
+          "size": 8956276,
+          "sha256": "236dc8ae16ff9def7195c60e282e678e72403056c094bd941fde3a1a857c7311"
         }
       ],
       "sources": [
@@ -861,17 +861,17 @@
       ]
     },
     {
-      "id": "shell-downloader-1.0.3",
+      "id": "shell-downloader-1.0.4",
       "kind": "shell",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "total_bytes": 9236453,
       "total_sha256": "370a7d869034278fb4dcc126354c64d480ebeda4784a27a7706fdbe463c3d72d",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPDownloader-1.0.3.bin",
-          "size": 9249522,
-          "sha256": "f295fb02441516edaa4d378b548c9a69940d00bcb8d4bf81281baf92385dd48a"
+          "name": "ONETAPDownloader-1.0.4.bin",
+          "size": 9250416,
+          "sha256": "0f422817a1aa1dfa462377cb8f966d6371f6931f44a60265b1583e1bfa4c23f0"
         }
       ],
       "sources": [
