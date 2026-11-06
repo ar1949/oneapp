@@ -8,7 +8,7 @@
   "install_order": [
     "baseline-1.0.0",
     "shell-launcher-1.0.3",
-    "shell-downloader-1.0.5"
+    "shell-downloader-1.0.6"
   ],
   "assets": [
     {
@@ -839,45 +839,6 @@
       "sources_note": "真实下载源在 res/sources.enc（加密），本字段由客户端解密后覆盖"
     },
     {
-      "id": "shell-downloader-1.0.5",
-      "kind": "shell",
-      "version": "1.0.5",
-      "total_bytes": 9254266,
-      "total_sha256": "dc398f5c8c03ebedd588c8846df84784e4288f8aeaadc14f617a46fc84e252b4",
-      "parts": [
-        {
-          "index": 1,
-          "name": "ONETAPDownloader-1.0.5.bin",
-          "size": 9254266,
-          "sha256": "dc398f5c8c03ebedd588c8846df84784e4288f8aeaadc14f617a46fc84e252b4"
-        }
-      ],
-      "sources": [
-        {
-          "type": "ghproxy",
-          "weight": 100,
-          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 99,
-          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 98,
-          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "github",
-          "weight": 50,
-          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        }
-      ],
-      "released": "2026-11-06 13:49:31",
-      "notes": "解压后状态修复+启动器补齐"
-    },
-    {
       "id": "shell-launcher-1.0.3",
       "kind": "shell",
       "version": "1.0.3",
@@ -915,6 +876,45 @@
       ],
       "released": "2026-11-06 14:57:09",
       "notes": "启动画面+epoch+308兜底+方向闸"
+    },
+    {
+      "id": "shell-downloader-1.0.6",
+      "kind": "shell",
+      "version": "1.0.6",
+      "total_bytes": 9293844,
+      "total_sha256": "ffbf44b375980240e761dd706a8b6755f6f1f8313d46606986a826d1d0661a23",
+      "parts": [
+        {
+          "index": 1,
+          "name": "ONETAPDownloader-1.0.6.bin",
+          "size": 9293844,
+          "sha256": "ffbf44b375980240e761dd706a8b6755f6f1f8313d46606986a826d1d0661a23"
+        }
+      ],
+      "sources": [
+        {
+          "type": "ghproxy",
+          "weight": 100,
+          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 99,
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 98,
+          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "github",
+          "weight": 50,
+          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        }
+      ],
+      "released": "2026-11-06 14:58:04",
+      "notes": "启动画面+epoch+补丁链+方向闸"
     }
   ]
 }
