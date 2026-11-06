@@ -1,10 +1,10 @@
 {
  "version": "1.0.0",
- "size": 9236158,
- "sha256": "0e52709cfc52bd0339c2a553399ad11b800a7668c3414b0185186483195944d3",
+ "size": 9246558,
+ "sha256": "6866dd7e4f3bd2316d08125b4903d2a28bcf525fa1a6ec70c903aae2210e3ddd",
  "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.0.bin",
  "release_tag": "v1.0.0",
  "asset_name": "ONETAPDownloader-1.0.0.bin",
- "released": "2026-11-06 06:47:48",
- "notes": "v1.0.0 正式版：修复 fj 目录分页（原 limit=110 漏最后 26 卷）；下载源改由 res/sources.enc 下发"
+ "released": "2026-11-06 08:29:50",
+ "notes": "v1.0.0：新增蓝奏云源适配器；修复 fj 目录分页"
 }
