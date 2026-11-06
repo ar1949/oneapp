@@ -3,11 +3,11 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-06 11:43:02",
+  "released": "2026-11-06 15:51:20",
   "notes": "壳：启动器 1.0.2 / 下载器 1.0.4。修复浏览器路径转义损坏、profile 改持久目录（Chrome 首启慢）、壳更新强制刷新清单、支持 360极速/QQ/搜狗内核",
   "install_order": [
     "baseline-1.0.0",
-    "shell-launcher-1.0.3",
+    "shell-launcher-1.0.4",
     "shell-downloader-1.0.6"
   ],
   "assets": [
@@ -839,45 +839,6 @@
       "sources_note": "真实下载源在 res/sources.enc（加密），本字段由客户端解密后覆盖"
     },
     {
-      "id": "shell-launcher-1.0.3",
-      "kind": "shell",
-      "version": "1.0.3",
-      "total_bytes": 9158959,
-      "total_sha256": "cc35e1190859839f9227a1d0c3fdd69d4e0d96725ab2708144941ac3bf386f64",
-      "parts": [
-        {
-          "index": 1,
-          "name": "ONETAPLauncher-1.0.3.bin",
-          "size": 9158959,
-          "sha256": "cc35e1190859839f9227a1d0c3fdd69d4e0d96725ab2708144941ac3bf386f64"
-        }
-      ],
-      "sources": [
-        {
-          "type": "ghproxy",
-          "weight": 100,
-          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 99,
-          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 98,
-          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "github",
-          "weight": 50,
-          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        }
-      ],
-      "released": "2026-11-06 14:57:09",
-      "notes": "启动画面+epoch+308兜底+方向闸"
-    },
-    {
       "id": "shell-downloader-1.0.6",
       "kind": "shell",
       "version": "1.0.6",
@@ -915,6 +876,45 @@
       ],
       "released": "2026-11-06 14:58:04",
       "notes": "启动画面+epoch+补丁链+方向闸"
+    },
+    {
+      "id": "shell-launcher-1.0.4",
+      "kind": "shell",
+      "version": "1.0.4",
+      "total_bytes": 9159184,
+      "total_sha256": "b687e750305330732f7ac89d11f0cfcb23644688cc9a02937e35357f10ce92a9",
+      "parts": [
+        {
+          "index": 1,
+          "name": "ONETAPLauncher-1.0.4.bin",
+          "size": 9159184,
+          "sha256": "b687e750305330732f7ac89d11f0cfcb23644688cc9a02937e35357f10ce92a9"
+        }
+      ],
+      "sources": [
+        {
+          "type": "ghproxy",
+          "weight": 100,
+          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 99,
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 98,
+          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "github",
+          "weight": 50,
+          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        }
+      ],
+      "released": "2026-11-06 15:51:17",
+      "notes": "修复外网线路登录提示「服务器维护中」：游戏地址先解析为 IPv4 再交给登录器"
     }
   ]
 }
