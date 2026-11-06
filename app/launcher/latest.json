@@ -1,10 +1,10 @@
 {
- "version": "1.0.0",
- "size": 8957302,
- "sha256": "5d51957298ff8f678759458572a2f1ffc31b2012d40791763e9be21cc4dda6eb",
- "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.0.bin",
+ "version": "1.0.1",
+ "size": 8957210,
+ "sha256": "2d8fe5125169f002b81d1f6b1d1b89b31dcc0c0d266dc2f75a1b1fd58a16ea8f",
+ "url": "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.1.bin",
  "release_tag": "v1.0.0",
- "asset_name": "ONETAPLauncher-1.0.0.bin",
- "released": "2026-11-06 10:28:40",
- "notes": "v1.0.0：文件锁单实例"
+ "asset_name": "ONETAPLauncher-1.0.1.bin",
+ "released": "2026-11-06 11:01:48",
+ "notes": "1.0.1：选目录修复 / 自检修复 / 单实例"
 }
