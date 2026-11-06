@@ -3,12 +3,12 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-06 10:28:37",
-  "notes": "v1.0.0：启动器/下载器改为文件锁单实例（一次只能一个）；修复版本号 1.0.0 被判非法；网盘入口常显",
+  "released": "2026-11-06 11:01:48",
+  "notes": "v1.0.0 内容 + 壳 1.0.1：修复选目录对话框打不开、自检误报非法版本号、单实例（一次只能一个）、网盘入口常显、镜像顺序",
   "install_order": [
     "baseline-1.0.0",
-    "shell-launcher-1.0.0",
-    "shell-downloader-1.0.0"
+    "shell-launcher-1.0.1",
+    "shell-downloader-1.0.1"
   ],
   "assets": [
     {
@@ -839,17 +839,17 @@
       "sources_note": "真实下载源在 res/sources.enc（加密），本字段由客户端解密后覆盖"
     },
     {
-      "id": "shell-launcher-1.0.0",
+      "id": "shell-launcher-1.0.1",
       "kind": "shell",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "total_bytes": 9127202,
       "total_sha256": "1c8ba76f101d53751f3e5895479052161a072de3c77b7ed6e2064e4499fbc108",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPLauncher-1.0.0.bin",
-          "size": 8957302,
-          "sha256": "5d51957298ff8f678759458572a2f1ffc31b2012d40791763e9be21cc4dda6eb"
+          "name": "ONETAPLauncher-1.0.1.bin",
+          "size": 8957210,
+          "sha256": "2d8fe5125169f002b81d1f6b1d1b89b31dcc0c0d266dc2f75a1b1fd58a16ea8f"
         }
       ],
       "sources": [
@@ -861,17 +861,17 @@
       ]
     },
     {
-      "id": "shell-downloader-1.0.0",
+      "id": "shell-downloader-1.0.1",
       "kind": "shell",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "total_bytes": 9236453,
       "total_sha256": "370a7d869034278fb4dcc126354c64d480ebeda4784a27a7706fdbe463c3d72d",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPDownloader-1.0.0.bin",
-          "size": 9246924,
-          "sha256": "f125d674f332a1c9b3b0c672e860ccfb558c634def06e8b76401a3b019a0c3d4"
+          "name": "ONETAPDownloader-1.0.1.bin",
+          "size": 9248716,
+          "sha256": "931788374e881bb2ee19ad9b67ce12698c38fd04bdcdbffabfe3790c3c1593c0"
         }
       ],
       "sources": [
