@@ -3,12 +3,12 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-06 11:01:48",
-  "notes": "v1.0.0 内容 + 壳 1.0.1：修复选目录对话框打不开、自检误报非法版本号、单实例（一次只能一个）、网盘入口常显、镜像顺序",
+  "released": "2026-11-06 11:18:21",
+  "notes": "壳 1.0.2：没装 Edge 时自动改用 Chrome/Brave/Vivaldi 等 Chromium 浏览器开独立窗口（不再开成浏览器标签页）",
   "install_order": [
     "baseline-1.0.0",
     "shell-launcher-1.0.1",
-    "shell-downloader-1.0.1"
+    "shell-downloader-1.0.2"
   ],
   "assets": [
     {
@@ -861,17 +861,17 @@
       ]
     },
     {
-      "id": "shell-downloader-1.0.1",
+      "id": "shell-downloader-1.0.2",
       "kind": "shell",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "total_bytes": 9236453,
       "total_sha256": "370a7d869034278fb4dcc126354c64d480ebeda4784a27a7706fdbe463c3d72d",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPDownloader-1.0.1.bin",
-          "size": 9248716,
-          "sha256": "931788374e881bb2ee19ad9b67ce12698c38fd04bdcdbffabfe3790c3c1593c0"
+          "name": "ONETAPDownloader-1.0.2.bin",
+          "size": 9250413,
+          "sha256": "53313ac3c18ec7b2b1f3941e7203313ef3fe5b5061c9927282cbbec7f4634684"
         }
       ],
       "sources": [
