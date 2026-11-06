@@ -7,7 +7,7 @@
   "notes": "壳：启动器 1.0.2 / 下载器 1.0.4。修复浏览器路径转义损坏、profile 改持久目录（Chrome 首启慢）、壳更新强制刷新清单、支持 360极速/QQ/搜狗内核",
   "install_order": [
     "baseline-1.0.0",
-    "shell-launcher-1.0.2",
+    "shell-launcher-1.0.3",
     "shell-downloader-1.0.5"
   ],
   "assets": [
@@ -839,43 +839,6 @@
       "sources_note": "真实下载源在 res/sources.enc（加密），本字段由客户端解密后覆盖"
     },
     {
-      "id": "shell-launcher-1.0.2",
-      "kind": "shell",
-      "version": "1.0.2",
-      "total_bytes": 8956276,
-      "total_sha256": "236dc8ae16ff9def7195c60e282e678e72403056c094bd941fde3a1a857c7311",
-      "parts": [
-        {
-          "index": 1,
-          "name": "ONETAPLauncher-1.0.2.bin",
-          "size": 8956276,
-          "sha256": "236dc8ae16ff9def7195c60e282e678e72403056c094bd941fde3a1a857c7311"
-        }
-      ],
-      "sources": [
-        {
-          "type": "ghproxy",
-          "weight": 100,
-          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 99,
-          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 98,
-          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "github",
-          "weight": 50,
-          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        }
-      ]
-    },
-    {
       "id": "shell-downloader-1.0.5",
       "kind": "shell",
       "version": "1.0.5",
@@ -913,6 +876,45 @@
       ],
       "released": "2026-11-06 13:49:31",
       "notes": "解压后状态修复+启动器补齐"
+    },
+    {
+      "id": "shell-launcher-1.0.3",
+      "kind": "shell",
+      "version": "1.0.3",
+      "total_bytes": 9158959,
+      "total_sha256": "cc35e1190859839f9227a1d0c3fdd69d4e0d96725ab2708144941ac3bf386f64",
+      "parts": [
+        {
+          "index": 1,
+          "name": "ONETAPLauncher-1.0.3.bin",
+          "size": 9158959,
+          "sha256": "cc35e1190859839f9227a1d0c3fdd69d4e0d96725ab2708144941ac3bf386f64"
+        }
+      ],
+      "sources": [
+        {
+          "type": "ghproxy",
+          "weight": 100,
+          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 99,
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 98,
+          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "github",
+          "weight": 50,
+          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        }
+      ],
+      "released": "2026-11-06 14:57:09",
+      "notes": "启动画面+epoch+308兜底+方向闸"
     }
   ]
 }
