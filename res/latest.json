@@ -3,12 +3,12 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-06 11:18:21",
-  "notes": "壳 1.0.2：没装 Edge 时自动改用 Chrome/Brave/Vivaldi 等 Chromium 浏览器开独立窗口（不再开成浏览器标签页）",
+  "released": "2026-11-06 11:24:55",
+  "notes": "下载器 1.0.3：修复选目录后路径拿不到（SHBrowseForFolderW 未声明 restype，64 位指针被截断）；无 Edge 时改用其它 Chromium 开独立窗口",
   "install_order": [
     "baseline-1.0.0",
     "shell-launcher-1.0.1",
-    "shell-downloader-1.0.2"
+    "shell-downloader-1.0.3"
   ],
   "assets": [
     {
@@ -861,17 +861,17 @@
       ]
     },
     {
-      "id": "shell-downloader-1.0.2",
+      "id": "shell-downloader-1.0.3",
       "kind": "shell",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "total_bytes": 9236453,
       "total_sha256": "370a7d869034278fb4dcc126354c64d480ebeda4784a27a7706fdbe463c3d72d",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPDownloader-1.0.2.bin",
-          "size": 9250413,
-          "sha256": "53313ac3c18ec7b2b1f3941e7203313ef3fe5b5061c9927282cbbec7f4634684"
+          "name": "ONETAPDownloader-1.0.3.bin",
+          "size": 9249522,
+          "sha256": "f295fb02441516edaa4d378b548c9a69940d00bcb8d4bf81281baf92385dd48a"
         }
       ],
       "sources": [
