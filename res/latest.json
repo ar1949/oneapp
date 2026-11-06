@@ -8,7 +8,7 @@
   "install_order": [
     "baseline-1.0.0",
     "shell-launcher-1.0.2",
-    "shell-downloader-1.0.4"
+    "shell-downloader-1.0.5"
   ],
   "assets": [
     {
@@ -842,8 +842,8 @@
       "id": "shell-launcher-1.0.2",
       "kind": "shell",
       "version": "1.0.2",
-      "total_bytes": 9127202,
-      "total_sha256": "1c8ba76f101d53751f3e5895479052161a072de3c77b7ed6e2064e4499fbc108",
+      "total_bytes": 8956276,
+      "total_sha256": "236dc8ae16ff9def7195c60e282e678e72403056c094bd941fde3a1a857c7311",
       "parts": [
         {
           "index": 1,
@@ -861,17 +861,17 @@
       ]
     },
     {
-      "id": "shell-downloader-1.0.4",
+      "id": "shell-downloader-1.0.5",
       "kind": "shell",
-      "version": "1.0.4",
-      "total_bytes": 9236453,
-      "total_sha256": "370a7d869034278fb4dcc126354c64d480ebeda4784a27a7706fdbe463c3d72d",
+      "version": "1.0.5",
+      "total_bytes": 9254266,
+      "total_sha256": "dc398f5c8c03ebedd588c8846df84784e4288f8aeaadc14f617a46fc84e252b4",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPDownloader-1.0.4.bin",
-          "size": 9250416,
-          "sha256": "0f422817a1aa1dfa462377cb8f966d6371f6931f44a60265b1583e1bfa4c23f0"
+          "name": "ONETAPDownloader-1.0.5.bin",
+          "size": 9254266,
+          "sha256": "dc398f5c8c03ebedd588c8846df84784e4288f8aeaadc14f617a46fc84e252b4"
         }
       ],
       "sources": [
@@ -880,7 +880,9 @@
           "weight": 100,
           "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
         }
-      ]
+      ],
+      "released": "2026-11-06 13:49:31",
+      "notes": "解压后状态修复+启动器补齐"
     }
   ]
 }
