@@ -3,11 +3,11 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-06 15:51:20",
+  "released": "2026-11-07 12:42:50",
   "notes": "壳：启动器 1.0.2 / 下载器 1.0.4。修复浏览器路径转义损坏、profile 改持久目录（Chrome 首启慢）、壳更新强制刷新清单、支持 360极速/QQ/搜狗内核",
   "install_order": [
     "baseline-1.0.0",
-    "shell-launcher-1.0.4",
+    "shell-launcher-1.0.5",
     "shell-downloader-1.0.6"
   ],
   "assets": [
@@ -878,17 +878,17 @@
       "notes": "启动画面+epoch+补丁链+方向闸"
     },
     {
-      "id": "shell-launcher-1.0.4",
+      "id": "shell-launcher-1.0.5",
       "kind": "shell",
-      "version": "1.0.4",
-      "total_bytes": 9159184,
-      "total_sha256": "b687e750305330732f7ac89d11f0cfcb23644688cc9a02937e35357f10ce92a9",
+      "version": "1.0.5",
+      "total_bytes": 9169557,
+      "total_sha256": "ae0f3be460bfa0b2fcadffc3359813098ad5bce586f083cf4928f77f463c4cb2",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPLauncher-1.0.4.bin",
-          "size": 9159184,
-          "sha256": "b687e750305330732f7ac89d11f0cfcb23644688cc9a02937e35357f10ce92a9"
+          "name": "ONETAPLauncher-1.0.5.bin",
+          "size": 9169557,
+          "sha256": "ae0f3be460bfa0b2fcadffc3359813098ad5bce586f083cf4928f77f463c4cb2"
         }
       ],
       "sources": [
@@ -913,8 +913,8 @@
           "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
         }
       ],
-      "released": "2026-11-06 15:51:17",
-      "notes": "修复外网线路登录提示「服务器维护中」：游戏地址先解析为 IPv4 再交给登录器"
+      "released": "2026-11-07 12:42:45",
+      "notes": "新增游戏启动进度条（按客户端日志判进度，大厅包到达=100%）"
     }
   ]
 }
