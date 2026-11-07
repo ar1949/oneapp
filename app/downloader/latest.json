@@ -1,14 +1,14 @@
 {
-  "version": "1.0.8",
-  "sha256": "397b8ffc2ac961e40eb5e27ddaa3fb4214816f25efa48e2b14117c828b639f9d",
-  "size": 9427704,
+  "version": "1.0.9",
+  "sha256": "f979066061f1dc0e47473901c58aac2f7a343a5bca645c3cc9e2c2d91729dea4",
+  "size": 9430119,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.8.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.9.bin"
   ],
-  "notes": "修复自更新下完不提示：界面加 10 秒壳自更新看门狗、跨次启动也认已下好的新壳",
-  "released": "2026-11-07 14:19:06",
-  "asset_name": "ONETAPDownloader-1.0.8.bin",
+  "notes": "仅版本号 +1，用于验证远端自动更新链路（含 1.0.8 的自更新提示修复）",
+  "released": "2026-11-07 14:31:13",
+  "asset_name": "ONETAPDownloader-1.0.9.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.8.exe"
+  "exe_name": "下载器v1.0.9.exe"
 }
