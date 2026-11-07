@@ -1,14 +1,14 @@
 {
-  "version": "1.0.5",
-  "sha256": "ae0f3be460bfa0b2fcadffc3359813098ad5bce586f083cf4928f77f463c4cb2",
-  "size": 9169557,
+  "version": "1.0.6",
+  "sha256": "a38db3590ee303959aa11facc96011806daffc9e0f91a6d56a16467c84bdecbc",
+  "size": 9170043,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.5.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.6.bin"
   ],
-  "notes": "新增游戏启动进度条（按客户端日志判进度，大厅包到达=100%）",
-  "released": "2026-11-07 12:42:45",
-  "asset_name": "ONETAPLauncher-1.0.5.bin",
+  "notes": "仅版本号 +1，用于验证远端自动更新链路（功能同 1.0.5）",
+  "released": "2026-11-07 14:30:21",
+  "asset_name": "ONETAPLauncher-1.0.6.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.5.exe"
+  "exe_name": "启动器v1.0.6.exe"
 }
