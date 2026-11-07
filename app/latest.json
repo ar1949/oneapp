@@ -1,0 +1,11 @@
+{
+  "version_code": 13,
+  "version_name": "1.1.2",
+  "apk": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@v1.1.2/app/onetap-mgmt-1.1.2.apk",
+  "size": 2438969,
+  "sha256": "fedc016e6ed12a7161c14c577ebee9d22a5d97a2f036edf86567a96461a8b4e6",
+  "notes": "修复外网打不开：明文口 90080 笔误改回 50080，并新增「域名解析成公网 IP」兜底线路（平台对域名 Host 强制 HTTPS，对 IP Host 放行）",
+  "updated": "2026-11-07 16:00:13",
+  "channel": "android",
+  "min_supported": 1
+}
