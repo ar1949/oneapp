@@ -3,12 +3,12 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-08 20:46:42",
+  "released": "2026-11-08 21:28:30",
   "notes": "壳：启动器 1.0.2 / 下载器 1.0.4。修复浏览器路径转义损坏、profile 改持久目录（Chrome 首启慢）、壳更新强制刷新清单、支持 360极速/QQ/搜狗内核",
   "install_order": [
     "baseline-1.0.0",
     "shell-launcher-1.0.12",
-    "shell-downloader-1.0.19"
+    "shell-downloader-1.0.20"
   ],
   "assets": [
     {
@@ -896,17 +896,17 @@
       "notes": "数据目录分层 onetapdata/{state,logs,cache}；不再生成 appdata（换壳缓存/单实例锁都挪进 onetapdata）"
     },
     {
-      "id": "shell-downloader-1.0.19",
+      "id": "shell-downloader-1.0.20",
       "kind": "shell",
-      "version": "1.0.19",
-      "total_bytes": 9486467,
-      "total_sha256": "5ae5fa97555f99d8305da1615bf1587708c0fb4a2ab918d35ff670365a82fef6",
+      "version": "1.0.20",
+      "total_bytes": 11051389,
+      "total_sha256": "7d289b853b060cf061a2ee631036fb7fb81d6a042fbbbfb990093ff2850029b3",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPDownloader-1.0.19.bin",
-          "size": 9486467,
-          "sha256": "5ae5fa97555f99d8305da1615bf1587708c0fb4a2ab918d35ff670365a82fef6"
+          "name": "ONETAPDownloader-1.0.20.bin",
+          "size": 11051389,
+          "sha256": "7d289b853b060cf061a2ee631036fb7fb81d6a042fbbbfb990093ff2850029b3"
         }
       ],
       "sources": [
@@ -949,8 +949,8 @@
           "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
         }
       ],
-      "released": "2026-11-08 20:46:36",
-      "notes": "换壳后旧 exe 一定删掉（之前书签被清、删除时机过早导致删不掉）；界面就绪自动置前；重复点击直接唤前"
+      "released": "2026-11-08 21:28:21",
+      "notes": "启动画面提前到解包之前（打包器内置启动图，双击 0.2s 内就有画面）；开加速器/系统代理时停服公告也能读到（原来恒为空）；修启动期打点"
     }
   ]
 }
