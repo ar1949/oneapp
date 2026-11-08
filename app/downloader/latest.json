@@ -1,14 +1,14 @@
 {
-  "version": "1.0.13",
-  "sha256": "58cc266884c96c179de031993527616c6f5bcfbea904bac925fcefe266c5bedd",
-  "size": 9470585,
+  "version": "1.0.14",
+  "sha256": "bac9ee4160c8f628fd379b75ae7298400b62c8b8af9139d6e457292f13e52b37",
+  "size": 9471664,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.13.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.14.bin"
   ],
-  "notes": "界面 2 秒内必出（清单改后台加载，不再等网络）；数据目录分层 onetapdata/{state,logs,cache}，彻底不再生成 appdata；新增自家服务器清单路由，GitHub 慢时不再偶发'没有下载链接'",
-  "released": "2026-11-08 19:19:07",
-  "asset_name": "ONETAPDownloader-1.0.13.bin",
+  "notes": "修启动画面偶发不显示（GDI 函数未声明签名，64 位句柄溢出导致整帧绘制中断）；界面 2 秒内必出；数据目录分层 onetapdata/{state,logs,cache}，不再生成 appdata；新增自家服务器清单路由",
+  "released": "2026-11-08 19:26:47",
+  "asset_name": "ONETAPDownloader-1.0.14.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.13.exe"
+  "exe_name": "下载器v1.0.14.exe"
 }
