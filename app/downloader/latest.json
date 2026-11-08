@@ -1,14 +1,14 @@
 {
-  "version": "1.0.19",
-  "sha256": "5ae5fa97555f99d8305da1615bf1587708c0fb4a2ab918d35ff670365a82fef6",
-  "size": 9486467,
+  "version": "1.0.20",
+  "sha256": "7d289b853b060cf061a2ee631036fb7fb81d6a042fbbbfb990093ff2850029b3",
+  "size": 11051389,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.19.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.20.bin"
   ],
-  "notes": "换壳后旧 exe 一定删掉（之前书签被清、删除时机过早导致删不掉）；界面就绪自动置前；重复点击直接唤前",
-  "released": "2026-11-08 20:46:36",
-  "asset_name": "ONETAPDownloader-1.0.19.bin",
+  "notes": "启动画面提前到解包之前（打包器内置启动图，双击 0.2s 内就有画面）；开加速器/系统代理时停服公告也能读到（原来恒为空）；修启动期打点",
+  "released": "2026-11-08 21:28:21",
+  "asset_name": "ONETAPDownloader-1.0.20.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.19.exe"
+  "exe_name": "下载器v1.0.20.exe"
 }
