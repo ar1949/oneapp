@@ -1,14 +1,14 @@
 {
-  "version": "1.0.17",
-  "sha256": "0df37a6ef95051deb9d04f202f6933aa29f9857131600d848a904ef1e7d8b233",
-  "size": 9188733,
+  "version": "1.0.19",
+  "sha256": "c2d1b45530b522219837974e55ebec072ed9143d7b7ae17921ab94f792caf66f",
+  "size": 12298965,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.17.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.19.bin"
   ],
-  "notes": "验证自动更新链路（内容与 1.0.16 一致）：启动即刻判断、弹窗点完成、先关自己再起新程序",
-  "released": "2026-11-08 23:50:18",
-  "asset_name": "ONETAPLauncher-1.0.17.bin",
+  "notes": "窗口改为进程内 WebView2：界面从本进程的窗体出来，不再拉起外部 Edge（端口占用/窗口不置前/扩展拦私网 一并消失）；载入界面照旧；WebView2 缺失自动回落 Edge；用户数据落 onetapdata",
+  "released": "2026-11-09 00:14:30",
+  "asset_name": "ONETAPLauncher-1.0.19.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.17.exe"
+  "exe_name": "启动器v1.0.19.exe"
 }
