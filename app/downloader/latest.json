@@ -1,14 +1,14 @@
 {
-  "version": "1.0.21",
-  "sha256": "b3c8108cb8fc9d2639e99d3c1df8bb22c6969ba30102c24b67ec3d181858429d",
-  "size": 11050895,
+  "version": "1.0.22",
+  "sha256": "47437c81a984371c19677096d4cc4f02e2d5f967036ea0d761525c4469d45360",
+  "size": 12365309,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.21.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.22.bin"
   ],
-  "notes": "版本递进测试：用于验证自动更新链路（内容与 1.0.20 一致）",
-  "released": "2026-11-08 22:50:01",
-  "asset_name": "ONETAPDownloader-1.0.21.bin",
+  "notes": "窗口改为进程内 WebView2（同启动器方案）：不再依赖外部浏览器，窗口不置前/关不掉/越堆越多的问题消失；缺运行时自动引导安装",
+  "released": "2026-11-09 02:22:28",
+  "asset_name": "ONETAPDownloader-1.0.22.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.21.exe"
+  "exe_name": "下载器v1.0.22.exe"
 }
