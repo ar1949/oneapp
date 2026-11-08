@@ -3,12 +3,12 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-08 21:32:09",
+  "released": "2026-11-08 22:50:05",
   "notes": "壳：启动器 1.0.2 / 下载器 1.0.4。修复浏览器路径转义损坏、profile 改持久目录（Chrome 首启慢）、壳更新强制刷新清单、支持 360极速/QQ/搜狗内核",
   "install_order": [
     "baseline-1.0.0",
     "shell-launcher-1.0.13",
-    "shell-downloader-1.0.20"
+    "shell-downloader-1.0.21"
   ],
   "assets": [
     {
@@ -839,63 +839,6 @@
       "sources_note": "真实下载源在 res/sources.enc（加密），本字段由客户端解密后覆盖"
     },
     {
-      "id": "shell-downloader-1.0.20",
-      "kind": "shell",
-      "version": "1.0.20",
-      "total_bytes": 11051389,
-      "total_sha256": "7d289b853b060cf061a2ee631036fb7fb81d6a042fbbbfb990093ff2850029b3",
-      "parts": [
-        {
-          "index": 1,
-          "name": "ONETAPDownloader-1.0.20.bin",
-          "size": 11051389,
-          "sha256": "7d289b853b060cf061a2ee631036fb7fb81d6a042fbbbfb990093ff2850029b3"
-        }
-      ],
-      "sources": [
-        {
-          "type": "jsdelivr",
-          "weight": 130,
-          "base": "https://testingcf.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "testingcf.jsdelivr.net"
-        },
-        {
-          "type": "jsdelivr",
-          "weight": 125,
-          "base": "https://jsdelivr.b-cdn.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "jsdelivr.b-cdn.net"
-        },
-        {
-          "type": "jsdelivr",
-          "weight": 120,
-          "base": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "gcore.jsdelivr.net"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 100,
-          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 99,
-          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 98,
-          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "github",
-          "weight": 50,
-          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        }
-      ],
-      "released": "2026-11-08 21:28:21",
-      "notes": "启动画面提前到解包之前（打包器内置启动图，双击 0.2s 内就有画面）；开加速器/系统代理时停服公告也能读到（原来恒为空）；修启动期打点"
-    },
-    {
       "id": "shell-launcher-1.0.13",
       "kind": "shell",
       "version": "1.0.13",
@@ -951,6 +894,63 @@
       ],
       "released": "2026-11-08 21:32:06",
       "notes": "修：开加速器/系统代理时读不到停服公告（原来恒为空），现在先直连再兜底代理"
+    },
+    {
+      "id": "shell-downloader-1.0.21",
+      "kind": "shell",
+      "version": "1.0.21",
+      "total_bytes": 11050895,
+      "total_sha256": "b3c8108cb8fc9d2639e99d3c1df8bb22c6969ba30102c24b67ec3d181858429d",
+      "parts": [
+        {
+          "index": 1,
+          "name": "ONETAPDownloader-1.0.21.bin",
+          "size": 11050895,
+          "sha256": "b3c8108cb8fc9d2639e99d3c1df8bb22c6969ba30102c24b67ec3d181858429d"
+        }
+      ],
+      "sources": [
+        {
+          "type": "jsdelivr",
+          "weight": 130,
+          "base": "https://testingcf.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "testingcf.jsdelivr.net"
+        },
+        {
+          "type": "jsdelivr",
+          "weight": 125,
+          "base": "https://jsdelivr.b-cdn.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "jsdelivr.b-cdn.net"
+        },
+        {
+          "type": "jsdelivr",
+          "weight": 120,
+          "base": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "gcore.jsdelivr.net"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 100,
+          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 99,
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 98,
+          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "github",
+          "weight": 50,
+          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        }
+      ],
+      "released": "2026-11-08 22:50:01",
+      "notes": "版本递进测试：用于验证自动更新链路（内容与 1.0.20 一致）"
     }
   ]
 }
