@@ -1,14 +1,14 @@
 {
-  "version": "1.0.14",
-  "sha256": "d6297063cd528e2918a9cc2e6a75bcd2d56992737f9743473aacf873a2604887",
-  "size": 9188619,
+  "version": "1.0.15",
+  "sha256": "4d1cb9b964e0f13b3467cb92e11bcb3870eb67bb1b16fb6abf16cef670b6ecd3",
+  "size": 9189150,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.14.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.15.bin"
   ],
-  "notes": "更新链路重做：启动即刻判断新版本（走自家服务器，30ms 出结论）；发现新版弹窗提示，点『完成』后先关自己窗口/进程再拉起新程序；开加速器也能读到停服公告",
-  "released": "2026-11-08 23:40:52",
-  "asset_name": "ONETAPLauncher-1.0.14.bin",
+  "notes": "更新链路重做：启动即刻判断（自家服务器 30ms）；发现新版弹窗，点『完成』先关自己窗口/进程再起新程序；内网机器自动改走内网下载口；开加速器也能读到停服公告",
+  "released": "2026-11-08 23:43:21",
+  "asset_name": "ONETAPLauncher-1.0.15.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.14.exe"
+  "exe_name": "启动器v1.0.15.exe"
 }
