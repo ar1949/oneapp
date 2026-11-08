@@ -3,11 +3,11 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-08 23:50:21",
+  "released": "2026-11-09 00:14:35",
   "notes": "壳：启动器 1.0.2 / 下载器 1.0.4。修复浏览器路径转义损坏、profile 改持久目录（Chrome 首启慢）、壳更新强制刷新清单、支持 360极速/QQ/搜狗内核",
   "install_order": [
     "baseline-1.0.0",
-    "shell-launcher-1.0.17",
+    "shell-launcher-1.0.19",
     "shell-downloader-1.0.21"
   ],
   "assets": [
@@ -901,17 +901,17 @@
       "notes": "版本递进测试：用于验证自动更新链路（内容与 1.0.20 一致）"
     },
     {
-      "id": "shell-launcher-1.0.17",
+      "id": "shell-launcher-1.0.19",
       "kind": "shell",
-      "version": "1.0.17",
-      "total_bytes": 9188733,
-      "total_sha256": "0df37a6ef95051deb9d04f202f6933aa29f9857131600d848a904ef1e7d8b233",
+      "version": "1.0.19",
+      "total_bytes": 12298965,
+      "total_sha256": "c2d1b45530b522219837974e55ebec072ed9143d7b7ae17921ab94f792caf66f",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPLauncher-1.0.17.bin",
-          "size": 9188733,
-          "sha256": "0df37a6ef95051deb9d04f202f6933aa29f9857131600d848a904ef1e7d8b233"
+          "name": "ONETAPLauncher-1.0.19.bin",
+          "size": 12298965,
+          "sha256": "c2d1b45530b522219837974e55ebec072ed9143d7b7ae17921ab94f792caf66f"
         }
       ],
       "sources": [
@@ -959,8 +959,8 @@
           "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
         }
       ],
-      "released": "2026-11-08 23:50:18",
-      "notes": "验证自动更新链路（内容与 1.0.16 一致）：启动即刻判断、弹窗点完成、先关自己再起新程序"
+      "released": "2026-11-09 00:14:30",
+      "notes": "窗口改为进程内 WebView2：界面从本进程的窗体出来，不再拉起外部 Edge（端口占用/窗口不置前/扩展拦私网 一并消失）；载入界面照旧；WebView2 缺失自动回落 Edge；用户数据落 onetapdata"
     }
   ]
 }
