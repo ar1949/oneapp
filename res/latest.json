@@ -3,11 +3,11 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-08 22:50:05",
+  "released": "2026-11-08 23:40:56",
   "notes": "壳：启动器 1.0.2 / 下载器 1.0.4。修复浏览器路径转义损坏、profile 改持久目录（Chrome 首启慢）、壳更新强制刷新清单、支持 360极速/QQ/搜狗内核",
   "install_order": [
     "baseline-1.0.0",
-    "shell-launcher-1.0.13",
+    "shell-launcher-1.0.14",
     "shell-downloader-1.0.21"
   ],
   "assets": [
@@ -839,63 +839,6 @@
       "sources_note": "真实下载源在 res/sources.enc（加密），本字段由客户端解密后覆盖"
     },
     {
-      "id": "shell-launcher-1.0.13",
-      "kind": "shell",
-      "version": "1.0.13",
-      "total_bytes": 9184493,
-      "total_sha256": "bd407ba0c55c568e645d96d818d851ad2262255afbaf25966ea3fe2ad5652324",
-      "parts": [
-        {
-          "index": 1,
-          "name": "ONETAPLauncher-1.0.13.bin",
-          "size": 9184493,
-          "sha256": "bd407ba0c55c568e645d96d818d851ad2262255afbaf25966ea3fe2ad5652324"
-        }
-      ],
-      "sources": [
-        {
-          "type": "jsdelivr",
-          "weight": 130,
-          "base": "https://testingcf.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "testingcf.jsdelivr.net"
-        },
-        {
-          "type": "jsdelivr",
-          "weight": 125,
-          "base": "https://jsdelivr.b-cdn.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "jsdelivr.b-cdn.net"
-        },
-        {
-          "type": "jsdelivr",
-          "weight": 120,
-          "base": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "gcore.jsdelivr.net"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 100,
-          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 99,
-          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 98,
-          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "github",
-          "weight": 50,
-          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        }
-      ],
-      "released": "2026-11-08 21:32:06",
-      "notes": "修：开加速器/系统代理时读不到停服公告（原来恒为空），现在先直连再兜底代理"
-    },
-    {
       "id": "shell-downloader-1.0.21",
       "kind": "shell",
       "version": "1.0.21",
@@ -910,6 +853,11 @@
         }
       ],
       "sources": [
+        {
+          "type": "srv",
+          "weight": 200,
+          "base": "http://onetap.yyyyy.pro:50080/dl"
+        },
         {
           "type": "jsdelivr",
           "weight": 130,
@@ -951,6 +899,68 @@
       ],
       "released": "2026-11-08 22:50:01",
       "notes": "版本递进测试：用于验证自动更新链路（内容与 1.0.20 一致）"
+    },
+    {
+      "id": "shell-launcher-1.0.14",
+      "kind": "shell",
+      "version": "1.0.14",
+      "total_bytes": 9188619,
+      "total_sha256": "d6297063cd528e2918a9cc2e6a75bcd2d56992737f9743473aacf873a2604887",
+      "parts": [
+        {
+          "index": 1,
+          "name": "ONETAPLauncher-1.0.14.bin",
+          "size": 9188619,
+          "sha256": "d6297063cd528e2918a9cc2e6a75bcd2d56992737f9743473aacf873a2604887"
+        }
+      ],
+      "sources": [
+        {
+          "type": "srv",
+          "weight": 200,
+          "base": "http://onetap.yyyyy.pro:50080/dl"
+        },
+        {
+          "type": "jsdelivr",
+          "weight": 130,
+          "base": "https://testingcf.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "testingcf.jsdelivr.net"
+        },
+        {
+          "type": "jsdelivr",
+          "weight": 125,
+          "base": "https://jsdelivr.b-cdn.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "jsdelivr.b-cdn.net"
+        },
+        {
+          "type": "jsdelivr",
+          "weight": 120,
+          "base": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "gcore.jsdelivr.net"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 100,
+          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 99,
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 98,
+          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "github",
+          "weight": 50,
+          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        }
+      ],
+      "released": "2026-11-08 23:40:52",
+      "notes": "更新链路重做：启动即刻判断新版本（走自家服务器，30ms 出结论）；发现新版弹窗提示，点『完成』后先关自己窗口/进程再拉起新程序；开加速器也能读到停服公告"
     }
   ]
 }
