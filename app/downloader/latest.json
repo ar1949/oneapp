@@ -1,14 +1,14 @@
 {
-  "version": "1.0.9",
-  "sha256": "f979066061f1dc0e47473901c58aac2f7a343a5bca645c3cc9e2c2d91729dea4",
-  "size": 9430119,
+  "version": "1.0.10",
+  "sha256": "b985084670eb007557405f43afaba92d94d98f6387086bea5d0fea138103e714",
+  "size": 9443216,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.9.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.10.bin"
   ],
-  "notes": "仅版本号 +1，用于验证远端自动更新链路（含 1.0.8 的自更新提示修复）",
-  "released": "2026-11-07 14:31:13",
-  "asset_name": "ONETAPDownloader-1.0.9.bin",
+  "notes": "解压进度按字节实时刷新；装完自动建桌面快捷方式（指向最新壳）；数据统一放 C:\\ONETAP；显示停服公告（仍可下载安装）",
+  "released": "2026-11-08 17:40:11",
+  "asset_name": "ONETAPDownloader-1.0.10.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.9.exe"
+  "exe_name": "下载器v1.0.10.exe"
 }
