@@ -3,11 +3,11 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-08 17:56:24",
+  "released": "2026-11-08 18:08:02",
   "notes": "壳：启动器 1.0.2 / 下载器 1.0.4。修复浏览器路径转义损坏、profile 改持久目录（Chrome 首启慢）、壳更新强制刷新清单、支持 360极速/QQ/搜狗内核",
   "install_order": [
     "baseline-1.0.0",
-    "shell-launcher-1.0.8",
+    "shell-launcher-1.0.9",
     "shell-downloader-1.0.10"
   ],
   "assets": [
@@ -896,17 +896,17 @@
       "notes": "解压进度按字节实时刷新；装完自动建桌面快捷方式（指向最新壳）；数据统一放 C:\\ONETAP；显示停服公告（仍可下载安装）"
     },
     {
-      "id": "shell-launcher-1.0.8",
+      "id": "shell-launcher-1.0.9",
       "kind": "shell",
-      "version": "1.0.8",
-      "total_bytes": 9178909,
-      "total_sha256": "d04781e5652aaf010da8d04902245d4f4bb6e06c4d89e0552bc040962fcd26c1",
+      "version": "1.0.9",
+      "total_bytes": 9179440,
+      "total_sha256": "b64a582ee7eb794084ad3eb58b54d89473cfb25329b3ec0751ac7a758c705f99",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPLauncher-1.0.8.bin",
-          "size": 9178909,
-          "sha256": "d04781e5652aaf010da8d04902245d4f4bb6e06c4d89e0552bc040962fcd26c1"
+          "name": "ONETAPLauncher-1.0.9.bin",
+          "size": 9179440,
+          "sha256": "b64a582ee7eb794084ad3eb58b54d89473cfb25329b3ec0751ac7a758c705f99"
         }
       ],
       "sources": [
@@ -949,8 +949,8 @@
           "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
         }
       ],
-      "released": "2026-11-08 17:56:22",
-      "notes": "清单增加自家服务器路由（GitHub 慢时不再卡住）；沿用 1.0.7 的新启动画面与数据目录"
+      "released": "2026-11-08 18:07:59",
+      "notes": "界面与本地服务断开时给出明确提示（不再伪装成正在连接）；清单/壳自动同步到自家服务器"
     }
   ]
 }
