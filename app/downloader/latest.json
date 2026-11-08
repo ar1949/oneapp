@@ -1,14 +1,14 @@
 {
-  "version": "1.0.12",
-  "sha256": "11899c157dc13912b474538b41cf9ca0bf09131239b04ad4fc47c080e5e8302f",
-  "size": 9459384,
+  "version": "1.0.13",
+  "sha256": "58cc266884c96c179de031993527616c6f5bcfbea904bac925fcefe266c5bedd",
+  "size": 9470585,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.12.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.13.bin"
   ],
-  "notes": "启动画面改成与启动器一致的 HUD 科技风（刻度环/分段进度条/四角支架/运行计时）；C 盘清理加安装目录安全闸",
-  "released": "2026-11-08 18:49:03",
-  "asset_name": "ONETAPDownloader-1.0.12.bin",
+  "notes": "界面 2 秒内必出（清单改后台加载，不再等网络）；数据目录分层 onetapdata/{state,logs,cache}，彻底不再生成 appdata；新增自家服务器清单路由，GitHub 慢时不再偶发'没有下载链接'",
+  "released": "2026-11-08 19:19:07",
+  "asset_name": "ONETAPDownloader-1.0.13.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.12.exe"
+  "exe_name": "下载器v1.0.13.exe"
 }
