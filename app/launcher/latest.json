@@ -1,14 +1,14 @@
 {
-  "version": "1.0.21",
-  "sha256": "9663455de9578db4518323de3039facb2a3d4c81ea1d4d382664cdfa91891c59",
-  "size": 12316242,
+  "version": "1.0.22",
+  "sha256": "6b72a3631e40c72ba028a73be6d82d0449fc0d4f918238b68d9c96f836f15c90",
+  "size": 12317785,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.21.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.22.bin"
   ],
-  "notes": "WebView2 缺失引导：没装且无浏览器时在载入界面上强制安装（关闭/立即安装两个按钮，进度条覆盖下载+安装+验证，成功后提示重启）；只走微软官方引导程序；修进度条卡在 45% 不动",
-  "released": "2026-11-09 01:35:44",
-  "asset_name": "ONETAPLauncher-1.0.21.bin",
+  "notes": "修复外网连不上：自动探测 8080/50080/80，远端走 50080；探测并行+2秒超时+断网确认窗口加长",
+  "released": "2026-11-09 02:00:49",
+  "asset_name": "ONETAPLauncher-1.0.22.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.21.exe"
+  "exe_name": "启动器v1.0.22.exe"
 }
