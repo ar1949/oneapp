@@ -1,14 +1,14 @@
 {
-  "version": "1.0.17",
-  "sha256": "3e8c80b259481bfb5cccebfee7da583070ea17470805558a57dea6cd5617779f",
-  "size": 9474019,
+  "version": "1.0.18",
+  "sha256": "4389efb6c1f6119917b1653f9d03d70c04ca281804ef4fc104aa1630a8e99569",
+  "size": 9486264,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.17.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.18.bin"
   ],
-  "notes": "修复偶发「连不上服务器」提示：清单未就绪时自检不再误报；自家服务器/内网通道优先直取；加密源清单加磁盘缓存；去掉重复的「线路」行",
-  "released": "2026-11-08 19:53:56",
-  "asset_name": "ONETAPDownloader-1.0.17.bin",
+  "notes": "修启动体验：界面出来自动置前（不用点第二次）；重复点击不再闪启动画面、直接唤前；默认盘扫描移出请求线程（首屏不再等 7 秒）；窗口位置按屏幕自适应；启动各阶段写日志便于排障",
+  "released": "2026-11-08 20:38:43",
+  "asset_name": "ONETAPDownloader-1.0.18.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.17.exe"
+  "exe_name": "下载器v1.0.18.exe"
 }
