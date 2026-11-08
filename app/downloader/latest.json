@@ -1,14 +1,14 @@
 {
-  "version": "1.0.18",
-  "sha256": "4389efb6c1f6119917b1653f9d03d70c04ca281804ef4fc104aa1630a8e99569",
-  "size": 9486264,
+  "version": "1.0.19",
+  "sha256": "5ae5fa97555f99d8305da1615bf1587708c0fb4a2ab918d35ff670365a82fef6",
+  "size": 9486467,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.18.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.19.bin"
   ],
-  "notes": "修启动体验：界面出来自动置前（不用点第二次）；重复点击不再闪启动画面、直接唤前；默认盘扫描移出请求线程（首屏不再等 7 秒）；窗口位置按屏幕自适应；启动各阶段写日志便于排障",
-  "released": "2026-11-08 20:38:43",
-  "asset_name": "ONETAPDownloader-1.0.18.bin",
+  "notes": "换壳后旧 exe 一定删掉（之前书签被清、删除时机过早导致删不掉）；界面就绪自动置前；重复点击直接唤前",
+  "released": "2026-11-08 20:46:36",
+  "asset_name": "ONETAPDownloader-1.0.19.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.18.exe"
+  "exe_name": "下载器v1.0.19.exe"
 }
