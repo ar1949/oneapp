@@ -1,14 +1,14 @@
 {
-  "version": "1.0.6",
-  "sha256": "a38db3590ee303959aa11facc96011806daffc9e0f91a6d56a16467c84bdecbc",
-  "size": 9170043,
+  "version": "1.0.7",
+  "sha256": "ade6a3211965ab2ca3a86b134ea879ab087436f090ef212576029833f32b00dc",
+  "size": 9179957,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.6.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.7.bin"
   ],
-  "notes": "仅版本号 +1，用于验证远端自动更新链路（功能同 1.0.5）",
-  "released": "2026-11-07 14:30:21",
-  "asset_name": "ONETAPLauncher-1.0.6.bin",
+  "notes": "新启动画面（HUD 科技风）；数据统一放 C:\\ONETAP；换版本自动清旧残留（账号保留）；后台停服公告可见",
+  "released": "2026-11-08 17:38:40",
+  "asset_name": "ONETAPLauncher-1.0.7.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.6.exe"
+  "exe_name": "启动器v1.0.7.exe"
 }
