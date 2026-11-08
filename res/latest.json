@@ -854,11 +854,6 @@
       ],
       "sources": [
         {
-          "type": "srv",
-          "weight": 200,
-          "base": "http://onetap.yyyyy.pro:50080/dl"
-        },
-        {
           "type": "jsdelivr",
           "weight": 130,
           "base": "https://testingcf.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
@@ -915,11 +910,6 @@
         }
       ],
       "sources": [
-        {
-          "type": "srv",
-          "weight": 200,
-          "base": "http://onetap.yyyyy.pro:50080/dl"
-        },
         {
           "type": "jsdelivr",
           "weight": 130,
