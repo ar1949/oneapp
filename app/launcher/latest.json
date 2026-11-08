@@ -1,14 +1,14 @@
 {
-  "version": "1.0.16",
-  "sha256": "75699ae00a6c5c68775492f17ab36e45e2d12ba7b5818cdd26bf48998543096a",
-  "size": 9190105,
+  "version": "1.0.17",
+  "sha256": "0df37a6ef95051deb9d04f202f6933aa29f9857131600d848a904ef1e7d8b233",
+  "size": 9188733,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.16.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.17.bin"
   ],
-  "notes": "修致命 bug：换壳时把锁对象用错，导致点『完成』必崩（新 exe 已复制但不启动）——这就是自动更新一直装不上的根因；启动即刻判断新版本；点完成先关窗口进程再起新程序",
-  "released": "2026-11-08 23:48:40",
-  "asset_name": "ONETAPLauncher-1.0.16.bin",
+  "notes": "验证自动更新链路（内容与 1.0.16 一致）：启动即刻判断、弹窗点完成、先关自己再起新程序",
+  "released": "2026-11-08 23:50:18",
+  "asset_name": "ONETAPLauncher-1.0.17.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.16.exe"
+  "exe_name": "启动器v1.0.17.exe"
 }
