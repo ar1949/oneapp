@@ -1,14 +1,14 @@
 {
-  "version": "1.0.20",
-  "sha256": "ad71ee64c2679da7d2c3af147a8c3d69f3b084e51bf031149049d908da7cf066",
-  "size": 12300418,
+  "version": "1.0.21",
+  "sha256": "9663455de9578db4518323de3039facb2a3d4c81ea1d4d382664cdfa91891c59",
+  "size": 12316242,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.20.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.21.bin"
   ],
-  "notes": "修：换壳后旧版本 exe 删不掉（书签被当旧残留清掉，清理逻辑读不到就跳过）；现在书签保留 + 无书签也扫目录兜底清理。窗口仍为进程内 WebView2",
-  "released": "2026-11-09 00:23:20",
-  "asset_name": "ONETAPLauncher-1.0.20.bin",
+  "notes": "WebView2 缺失引导：没装且无浏览器时在载入界面上强制安装（关闭/立即安装两个按钮，进度条覆盖下载+安装+验证，成功后提示重启）；只走微软官方引导程序；修进度条卡在 45% 不动",
+  "released": "2026-11-09 01:35:44",
+  "asset_name": "ONETAPLauncher-1.0.21.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.20.exe"
+  "exe_name": "启动器v1.0.21.exe"
 }
