@@ -1,14 +1,14 @@
 {
-  "version": "1.0.23",
-  "sha256": "e6830014da4563666ca22303c164e6d4bd01bd2419a4af488f10ce0b12e28d3e",
-  "size": 12319288,
+  "version": "1.0.24",
+  "sha256": "dfc393c74e6541b5470a113c507b808b1515a1c63b1f874f8b87ae01ff822a67",
+  "size": 12317142,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.23.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.24.bin"
   ],
-  "notes": "修链路误报：心跳 45 秒一轮、只探当前线路、超时 3.5 秒、连续 3 轮才报断网",
-  "released": "2026-11-09 02:17:24",
-  "asset_name": "ONETAPLauncher-1.0.23.bin",
+  "notes": "壳自更新取清单改为强制刷新+清单缓存10分钟压到3分钟：发版后不用再等十几分钟",
+  "released": "2026-11-09 02:26:49",
+  "asset_name": "ONETAPLauncher-1.0.24.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.23.exe"
+  "exe_name": "启动器v1.0.24.exe"
 }
