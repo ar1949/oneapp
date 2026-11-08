@@ -1,14 +1,14 @@
 {
-  "version": "1.0.10",
-  "sha256": "334b0e07d730f21e8564fef593aaec9876412fbeda78bf98eaa2af52598e4294",
-  "size": 9183071,
+  "version": "1.0.11",
+  "sha256": "49137b452a96ae88e197c9652118d4a8254f4b16a070f49898972cf56549dc48",
+  "size": 9183957,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.10.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.11.bin"
   ],
-  "notes": "数据目录改到程序目录下的 onetapdata（不再写 C 盘）；换版本清旧缓存并删除旧版 exe；清单缓存跟着数据目录走",
-  "released": "2026-11-08 18:33:09",
-  "asset_name": "ONETAPLauncher-1.0.10.bin",
+  "notes": "安全闸：目录里出现 Bin/Data/version.json 或任意 exe 时不清 C 盘（那可能是客户端安装目录）",
+  "released": "2026-11-08 18:46:32",
+  "asset_name": "ONETAPLauncher-1.0.11.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.10.exe"
+  "exe_name": "启动器v1.0.11.exe"
 }
