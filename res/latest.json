@@ -3,11 +3,11 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-09 02:52:25",
+  "released": "2026-11-12 05:34:30",
   "notes": "壳：启动器 1.0.2 / 下载器 1.0.4。修复浏览器路径转义损坏、profile 改持久目录（Chrome 首启慢）、壳更新强制刷新清单、支持 360极速/QQ/搜狗内核",
   "install_order": [
     "baseline-1.0.0",
-    "shell-launcher-1.0.24",
+    "shell-launcher-1.0.29",
     "shell-downloader-1.0.23"
   ],
   "assets": [
@@ -839,63 +839,6 @@
       "sources_note": "真实下载源在 res/sources.enc（加密），本字段由客户端解密后覆盖"
     },
     {
-      "id": "shell-launcher-1.0.24",
-      "kind": "shell",
-      "version": "1.0.24",
-      "total_bytes": 12317142,
-      "total_sha256": "dfc393c74e6541b5470a113c507b808b1515a1c63b1f874f8b87ae01ff822a67",
-      "parts": [
-        {
-          "index": 1,
-          "name": "ONETAPLauncher-1.0.24.bin",
-          "size": 12317142,
-          "sha256": "dfc393c74e6541b5470a113c507b808b1515a1c63b1f874f8b87ae01ff822a67"
-        }
-      ],
-      "sources": [
-        {
-          "type": "jsdelivr",
-          "weight": 130,
-          "base": "https://testingcf.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "testingcf.jsdelivr.net"
-        },
-        {
-          "type": "jsdelivr",
-          "weight": 125,
-          "base": "https://jsdelivr.b-cdn.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "jsdelivr.b-cdn.net"
-        },
-        {
-          "type": "jsdelivr",
-          "weight": 120,
-          "base": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "gcore.jsdelivr.net"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 100,
-          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 99,
-          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 98,
-          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "github",
-          "weight": 50,
-          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        }
-      ],
-      "released": "2026-11-09 02:26:49",
-      "notes": "壳自更新取清单改为强制刷新+清单缓存10分钟压到3分钟：发版后不用再等十几分钟"
-    },
-    {
       "id": "shell-downloader-1.0.23",
       "kind": "shell",
       "version": "1.0.23",
@@ -951,6 +894,63 @@
       ],
       "released": "2026-11-09 02:52:22",
       "notes": "对齐启动器窗口方案：WebView2 缺失时可选提示安装（带不再提示勾选），装完可一键重启；修掉启动时 pyi_splash 报错噪音"
+    },
+    {
+      "id": "shell-launcher-1.0.29",
+      "kind": "shell",
+      "version": "1.0.29",
+      "total_bytes": 8804196,
+      "total_sha256": "68e0a28202eaea6c3f547fe68538cabf5163f40482a7405479c992c645f68970",
+      "parts": [
+        {
+          "index": 1,
+          "name": "ONETAPLauncher-1.0.29.bin",
+          "size": 8804196,
+          "sha256": "68e0a28202eaea6c3f547fe68538cabf5163f40482a7405479c992c645f68970"
+        }
+      ],
+      "sources": [
+        {
+          "type": "jsdelivr",
+          "weight": 130,
+          "base": "https://testingcf.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "testingcf.jsdelivr.net"
+        },
+        {
+          "type": "jsdelivr",
+          "weight": 125,
+          "base": "https://jsdelivr.b-cdn.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "jsdelivr.b-cdn.net"
+        },
+        {
+          "type": "jsdelivr",
+          "weight": 120,
+          "base": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "gcore.jsdelivr.net"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 100,
+          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 99,
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 98,
+          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "github",
+          "weight": 50,
+          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        }
+      ],
+      "released": "2026-11-12 05:34:28",
+      "notes": "无边框窗口（自绘最小化/最大化/关闭、任意处拖动、八向缩放），默认窗口 852x520；皇家紫钻整界面专属主题+加载进度窗主题；一份 exe 兼容 Win7~11（Win7/8 首次启动自动装 .NET 4.8 与 WebView2 109）；修最小化恢复后黑屏与已连接状态 3~4 秒才显示的问题；exe 文件名带版本号"
     }
   ]
 }
