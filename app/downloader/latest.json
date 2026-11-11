@@ -1,14 +1,14 @@
 {
-  "version": "1.0.23",
-  "sha256": "6513a32fbec5f81f8ae7a0c6e135a26e1736a139286cea4c9297654ee0f5d73c",
-  "size": 12368400,
+  "version": "1.0.24",
+  "sha256": "d9390e3b686545c10e3056d056c1cf0bc8e3982b833184202b1ec35627fb0b9a",
+  "size": 8733686,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.23.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.24.bin"
   ],
-  "notes": "对齐启动器窗口方案：WebView2 缺失时可选提示安装（带不再提示勾选），装完可一键重启；修掉启动时 pyi_splash 报错噪音",
-  "released": "2026-11-09 02:52:22",
-  "asset_name": "ONETAPDownloader-1.0.23.bin",
+  "notes": "统一版：一份 exe 兼容 Win7~11（Python 3.8 + pywebview 4.4.1，Win7/8 首次启动自动装 .NET 4.8 与 WebView2 109）；修自更新判据为「有无内嵌后端」",
+  "released": "2026-11-12 06:05:36",
+  "asset_name": "ONETAPDownloader-1.0.24.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.23.exe"
+  "exe_name": "下载器v1.0.24.exe"
 }
