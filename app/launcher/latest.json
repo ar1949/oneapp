@@ -1,14 +1,14 @@
 {
-  "version": "1.0.32",
-  "sha256": "e11fe4ad892c7b2e167b281398b37c299821f370100dbd27b66ede4980601daf",
-  "size": 8851024,
+  "version": "1.0.33",
+  "sha256": "5717b3f03b430f8e932ca83c14dd7810249139f5f7050af5fc2a7d6c45d55a80",
+  "size": 8852643,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.32.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.33.bin"
   ],
-  "notes": "修「界面出来后等十几秒才显示已连接」：改成先探内网IP端点、把域名解析从启动关键路径上摘掉；实测 15.5 秒→1.3 秒。同时补 encodings.idna（缺它时所有域名线路其实都是坏的）",
-  "released": "2026-11-12 18:06:33",
-  "asset_name": "ONETAPLauncher-1.0.32.bin",
+  "notes": "修「远端打开后卡在正在连接、要等很久」：本机不在内网网段时不再空探内网那条（实测一轮 8.3 秒→3.5 秒，正常线路 0.01 秒返回）；连接面板新增右上角 × 可关闭，关掉后只在右上角留「正在连接」小药丸，点一下还能叫回来",
+  "released": "2026-11-12 19:04:09",
+  "asset_name": "ONETAPLauncher-1.0.33.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.32.exe"
+  "exe_name": "启动器v1.0.33.exe"
 }
