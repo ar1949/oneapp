@@ -1,14 +1,14 @@
 {
-  "version": "1.0.29",
-  "sha256": "68e0a28202eaea6c3f547fe68538cabf5163f40482a7405479c992c645f68970",
-  "size": 8804196,
+  "version": "1.0.30",
+  "sha256": "a6158d2d4b2b5a5675fddd376bd35204a21c9e645a56584a20b1bbdfbba6a33e",
+  "size": 8848883,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.29.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.30.bin"
   ],
-  "notes": "无边框窗口（自绘最小化/最大化/关闭、任意处拖动、八向缩放），默认窗口 852x520；皇家紫钻整界面专属主题+加载进度窗主题；一份 exe 兼容 Win7~11（Win7/8 首次启动自动装 .NET 4.8 与 WebView2 109）；修最小化恢复后黑屏与已连接状态 3~4 秒才显示的问题；exe 文件名带版本号",
-  "released": "2026-11-12 05:34:28",
-  "asset_name": "ONETAPLauncher-1.0.29.bin",
+  "notes": "启动器自己能从网盘下补丁了：补丁按 99MB 分卷放网盘（飞极盘等），启动器逐卷下载+校验+合并后再打补丁，2.5GB 补丁实测 84~96 秒；顺带修进度条在解压阶段顶到 100% 再掉回 87% 的问题（全程单调）",
+  "released": "2026-11-12 10:20:27",
+  "asset_name": "ONETAPLauncher-1.0.30.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.29.exe"
+  "exe_name": "启动器v1.0.30.exe"
 }
