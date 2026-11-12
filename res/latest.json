@@ -3,7 +3,7 @@
  "channel": "stable",
  "client_version": "1.0.1",
  "min_version": "1.0.0",
- "released": "2026-11-12 10:20:29",
+ "released": "2026-11-12 10:37:46",
  "notes": "壳：启动器 1.0.2 / 下载器 1.0.4。修复浏览器路径转义损坏、profile 改持久目录（Chrome 首启慢）、壳更新强制刷新清单、支持 360极速/QQ/搜狗内核",
  "install_order": [
   "baseline-1.0.0",
