@@ -3,71 +3,14 @@
   "channel": "stable",
   "client_version": "1.0.1",
   "min_version": "1.0.0",
-  "released": "2026-11-12 18:06:35",
+  "released": "2026-11-12 18:09:27",
   "notes": "客户端 1.0.1 整包（133 卷）；老客户端可走 1.0.0→1.0.1 增量补丁",
   "install_order": [
     "baseline-1.0.1",
     "shell-launcher-1.0.32",
-    "shell-downloader-1.0.25"
+    "shell-downloader-1.0.26"
   ],
   "assets": [
-    {
-      "id": "shell-downloader-1.0.25",
-      "kind": "shell",
-      "version": "1.0.25",
-      "total_bytes": 8737416,
-      "total_sha256": "ede79d2cd4d9eab7b07407ccd0047babd4078456509c7d46cd48e868df2bfdfa",
-      "parts": [
-        {
-          "index": 1,
-          "name": "ONETAPDownloader-1.0.25.bin",
-          "size": 8737416,
-          "sha256": "ede79d2cd4d9eab7b07407ccd0047babd4078456509c7d46cd48e868df2bfdfa"
-        }
-      ],
-      "sources": [
-        {
-          "type": "jsdelivr",
-          "weight": 130,
-          "base": "https://testingcf.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "testingcf.jsdelivr.net"
-        },
-        {
-          "type": "jsdelivr",
-          "weight": 125,
-          "base": "https://jsdelivr.b-cdn.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "jsdelivr.b-cdn.net"
-        },
-        {
-          "type": "jsdelivr",
-          "weight": 120,
-          "base": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "gcore.jsdelivr.net"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 100,
-          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 99,
-          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 98,
-          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "github",
-          "weight": 50,
-          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        }
-      ],
-      "released": "2026-11-12 09:44:09",
-      "notes": "支持分卷补丁：补丁按 99MB 分卷放在网盘（飞极盘），下载器逐卷下载+校验+合并后再打补丁，2.6GB 补丁实测 92 秒（约 28MB/s）；其余同 1.0.24（一份 exe 兼容 Win7~11）"
-    },
     {
       "id": "patch-1.0.0-to-1.0.1",
       "kind": "patch",
@@ -1114,6 +1057,63 @@
       ],
       "released": "2026-11-12 18:06:33",
       "notes": "修「界面出来后等十几秒才显示已连接」：改成先探内网IP端点、把域名解析从启动关键路径上摘掉；实测 15.5 秒→1.3 秒。同时补 encodings.idna（缺它时所有域名线路其实都是坏的）"
+    },
+    {
+      "id": "shell-downloader-1.0.26",
+      "kind": "shell",
+      "version": "1.0.26",
+      "total_bytes": 8739296,
+      "total_sha256": "a1810c397ae6f8fc429d6b25156c6b00dea7e690611c3ce48c114443e11dd0ea",
+      "parts": [
+        {
+          "index": 1,
+          "name": "ONETAPDownloader-1.0.26.bin",
+          "size": 8739296,
+          "sha256": "a1810c397ae6f8fc429d6b25156c6b00dea7e690611c3ce48c114443e11dd0ea"
+        }
+      ],
+      "sources": [
+        {
+          "type": "jsdelivr",
+          "weight": 130,
+          "base": "https://testingcf.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "testingcf.jsdelivr.net"
+        },
+        {
+          "type": "jsdelivr",
+          "weight": 125,
+          "base": "https://jsdelivr.b-cdn.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "jsdelivr.b-cdn.net"
+        },
+        {
+          "type": "jsdelivr",
+          "weight": 120,
+          "base": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "gcore.jsdelivr.net"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 100,
+          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 99,
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 98,
+          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "github",
+          "weight": 50,
+          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        }
+      ],
+      "released": "2026-11-12 18:09:22",
+      "notes": "修「远端打开下载器没有任何更新提示」：补 encodings.idna（缺它时所有域名线路都会失败，等于只能连内网，外网玩家永远查不到更新）；同时让统一版壳真正能自更新"
     }
   ]
 }
