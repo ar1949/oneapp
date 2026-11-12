@@ -1,14 +1,14 @@
 {
-  "version": "1.0.25",
-  "sha256": "ede79d2cd4d9eab7b07407ccd0047babd4078456509c7d46cd48e868df2bfdfa",
-  "size": 8737416,
+  "version": "1.0.26",
+  "sha256": "a1810c397ae6f8fc429d6b25156c6b00dea7e690611c3ce48c114443e11dd0ea",
+  "size": 8739296,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.25.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.26.bin"
   ],
-  "notes": "支持分卷补丁：补丁按 99MB 分卷放在网盘（飞极盘），下载器逐卷下载+校验+合并后再打补丁，2.6GB 补丁实测 92 秒（约 28MB/s）；其余同 1.0.24（一份 exe 兼容 Win7~11）",
-  "released": "2026-11-12 09:44:09",
-  "asset_name": "ONETAPDownloader-1.0.25.bin",
+  "notes": "修「远端打开下载器没有任何更新提示」：补 encodings.idna（缺它时所有域名线路都会失败，等于只能连内网，外网玩家永远查不到更新）；同时让统一版壳真正能自更新",
+  "released": "2026-11-12 18:09:22",
+  "asset_name": "ONETAPDownloader-1.0.26.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.25.exe"
+  "exe_name": "下载器v1.0.26.exe"
 }
