@@ -1,14 +1,14 @@
 {
-  "version": "1.0.30",
-  "sha256": "a6158d2d4b2b5a5675fddd376bd35204a21c9e645a56584a20b1bbdfbba6a33e",
-  "size": 8848883,
+  "version": "1.0.31",
+  "sha256": "dab7463e974b595012b218d6b0c8d0af96d36543edfeacd0f354e37e961d6aea",
+  "size": 8849656,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.30.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.31.bin"
   ],
-  "notes": "启动器自己能从网盘下补丁了：补丁按 99MB 分卷放网盘（飞极盘等），启动器逐卷下载+校验+合并后再打补丁，2.5GB 补丁实测 84~96 秒；顺带修进度条在解压阶段顶到 100% 再掉回 87% 的问题（全程单调）",
-  "released": "2026-11-12 10:20:27",
-  "asset_name": "ONETAPLauncher-1.0.30.bin",
+  "notes": "修「双击启动器没反应」：冷启时偶发崩在本地界面服务的域名反解上（旧版实测连启3次崩1次），改成不反解；连启6次全部正常，启动约2.3秒",
+  "released": "2026-11-12 10:53:53",
+  "asset_name": "ONETAPLauncher-1.0.31.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.30.exe"
+  "exe_name": "启动器v1.0.31.exe"
 }
