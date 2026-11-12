@@ -1,14 +1,14 @@
 {
-  "version": "1.0.31",
-  "sha256": "dab7463e974b595012b218d6b0c8d0af96d36543edfeacd0f354e37e961d6aea",
-  "size": 8849656,
+  "version": "1.0.32",
+  "sha256": "e11fe4ad892c7b2e167b281398b37c299821f370100dbd27b66ede4980601daf",
+  "size": 8851024,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.31.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.32.bin"
   ],
-  "notes": "修「双击启动器没反应」：冷启时偶发崩在本地界面服务的域名反解上（旧版实测连启3次崩1次），改成不反解；连启6次全部正常，启动约2.3秒",
-  "released": "2026-11-12 10:53:53",
-  "asset_name": "ONETAPLauncher-1.0.31.bin",
+  "notes": "修「界面出来后等十几秒才显示已连接」：改成先探内网IP端点、把域名解析从启动关键路径上摘掉；实测 15.5 秒→1.3 秒。同时补 encodings.idna（缺它时所有域名线路其实都是坏的）",
+  "released": "2026-11-12 18:06:33",
+  "asset_name": "ONETAPLauncher-1.0.32.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.31.exe"
+  "exe_name": "启动器v1.0.32.exe"
 }
