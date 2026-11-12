@@ -1,14 +1,14 @@
 {
-  "version": "1.0.24",
-  "sha256": "d9390e3b686545c10e3056d056c1cf0bc8e3982b833184202b1ec35627fb0b9a",
-  "size": 8733686,
+  "version": "1.0.25",
+  "sha256": "ede79d2cd4d9eab7b07407ccd0047babd4078456509c7d46cd48e868df2bfdfa",
+  "size": 8737416,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.24.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.25.bin"
   ],
-  "notes": "统一版：一份 exe 兼容 Win7~11（Python 3.8 + pywebview 4.4.1，Win7/8 首次启动自动装 .NET 4.8 与 WebView2 109）；修自更新判据为「有无内嵌后端」",
-  "released": "2026-11-12 06:05:36",
-  "asset_name": "ONETAPDownloader-1.0.24.bin",
+  "notes": "支持分卷补丁：补丁按 99MB 分卷放在网盘（飞极盘），下载器逐卷下载+校验+合并后再打补丁，2.6GB 补丁实测 92 秒（约 28MB/s）；其余同 1.0.24（一份 exe 兼容 Win7~11）",
+  "released": "2026-11-12 09:44:09",
+  "asset_name": "ONETAPDownloader-1.0.25.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.24.exe"
+  "exe_name": "下载器v1.0.25.exe"
 }
