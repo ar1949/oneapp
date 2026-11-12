@@ -3,12 +3,12 @@
   "channel": "stable",
   "client_version": "1.0.0",
   "min_version": "1.0.0",
-  "released": "2026-11-12 06:05:38",
+  "released": "2026-11-12 09:44:11",
   "notes": "壳：启动器 1.0.2 / 下载器 1.0.4。修复浏览器路径转义损坏、profile 改持久目录（Chrome 首启慢）、壳更新强制刷新清单、支持 360极速/QQ/搜狗内核",
   "install_order": [
     "baseline-1.0.0",
     "shell-launcher-1.0.29",
-    "shell-downloader-1.0.24"
+    "shell-downloader-1.0.25"
   ],
   "assets": [
     {
@@ -896,17 +896,17 @@
       "notes": "无边框窗口（自绘最小化/最大化/关闭、任意处拖动、八向缩放），默认窗口 852x520；皇家紫钻整界面专属主题+加载进度窗主题；一份 exe 兼容 Win7~11（Win7/8 首次启动自动装 .NET 4.8 与 WebView2 109）；修最小化恢复后黑屏与已连接状态 3~4 秒才显示的问题；exe 文件名带版本号"
     },
     {
-      "id": "shell-downloader-1.0.24",
+      "id": "shell-downloader-1.0.25",
       "kind": "shell",
-      "version": "1.0.24",
-      "total_bytes": 8733686,
-      "total_sha256": "d9390e3b686545c10e3056d056c1cf0bc8e3982b833184202b1ec35627fb0b9a",
+      "version": "1.0.25",
+      "total_bytes": 8737416,
+      "total_sha256": "ede79d2cd4d9eab7b07407ccd0047babd4078456509c7d46cd48e868df2bfdfa",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPDownloader-1.0.24.bin",
-          "size": 8733686,
-          "sha256": "d9390e3b686545c10e3056d056c1cf0bc8e3982b833184202b1ec35627fb0b9a"
+          "name": "ONETAPDownloader-1.0.25.bin",
+          "size": 8737416,
+          "sha256": "ede79d2cd4d9eab7b07407ccd0047babd4078456509c7d46cd48e868df2bfdfa"
         }
       ],
       "sources": [
@@ -949,8 +949,8 @@
           "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
         }
       ],
-      "released": "2026-11-12 06:05:36",
-      "notes": "统一版：一份 exe 兼容 Win7~11（Python 3.8 + pywebview 4.4.1，Win7/8 首次启动自动装 .NET 4.8 与 WebView2 109）；修自更新判据为「有无内嵌后端」"
+      "released": "2026-11-12 09:44:09",
+      "notes": "支持分卷补丁：补丁按 99MB 分卷放在网盘（飞极盘），下载器逐卷下载+校验+合并后再打补丁，2.6GB 补丁实测 92 秒（约 28MB/s）；其余同 1.0.24（一份 exe 兼容 Win7~11）"
     }
   ]
 }
