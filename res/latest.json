@@ -3,842 +3,15 @@
  "channel": "stable",
  "client_version": "1.0.1",
  "min_version": "1.0.0",
- "released": "2026-11-12 10:54:26",
- "notes": "客户端 1.0.0 → 1.0.1 增量补丁，27 卷 × 99 MiB；分卷在飞极盘",
+ "released": "2026-11-12 17:31:56",
+ "notes": "客户端 1.0.1 整包（133 卷）；老客户端可走 1.0.0→1.0.1 增量补丁",
  "install_order": [
-  "baseline-1.0.0",
+  "baseline-1.0.1",
   "shell-launcher-1.0.31",
   "shell-downloader-1.0.25",
   "patch-1.0.0-to-1.0.1"
  ],
  "assets": [
-  {
-   "id": "baseline-1.0.0",
-   "kind": "baseline",
-   "version": "1.0.0",
-   "total_bytes": 14045565677,
-   "total_sha256": "9b0ec84b99628f185a3f2b24788d64d4eba07d0e049d840e1167e6e0f6394933",
-   "parts": [
-    {
-     "index": 1,
-     "name": "ONETAP_client_1.0.0.zip.part001",
-     "size": 103809024,
-     "sha256": "a93498df5c411d5c174c5e4f3a1ef3d08cbb31accdfe4569fb77f97a06581b57"
-    },
-    {
-     "index": 2,
-     "name": "ONETAP_client_1.0.0.zip.part002",
-     "size": 103809024,
-     "sha256": "56c58defe01c4246bc3e113bc961530f45fbf9f42fb2d17482056d4082257d84"
-    },
-    {
-     "index": 3,
-     "name": "ONETAP_client_1.0.0.zip.part003",
-     "size": 103809024,
-     "sha256": "0a90fef33a943b4001b8f33d0939f83acb4eaee052f9065e3f510f20a0ea9409"
-    },
-    {
-     "index": 4,
-     "name": "ONETAP_client_1.0.0.zip.part004",
-     "size": 103809024,
-     "sha256": "96a696005f66ea3047ab773613948791034b97cfc130a97e9370aea30146e4da"
-    },
-    {
-     "index": 5,
-     "name": "ONETAP_client_1.0.0.zip.part005",
-     "size": 103809024,
-     "sha256": "e10ad987429bb8bec7f92479bafb0ecbc07cf36944253c5f4354859947f5a0f4"
-    },
-    {
-     "index": 6,
-     "name": "ONETAP_client_1.0.0.zip.part006",
-     "size": 103809024,
-     "sha256": "36b4fd85b5033ae601610bea85e0c79f92381b984f26c203e53209bcc9c404a9"
-    },
-    {
-     "index": 7,
-     "name": "ONETAP_client_1.0.0.zip.part007",
-     "size": 103809024,
-     "sha256": "d09ee0c55c955106eb02798b998467f5180b584ab1623a11833d8365364cb573"
-    },
-    {
-     "index": 8,
-     "name": "ONETAP_client_1.0.0.zip.part008",
-     "size": 103809024,
-     "sha256": "3ca0b03255fa9409500eb575a75cb2c0ec9bb709c748b550ad77d5d034cef1cf"
-    },
-    {
-     "index": 9,
-     "name": "ONETAP_client_1.0.0.zip.part009",
-     "size": 103809024,
-     "sha256": "ee16d3a0bf0c47165a20911e316dae0a63f4068e089c56e21f339f65e6056b89"
-    },
-    {
-     "index": 10,
-     "name": "ONETAP_client_1.0.0.zip.part010",
-     "size": 103809024,
-     "sha256": "87c0607323bd3f45825f67e882957a915048034d8f38a1afba0ab96d9832d883"
-    },
-    {
-     "index": 11,
-     "name": "ONETAP_client_1.0.0.zip.part011",
-     "size": 103809024,
-     "sha256": "dfab9fa420b6750572606c311f7fb9e581d4cb5dc20c70213db35f8dbd326998"
-    },
-    {
-     "index": 12,
-     "name": "ONETAP_client_1.0.0.zip.part012",
-     "size": 103809024,
-     "sha256": "f3376cdd11a62155c39e87b19b4f4f2b3049365d213dc8882869f5e17488aa12"
-    },
-    {
-     "index": 13,
-     "name": "ONETAP_client_1.0.0.zip.part013",
-     "size": 103809024,
-     "sha256": "7a1f81045a50362297b90db75df108ab6313f664c67b6b192c710756846c0c81"
-    },
-    {
-     "index": 14,
-     "name": "ONETAP_client_1.0.0.zip.part014",
-     "size": 103809024,
-     "sha256": "a8456a1f70a75f6b609b544dd0287c3d2a7e88dbb94f5eac8931ead87179a7d9"
-    },
-    {
-     "index": 15,
-     "name": "ONETAP_client_1.0.0.zip.part015",
-     "size": 103809024,
-     "sha256": "8fe708765b1e232eb80370b50608fff4c78060386f9fa1a84caf1d1b31c9f302"
-    },
-    {
-     "index": 16,
-     "name": "ONETAP_client_1.0.0.zip.part016",
-     "size": 103809024,
-     "sha256": "b54429d93caa3fb24f4fc79428645bed9d42cb7fcb48a63466cc348de650616f"
-    },
-    {
-     "index": 17,
-     "name": "ONETAP_client_1.0.0.zip.part017",
-     "size": 103809024,
-     "sha256": "424964f41516abe942aeda00daefb63e2b6992eff8954e12cf492714ec227d40"
-    },
-    {
-     "index": 18,
-     "name": "ONETAP_client_1.0.0.zip.part018",
-     "size": 103809024,
-     "sha256": "97d3f8f978e3d77d607f43e8189b91b3f2d05ab299d5c839d2226201586fa220"
-    },
-    {
-     "index": 19,
-     "name": "ONETAP_client_1.0.0.zip.part019",
-     "size": 103809024,
-     "sha256": "048aad3c58fa2c01f8f80aaf384bdec0f6830be36eb4b5cc30ad295211c9d3ef"
-    },
-    {
-     "index": 20,
-     "name": "ONETAP_client_1.0.0.zip.part020",
-     "size": 103809024,
-     "sha256": "92d5883b48af5cd9b2e4b8439ca67a1f79e66847c294c997e162f299df5387d7"
-    },
-    {
-     "index": 21,
-     "name": "ONETAP_client_1.0.0.zip.part021",
-     "size": 103809024,
-     "sha256": "b4dd7771586738b5d8f0b7074fca7cd6445d603ff8fb64dff98dff89c989e32e"
-    },
-    {
-     "index": 22,
-     "name": "ONETAP_client_1.0.0.zip.part022",
-     "size": 103809024,
-     "sha256": "c0d1427eee3f11f73a263ed46d8732bc44b703a771418cd2c54f9cfc04979d1f"
-    },
-    {
-     "index": 23,
-     "name": "ONETAP_client_1.0.0.zip.part023",
-     "size": 103809024,
-     "sha256": "0ce9004f2d3c2f1be42fa42010a8baa85e92200d9d4870a1c551a3b51892325b"
-    },
-    {
-     "index": 24,
-     "name": "ONETAP_client_1.0.0.zip.part024",
-     "size": 103809024,
-     "sha256": "f65d81285ffdafc590ae7c574a392342cddfd5aa6da2b6bcc2f7bfa3a47b151c"
-    },
-    {
-     "index": 25,
-     "name": "ONETAP_client_1.0.0.zip.part025",
-     "size": 103809024,
-     "sha256": "17f0b46ba8d3207ac718dede35e82b5ff040f3ba8fe6edda530e622eb2cd84d3"
-    },
-    {
-     "index": 26,
-     "name": "ONETAP_client_1.0.0.zip.part026",
-     "size": 103809024,
-     "sha256": "43a74ff0117f8487d7f9dd0b926cb7dad02e7d6b69fe0380cbbd050d151d8a94"
-    },
-    {
-     "index": 27,
-     "name": "ONETAP_client_1.0.0.zip.part027",
-     "size": 103809024,
-     "sha256": "a056cd900530e18e42183bf022c8cf5b01f90cb391807d03766617c88bc46620"
-    },
-    {
-     "index": 28,
-     "name": "ONETAP_client_1.0.0.zip.part028",
-     "size": 103809024,
-     "sha256": "13be71bb82329921a3d183ef225ecfacf2ac512e8a082f7a12bef564fefa9d52"
-    },
-    {
-     "index": 29,
-     "name": "ONETAP_client_1.0.0.zip.part029",
-     "size": 103809024,
-     "sha256": "70d3277fadf8edba079e0286cf263fdf9c193082f671b9b618924709d508dafb"
-    },
-    {
-     "index": 30,
-     "name": "ONETAP_client_1.0.0.zip.part030",
-     "size": 103809024,
-     "sha256": "fc746be3316ebbfd4cf41b2cb02b934f07df01fe5847ba8e9c7918a5f67e8858"
-    },
-    {
-     "index": 31,
-     "name": "ONETAP_client_1.0.0.zip.part031",
-     "size": 103809024,
-     "sha256": "791721c14a2c3317e4bd4153fe8a89963f9ce164a94a9d3c80cdfb53dfb2a25b"
-    },
-    {
-     "index": 32,
-     "name": "ONETAP_client_1.0.0.zip.part032",
-     "size": 103809024,
-     "sha256": "e3b76e1da580e0f79a87adf7a2ebd6e582aee56147238ee4586d2c0e2d6c6b54"
-    },
-    {
-     "index": 33,
-     "name": "ONETAP_client_1.0.0.zip.part033",
-     "size": 103809024,
-     "sha256": "716daf50173d77ddbadbdf1e8c0c8a2811bc832e183b1583561e7dcf05331c5a"
-    },
-    {
-     "index": 34,
-     "name": "ONETAP_client_1.0.0.zip.part034",
-     "size": 103809024,
-     "sha256": "52f7b81382c4882f8fff664da8f39b526e2e195d153a5362d6deec818fb2f8b2"
-    },
-    {
-     "index": 35,
-     "name": "ONETAP_client_1.0.0.zip.part035",
-     "size": 103809024,
-     "sha256": "d6813960eaa87027897c5ef5d701bad1a28f2e8a8c0d70a75028b23b664e9511"
-    },
-    {
-     "index": 36,
-     "name": "ONETAP_client_1.0.0.zip.part036",
-     "size": 103809024,
-     "sha256": "199a78bcc6a35631191a1e30af92ce1632ad7e2dcf66891e4ee6e4d25d30d56a"
-    },
-    {
-     "index": 37,
-     "name": "ONETAP_client_1.0.0.zip.part037",
-     "size": 103809024,
-     "sha256": "095d043ea64b200b975ce079dceb0fefc78844cb5c1ead45587be578c9fd86b2"
-    },
-    {
-     "index": 38,
-     "name": "ONETAP_client_1.0.0.zip.part038",
-     "size": 103809024,
-     "sha256": "b84654aab2da059e26a23fb4be02afa6186c51b4752238ddd6566ec3d0fe39d2"
-    },
-    {
-     "index": 39,
-     "name": "ONETAP_client_1.0.0.zip.part039",
-     "size": 103809024,
-     "sha256": "0a1b145c6d1277e06d52674cbee6738eff4d968d6ad9f10eba3ba28bff0aa869"
-    },
-    {
-     "index": 40,
-     "name": "ONETAP_client_1.0.0.zip.part040",
-     "size": 103809024,
-     "sha256": "28213d9465007bd5dccd0661191dd3e7cf4a9be2f6880729ad035b5cef96886c"
-    },
-    {
-     "index": 41,
-     "name": "ONETAP_client_1.0.0.zip.part041",
-     "size": 103809024,
-     "sha256": "803ababe428447df04d1832e971d8fb671882a1220003c6bb2d644f80b0df301"
-    },
-    {
-     "index": 42,
-     "name": "ONETAP_client_1.0.0.zip.part042",
-     "size": 103809024,
-     "sha256": "7cb4345b7ab5f097f1e3cfebdc902f5f2e5c3b72dba747775e95df20f83c3eea"
-    },
-    {
-     "index": 43,
-     "name": "ONETAP_client_1.0.0.zip.part043",
-     "size": 103809024,
-     "sha256": "a49f6eb345fc800a09ee6b80317618aeed37cf244d462b63e4212ff0ca7883aa"
-    },
-    {
-     "index": 44,
-     "name": "ONETAP_client_1.0.0.zip.part044",
-     "size": 103809024,
-     "sha256": "8d9e9797eb70e2165a7d021ad259d34849035dbdd7f2e8a322f1e7099ffa2b66"
-    },
-    {
-     "index": 45,
-     "name": "ONETAP_client_1.0.0.zip.part045",
-     "size": 103809024,
-     "sha256": "e7be52ef7bc9a815a800966229b32d594dab4dcda3028283467a8c917f8e70aa"
-    },
-    {
-     "index": 46,
-     "name": "ONETAP_client_1.0.0.zip.part046",
-     "size": 103809024,
-     "sha256": "552c653dd9cac86c95708bea92f6499acf7bc44026d058117bed27f796479193"
-    },
-    {
-     "index": 47,
-     "name": "ONETAP_client_1.0.0.zip.part047",
-     "size": 103809024,
-     "sha256": "903f74fe60caa00a3b8655f4f07aa0612b8510dde6650501a51c333c873648e5"
-    },
-    {
-     "index": 48,
-     "name": "ONETAP_client_1.0.0.zip.part048",
-     "size": 103809024,
-     "sha256": "93ef240b98524245f7ee18e3f01faf7b540a8d2106af4d76ce79b8df8d9891cc"
-    },
-    {
-     "index": 49,
-     "name": "ONETAP_client_1.0.0.zip.part049",
-     "size": 103809024,
-     "sha256": "8e9faeecaa9f64877f43c737bcb17c4b4a6478fa34b558a7a1a1adb3957be831"
-    },
-    {
-     "index": 50,
-     "name": "ONETAP_client_1.0.0.zip.part050",
-     "size": 103809024,
-     "sha256": "25ce75b41afdd924ec0fe722275b812bf62beb099d4053ef9e98e585fc40f6ad"
-    },
-    {
-     "index": 51,
-     "name": "ONETAP_client_1.0.0.zip.part051",
-     "size": 103809024,
-     "sha256": "85586e14f7c6185f49c328baf5e4ccd40cd516d55318d2657099f8852512e950"
-    },
-    {
-     "index": 52,
-     "name": "ONETAP_client_1.0.0.zip.part052",
-     "size": 103809024,
-     "sha256": "8796dd28f3d89beddcea6da78e04ece38c625b2816f0af6bfa6eb46e986b67c3"
-    },
-    {
-     "index": 53,
-     "name": "ONETAP_client_1.0.0.zip.part053",
-     "size": 103809024,
-     "sha256": "032c49b7294ba4af51b037932b28310218adfe5641d35c80eed62898f2584315"
-    },
-    {
-     "index": 54,
-     "name": "ONETAP_client_1.0.0.zip.part054",
-     "size": 103809024,
-     "sha256": "89f8b2c75489d532efa5ec9d3bd8bb32c89282c0adaf26900aff6749e844b49f"
-    },
-    {
-     "index": 55,
-     "name": "ONETAP_client_1.0.0.zip.part055",
-     "size": 103809024,
-     "sha256": "b1dd880e7b59f44497a7781f19610b6f75cbc01e80ae9843addbe81f69ed7838"
-    },
-    {
-     "index": 56,
-     "name": "ONETAP_client_1.0.0.zip.part056",
-     "size": 103809024,
-     "sha256": "af4eed34723077e36de46e6cd6892c5576096d39d91e8944cc2b5f68f0403d24"
-    },
-    {
-     "index": 57,
-     "name": "ONETAP_client_1.0.0.zip.part057",
-     "size": 103809024,
-     "sha256": "102b266873b6adb14e820985339ef3716afd7799c03575d211a897b7b41aa6b9"
-    },
-    {
-     "index": 58,
-     "name": "ONETAP_client_1.0.0.zip.part058",
-     "size": 103809024,
-     "sha256": "4369badffa3935914413505a3e62820c4808fe902d3fdc76a77e667d6f677e82"
-    },
-    {
-     "index": 59,
-     "name": "ONETAP_client_1.0.0.zip.part059",
-     "size": 103809024,
-     "sha256": "249dccf709719d2db2deaa81e1bf385bbb5f644f5859d70e3c00fc1ced0b5793"
-    },
-    {
-     "index": 60,
-     "name": "ONETAP_client_1.0.0.zip.part060",
-     "size": 103809024,
-     "sha256": "79d879566b10a557395dfe5966bd2628f1ba13d32feee1a4b37ec9832ee4acf2"
-    },
-    {
-     "index": 61,
-     "name": "ONETAP_client_1.0.0.zip.part061",
-     "size": 103809024,
-     "sha256": "8cfd5c6286113464598151463d9af9035af0746d0770df59df10be85a465c70a"
-    },
-    {
-     "index": 62,
-     "name": "ONETAP_client_1.0.0.zip.part062",
-     "size": 103809024,
-     "sha256": "74d0714205fb31eaab168952054a29aa6ffcc8db63bcf92c6644618d61fc12e8"
-    },
-    {
-     "index": 63,
-     "name": "ONETAP_client_1.0.0.zip.part063",
-     "size": 103809024,
-     "sha256": "aabbffe038956b59816d771386421cfc3d0f19c7644db8f4ddbef6aa30f35118"
-    },
-    {
-     "index": 64,
-     "name": "ONETAP_client_1.0.0.zip.part064",
-     "size": 103809024,
-     "sha256": "9cd4130cdd860b451f060c5709b0ba8619a220e8b9dcc2f78c2bf02a2e3e6e19"
-    },
-    {
-     "index": 65,
-     "name": "ONETAP_client_1.0.0.zip.part065",
-     "size": 103809024,
-     "sha256": "4ada6f266fe0e17bb2189672da1946cb553453a4f4dccf60f8a09f509bb56221"
-    },
-    {
-     "index": 66,
-     "name": "ONETAP_client_1.0.0.zip.part066",
-     "size": 103809024,
-     "sha256": "68efb25758035878f0f48074961897d6f8adb2af2675add6aca10f50a8569ee2"
-    },
-    {
-     "index": 67,
-     "name": "ONETAP_client_1.0.0.zip.part067",
-     "size": 103809024,
-     "sha256": "bf1573c6e74062888155e4174a7b0a1d7fdc62c97c4129a3d6c381ded53b4741"
-    },
-    {
-     "index": 68,
-     "name": "ONETAP_client_1.0.0.zip.part068",
-     "size": 103809024,
-     "sha256": "ea62d8f726f8f3abfbb88bfc5e0aab78c567bc2f91f35b20b40c7afd57bbc1b4"
-    },
-    {
-     "index": 69,
-     "name": "ONETAP_client_1.0.0.zip.part069",
-     "size": 103809024,
-     "sha256": "e20be59af421b01df90a786843bdcf18ce8ac21846b9b4069b4413120241e64b"
-    },
-    {
-     "index": 70,
-     "name": "ONETAP_client_1.0.0.zip.part070",
-     "size": 103809024,
-     "sha256": "b9fcb35e75b7620dafbda6194de8f957da66b4d1b3631a7f9e702391cd9abfce"
-    },
-    {
-     "index": 71,
-     "name": "ONETAP_client_1.0.0.zip.part071",
-     "size": 103809024,
-     "sha256": "ec33e80ea17c1919b2811df2e911a4d17e843574a7521e004c281eb5c18e2d59"
-    },
-    {
-     "index": 72,
-     "name": "ONETAP_client_1.0.0.zip.part072",
-     "size": 103809024,
-     "sha256": "f48a2464e7fbbf9b255bb54f0c44929ddc621d512f15eb55e843cc3fc4b74e27"
-    },
-    {
-     "index": 73,
-     "name": "ONETAP_client_1.0.0.zip.part073",
-     "size": 103809024,
-     "sha256": "bf2306c13dcbdcf05b64c1a53e20d3b8b233a1a73861a741d25f9833626b944a"
-    },
-    {
-     "index": 74,
-     "name": "ONETAP_client_1.0.0.zip.part074",
-     "size": 103809024,
-     "sha256": "c90688acdb45b9b0cb0f8b20f31a7e65f967fa9a497c520a3ce4a5e17577ad0f"
-    },
-    {
-     "index": 75,
-     "name": "ONETAP_client_1.0.0.zip.part075",
-     "size": 103809024,
-     "sha256": "4791807b18d6fd2d6a6091dcd3b4f516836fed4de330748ad2032bde0eadc4c9"
-    },
-    {
-     "index": 76,
-     "name": "ONETAP_client_1.0.0.zip.part076",
-     "size": 103809024,
-     "sha256": "96df61182aae061164cca24eb7c91218794cc7c91f6e4cafc723a8f271137389"
-    },
-    {
-     "index": 77,
-     "name": "ONETAP_client_1.0.0.zip.part077",
-     "size": 103809024,
-     "sha256": "c5e3a5375bd28fd27280a605d8e446b19296f6053a1b0ece4d11fa194e5e1b52"
-    },
-    {
-     "index": 78,
-     "name": "ONETAP_client_1.0.0.zip.part078",
-     "size": 103809024,
-     "sha256": "ef8b53651c238812b856084b2c512d923334294654ac3ff9d7669b3accc05ea7"
-    },
-    {
-     "index": 79,
-     "name": "ONETAP_client_1.0.0.zip.part079",
-     "size": 103809024,
-     "sha256": "fc2e67f10588a68f9bd03c046578229546564ccf80fcf00e819994651003bff0"
-    },
-    {
-     "index": 80,
-     "name": "ONETAP_client_1.0.0.zip.part080",
-     "size": 103809024,
-     "sha256": "081282d838eaa4a3dd76053e00f16b36623bcddce8ca8a37b356152f31632e02"
-    },
-    {
-     "index": 81,
-     "name": "ONETAP_client_1.0.0.zip.part081",
-     "size": 103809024,
-     "sha256": "97ea807f3fa6fc2d30af92969c8b5085098bb77c67705abb068bd2cf770fee68"
-    },
-    {
-     "index": 82,
-     "name": "ONETAP_client_1.0.0.zip.part082",
-     "size": 103809024,
-     "sha256": "ddf681d4bc4fa3348addecfc4a7859ca0677b1b4917405d16fdf52ffe07062fc"
-    },
-    {
-     "index": 83,
-     "name": "ONETAP_client_1.0.0.zip.part083",
-     "size": 103809024,
-     "sha256": "5e3204aed5aa0ed819b83e6de226a45fa2b72193a9c94ada8aebde0dcbaab61f"
-    },
-    {
-     "index": 84,
-     "name": "ONETAP_client_1.0.0.zip.part084",
-     "size": 103809024,
-     "sha256": "07f059a1d63f01b4a7c051371d0415e16da083ea98ba7009d32f95d8f753a72a"
-    },
-    {
-     "index": 85,
-     "name": "ONETAP_client_1.0.0.zip.part085",
-     "size": 103809024,
-     "sha256": "b3489c03ddeb9d98e6f0e6351882f0335becc192736e9367b4150119d85583bc"
-    },
-    {
-     "index": 86,
-     "name": "ONETAP_client_1.0.0.zip.part086",
-     "size": 103809024,
-     "sha256": "4ae275d80a4c3cddf71c2af72158abddaa309b72d9386a78e1728678dfe6207a"
-    },
-    {
-     "index": 87,
-     "name": "ONETAP_client_1.0.0.zip.part087",
-     "size": 103809024,
-     "sha256": "6acae69d9a1649e8302bb6b445cb1583ba7c34697a13d775a8a771a38bd34867"
-    },
-    {
-     "index": 88,
-     "name": "ONETAP_client_1.0.0.zip.part088",
-     "size": 103809024,
-     "sha256": "7e71f03fa862f59ee6675cd0b7cf684224648db53b1c44ec6fcc4cf92755453b"
-    },
-    {
-     "index": 89,
-     "name": "ONETAP_client_1.0.0.zip.part089",
-     "size": 103809024,
-     "sha256": "6fde1e8b4a94f11f9184939759e1c3292ebda412b07a8ded9b469b7d312e9d65"
-    },
-    {
-     "index": 90,
-     "name": "ONETAP_client_1.0.0.zip.part090",
-     "size": 103809024,
-     "sha256": "dc214644caade5b048c346b83639c6655305376a6b58f83bdcab6521104a362a"
-    },
-    {
-     "index": 91,
-     "name": "ONETAP_client_1.0.0.zip.part091",
-     "size": 103809024,
-     "sha256": "ac4c9c1104f4f2e59830381e7f3cbfbb98a3f5f012dc0af2f5568ff1f25efaf2"
-    },
-    {
-     "index": 92,
-     "name": "ONETAP_client_1.0.0.zip.part092",
-     "size": 103809024,
-     "sha256": "b10ac456b66510b5ce7575fb781cca46f0b28a16779e067fdc207b55ff2e46cc"
-    },
-    {
-     "index": 93,
-     "name": "ONETAP_client_1.0.0.zip.part093",
-     "size": 103809024,
-     "sha256": "f6075f5b65947858106b8eb9d7a4239078b2fe44f03acfaebb360b21d4dff759"
-    },
-    {
-     "index": 94,
-     "name": "ONETAP_client_1.0.0.zip.part094",
-     "size": 103809024,
-     "sha256": "eb6e5b58b4f11605f3a073a9a319a9ac2a08e4a5d9dd0d8cd45f7a594bdfc2d3"
-    },
-    {
-     "index": 95,
-     "name": "ONETAP_client_1.0.0.zip.part095",
-     "size": 103809024,
-     "sha256": "51a2e725472c082f3458db1b7b21b727fd6e84e4f631e698c042078c737f0409"
-    },
-    {
-     "index": 96,
-     "name": "ONETAP_client_1.0.0.zip.part096",
-     "size": 103809024,
-     "sha256": "976a98318e1eef8eac2bcf23177e4c4dd7119a139c3cfb658f63eb67ae7a231d"
-    },
-    {
-     "index": 97,
-     "name": "ONETAP_client_1.0.0.zip.part097",
-     "size": 103809024,
-     "sha256": "68719422ddc52c8936cbebf7ab2f57e6d37269416f37fb41481a2ae7686ce3aa"
-    },
-    {
-     "index": 98,
-     "name": "ONETAP_client_1.0.0.zip.part098",
-     "size": 103809024,
-     "sha256": "98592a828d49237a731934069f83ed9875df59caf8d51e366cc4859cb4a60671"
-    },
-    {
-     "index": 99,
-     "name": "ONETAP_client_1.0.0.zip.part099",
-     "size": 103809024,
-     "sha256": "2b2dda9f6d135744333d8d8bc51ee721ed4bf41ec1d54ca6004dd380168dc135"
-    },
-    {
-     "index": 100,
-     "name": "ONETAP_client_1.0.0.zip.part100",
-     "size": 103809024,
-     "sha256": "4fc32b2bc9275607c18bb932b74df5ab66db53dcb36ac7e324121e1437b2ac21"
-    },
-    {
-     "index": 101,
-     "name": "ONETAP_client_1.0.0.zip.part101",
-     "size": 103809024,
-     "sha256": "e4fe1137e0df6e383e6d05951266007a386fcebf89e0d18b4c301a8be9bd9bb0"
-    },
-    {
-     "index": 102,
-     "name": "ONETAP_client_1.0.0.zip.part102",
-     "size": 103809024,
-     "sha256": "d6ff329e1462356daa3bf5dba9eb8700484a6184933384a59328fa3eb84e27e6"
-    },
-    {
-     "index": 103,
-     "name": "ONETAP_client_1.0.0.zip.part103",
-     "size": 103809024,
-     "sha256": "e2b259452e4337a5c3a310f55fe603b4d4a854ef55152f106e7f28f5c3f736f6"
-    },
-    {
-     "index": 104,
-     "name": "ONETAP_client_1.0.0.zip.part104",
-     "size": 103809024,
-     "sha256": "ee53166b5bc8b46cce1de268cd87ed00df998e89a4b8ffe28b4e2162f56d4212"
-    },
-    {
-     "index": 105,
-     "name": "ONETAP_client_1.0.0.zip.part105",
-     "size": 103809024,
-     "sha256": "3767b71fd84da3497102a08662caefeaeabda0038c69bb2728b28184c84b3849"
-    },
-    {
-     "index": 106,
-     "name": "ONETAP_client_1.0.0.zip.part106",
-     "size": 103809024,
-     "sha256": "779d491d6aae73b332de3c6001c08068a2729a07d61b9901f780ca7074f654b7"
-    },
-    {
-     "index": 107,
-     "name": "ONETAP_client_1.0.0.zip.part107",
-     "size": 103809024,
-     "sha256": "fd4dfc560cff269c7b128bdcdfe5bec361a5fbbbf03a6b8b3d3de98e7edaea6b"
-    },
-    {
-     "index": 108,
-     "name": "ONETAP_client_1.0.0.zip.part108",
-     "size": 103809024,
-     "sha256": "382660e125b4257fd941a039392a5b4d3ddf88239266dc077d6197f640809b28"
-    },
-    {
-     "index": 109,
-     "name": "ONETAP_client_1.0.0.zip.part109",
-     "size": 103809024,
-     "sha256": "26a34adbaab33fba4760bbc4a13deef59f939ff306b217c90ded8962d7f8c7a2"
-    },
-    {
-     "index": 110,
-     "name": "ONETAP_client_1.0.0.zip.part110",
-     "size": 103809024,
-     "sha256": "5a96792226fa7fda6bf1a5318a76804c022df48c3bdc9f2b0fd167d134f57724"
-    },
-    {
-     "index": 111,
-     "name": "ONETAP_client_1.0.0.zip.part111",
-     "size": 103809024,
-     "sha256": "4479019d458f5bbeff806f6750fb3275138a750c94f8a99e9e9a2b9413326232"
-    },
-    {
-     "index": 112,
-     "name": "ONETAP_client_1.0.0.zip.part112",
-     "size": 103809024,
-     "sha256": "75e3024f59c4062a83b0f276fde7da9d34bbbd768b718ef930878121b5cb16e6"
-    },
-    {
-     "index": 113,
-     "name": "ONETAP_client_1.0.0.zip.part113",
-     "size": 103809024,
-     "sha256": "70901cd640257679e0a58f228e550a82acc6eea29f7fba47518f2d2769e90544"
-    },
-    {
-     "index": 114,
-     "name": "ONETAP_client_1.0.0.zip.part114",
-     "size": 103809024,
-     "sha256": "ac33feaf0ef3b7086cc2d85ad601ce11ec3fd6f12fb091a8c276f05cb39092cc"
-    },
-    {
-     "index": 115,
-     "name": "ONETAP_client_1.0.0.zip.part115",
-     "size": 103809024,
-     "sha256": "303b956cab9330b4a4375118a53b5990dcec8c6aa13dffb8670daafedccabb6c"
-    },
-    {
-     "index": 116,
-     "name": "ONETAP_client_1.0.0.zip.part116",
-     "size": 103809024,
-     "sha256": "7c08663462b40eec15760f436be83324bbb9307e3561d751cbe76a53d14b6a37"
-    },
-    {
-     "index": 117,
-     "name": "ONETAP_client_1.0.0.zip.part117",
-     "size": 103809024,
-     "sha256": "2b3c640c4e8a0fa7edb4d07a96529c025625d1f3fb31527ab0b7aa9ef3bd5e82"
-    },
-    {
-     "index": 118,
-     "name": "ONETAP_client_1.0.0.zip.part118",
-     "size": 103809024,
-     "sha256": "8d8646b0e4fcd761efe18c7bd4aecbf7160b1e3c23e751e77fd58a030dd3e2c2"
-    },
-    {
-     "index": 119,
-     "name": "ONETAP_client_1.0.0.zip.part119",
-     "size": 103809024,
-     "sha256": "bff0db3403f29cf9c8e5279143970919f4edf13dbae114110d63942b4d90db8c"
-    },
-    {
-     "index": 120,
-     "name": "ONETAP_client_1.0.0.zip.part120",
-     "size": 103809024,
-     "sha256": "006b9b601e1f0b39b65acf26652c1722d26b00420251dd51bfbbab2542078872"
-    },
-    {
-     "index": 121,
-     "name": "ONETAP_client_1.0.0.zip.part121",
-     "size": 103809024,
-     "sha256": "7f6b02617ffdf69b0334d9783ef8c74559dc01790c43461ff17525da06c77ef8"
-    },
-    {
-     "index": 122,
-     "name": "ONETAP_client_1.0.0.zip.part122",
-     "size": 103809024,
-     "sha256": "067bf2264e4c1185bd497ca3435310ffcb301065da72701098ce6e132f2b0c6b"
-    },
-    {
-     "index": 123,
-     "name": "ONETAP_client_1.0.0.zip.part123",
-     "size": 103809024,
-     "sha256": "3a4ad461a66a3dd4b70080b8387bf7aabf79dfe45a073cbea75201f173239aae"
-    },
-    {
-     "index": 124,
-     "name": "ONETAP_client_1.0.0.zip.part124",
-     "size": 103809024,
-     "sha256": "4c31d5b63fe5a21dcd3246f4f7fdd384127ae91b9c80578f9466479b8f63638c"
-    },
-    {
-     "index": 125,
-     "name": "ONETAP_client_1.0.0.zip.part125",
-     "size": 103809024,
-     "sha256": "b256bfadb5d6fd746b66b7ddbaa7062822018eee272b3baa4f312ed885910c6e"
-    },
-    {
-     "index": 126,
-     "name": "ONETAP_client_1.0.0.zip.part126",
-     "size": 103809024,
-     "sha256": "88add9bd01f6db7964e18737f08cf5bb2d3b5dfeb7491bcd69a955b99b8322fe"
-    },
-    {
-     "index": 127,
-     "name": "ONETAP_client_1.0.0.zip.part127",
-     "size": 103809024,
-     "sha256": "3190e74976242c6fa9fcfb110bc32e6d173fb7779b7b9fdb21b14061182a0e39"
-    },
-    {
-     "index": 128,
-     "name": "ONETAP_client_1.0.0.zip.part128",
-     "size": 103809024,
-     "sha256": "acc8ffe423d5a7dbf20ccb8c6d8db718b134e4f5b185a667c043a77467ba5ac4"
-    },
-    {
-     "index": 129,
-     "name": "ONETAP_client_1.0.0.zip.part129",
-     "size": 103809024,
-     "sha256": "039b320654d6aeac678f271935fe4916b735c8bf4fd66ca19aa8413e2fe31a8b"
-    },
-    {
-     "index": 130,
-     "name": "ONETAP_client_1.0.0.zip.part130",
-     "size": 103809024,
-     "sha256": "90daa5f6ee5c6ce9a23804cb1d7bb0716837c714daf82f88479ea92f50d5362b"
-    },
-    {
-     "index": 131,
-     "name": "ONETAP_client_1.0.0.zip.part131",
-     "size": 103809024,
-     "sha256": "c3dcadc6a12e5e88698f78cb826f12f5c1a58be7017a1866ff81b6a93324762f"
-    },
-    {
-     "index": 132,
-     "name": "ONETAP_client_1.0.0.zip.part132",
-     "size": 103809024,
-     "sha256": "c61d9600b39c1452bc8e75d33d389dd32fb79c7ef2c0b52dc6ef1a43a10e143d"
-    },
-    {
-     "index": 133,
-     "name": "ONETAP_client_1.0.0.zip.part133",
-     "size": 103809024,
-     "sha256": "f696275a2703fd54a472fe6002fab35d26d38ec61238ebe39bac49e9f1dc8a50"
-    },
-    {
-     "index": 134,
-     "name": "ONETAP_client_1.0.0.zip.part134",
-     "size": 103809024,
-     "sha256": "4143aa0faf597721b3a6e1b00e3503a0914bc4e838d036eb311a96601ff93cce"
-    },
-    {
-     "index": 135,
-     "name": "ONETAP_client_1.0.0.zip.part135",
-     "size": 103809024,
-     "sha256": "ca8491491c93bdcaa093ae6ed6d1565173152a14805fa96ee4db07bb14924f08"
-    },
-    {
-     "index": 136,
-     "name": "ONETAP_client_1.0.0.zip.part136",
-     "size": 31347437,
-     "sha256": "b4e1255322de1b9601cfae9698414fa8208dca1f480557b583f9a6c70de883ab"
-    }
-   ],
-   "sources": [],
-   "sources_note": "真实下载源在 res/sources.enc（加密），本字段由客户端解密后覆盖"
-  },
   {
    "id": "shell-downloader-1.0.25",
    "kind": "shell",
@@ -1132,6 +305,816 @@
     "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAP_patch_1.0.0_to_1.0.1.json"
    ],
    "notes": "客户端 1.0.0 → 1.0.1 增量补丁，27 卷 × 99 MiB；分卷在飞极盘"
+  },
+  {
+   "id": "baseline-1.0.1",
+   "kind": "baseline",
+   "version": "1.0.1",
+   "name": "ONETAP_client_1.0.1.zip",
+   "parts": [
+    {
+     "index": 1,
+     "name": "ONETAP_client_1.0.1.zip.part001",
+     "size": 103809024,
+     "sha256": "7d604ac280c0e68e835e5bf67dd2fd9bd52b937459b643cd9794bcf848b61e60"
+    },
+    {
+     "index": 2,
+     "name": "ONETAP_client_1.0.1.zip.part002",
+     "size": 103809024,
+     "sha256": "6fd24120a7d836c55527423ee9669cce97acb24784176be3c8f1ab7428e82f78"
+    },
+    {
+     "index": 3,
+     "name": "ONETAP_client_1.0.1.zip.part003",
+     "size": 103809024,
+     "sha256": "eafeb3966b155438040af726664b3efe747d2b25f71315f8aba2dbf2b66251eb"
+    },
+    {
+     "index": 4,
+     "name": "ONETAP_client_1.0.1.zip.part004",
+     "size": 103809024,
+     "sha256": "3e97425f3844fcf824619c11e385322ffb8bad89461185c6025b7a6ae6f62428"
+    },
+    {
+     "index": 5,
+     "name": "ONETAP_client_1.0.1.zip.part005",
+     "size": 103809024,
+     "sha256": "cd705f87fb53d510b7482c7b5bfa0bd1b3b18014896859212e89f85af7c7d26e"
+    },
+    {
+     "index": 6,
+     "name": "ONETAP_client_1.0.1.zip.part006",
+     "size": 103809024,
+     "sha256": "277ff976144c54572830fed947ccc5e6343123d65f873c000a49b1b3135620e0"
+    },
+    {
+     "index": 7,
+     "name": "ONETAP_client_1.0.1.zip.part007",
+     "size": 103809024,
+     "sha256": "e5f61839d99a13d987ba14cafed09f452b6d3f3533c6f9dcfa30df76e4e09d86"
+    },
+    {
+     "index": 8,
+     "name": "ONETAP_client_1.0.1.zip.part008",
+     "size": 103809024,
+     "sha256": "ebd31335c195a34a3474dea6d4800769208a42d58693216995fc76e4d24b368e"
+    },
+    {
+     "index": 9,
+     "name": "ONETAP_client_1.0.1.zip.part009",
+     "size": 103809024,
+     "sha256": "b5973992a5790ebc8dc26d78c6591394e6174a06dddb9f2bed656525721173d3"
+    },
+    {
+     "index": 10,
+     "name": "ONETAP_client_1.0.1.zip.part010",
+     "size": 103809024,
+     "sha256": "4be4daab9db1d9738b13c30309a8d6eb802ea9cb50bae667491326b3094b751d"
+    },
+    {
+     "index": 11,
+     "name": "ONETAP_client_1.0.1.zip.part011",
+     "size": 103809024,
+     "sha256": "fe6c8c6f1c5ad47b19ce14384c4507462c89f79ea8c90213b55fcb00597dc964"
+    },
+    {
+     "index": 12,
+     "name": "ONETAP_client_1.0.1.zip.part012",
+     "size": 103809024,
+     "sha256": "972de0c083e1debcd8c3ea9ca7df82c6ce676af6c707f8e30b23ada4d5d7e185"
+    },
+    {
+     "index": 13,
+     "name": "ONETAP_client_1.0.1.zip.part013",
+     "size": 103809024,
+     "sha256": "64c28f524f3bcd5ea052121f750a3a351bea1066ffc4cc6e2fa7a404415620dd"
+    },
+    {
+     "index": 14,
+     "name": "ONETAP_client_1.0.1.zip.part014",
+     "size": 103809024,
+     "sha256": "e81674409688563967ff06b1683c50930468b9670b1b7b4eb373e0d2e085cb9b"
+    },
+    {
+     "index": 15,
+     "name": "ONETAP_client_1.0.1.zip.part015",
+     "size": 103809024,
+     "sha256": "438409156de8194d10b7dcd3e4baeb45939f0cd257cb98242d6e0d7d7ac24990"
+    },
+    {
+     "index": 16,
+     "name": "ONETAP_client_1.0.1.zip.part016",
+     "size": 103809024,
+     "sha256": "6390c2c00a2c3c7bef72d4c94226b4c1d52fdb1804c40cee44574f0a3c9b59fe"
+    },
+    {
+     "index": 17,
+     "name": "ONETAP_client_1.0.1.zip.part017",
+     "size": 103809024,
+     "sha256": "be7e57e273f9ced518df2c82801da29f39b647455c47305a0fc893638e23adc3"
+    },
+    {
+     "index": 18,
+     "name": "ONETAP_client_1.0.1.zip.part018",
+     "size": 103809024,
+     "sha256": "b7ac73d528b501d1ee7530c764cc205800218f4143f2ad290e0bf016cf57ecb3"
+    },
+    {
+     "index": 19,
+     "name": "ONETAP_client_1.0.1.zip.part019",
+     "size": 103809024,
+     "sha256": "24c0b6f6ab66f658247f893f3f15a23b3fbce5e319cae0892005370407f16813"
+    },
+    {
+     "index": 20,
+     "name": "ONETAP_client_1.0.1.zip.part020",
+     "size": 103809024,
+     "sha256": "96da9e780414f55bd741219900e5f61a9b37e193d7aa6a7d4cae475a015f891e"
+    },
+    {
+     "index": 21,
+     "name": "ONETAP_client_1.0.1.zip.part021",
+     "size": 103809024,
+     "sha256": "edcd86a19424784c0cdf9282a5d4b4da6f9d046a326fe6a419e0ed3fc3d37796"
+    },
+    {
+     "index": 22,
+     "name": "ONETAP_client_1.0.1.zip.part022",
+     "size": 103809024,
+     "sha256": "90ef89676d725232c89f046018ec57b5e6272de15ee24fa84b30ee4695009f71"
+    },
+    {
+     "index": 23,
+     "name": "ONETAP_client_1.0.1.zip.part023",
+     "size": 103809024,
+     "sha256": "e5d4ddda5c98b60650299983c29409407291af9c319e853b46dc068b62499f39"
+    },
+    {
+     "index": 24,
+     "name": "ONETAP_client_1.0.1.zip.part024",
+     "size": 103809024,
+     "sha256": "1320aa9cf818d33e6f61b57b5e5957ec61f2dc20d3fbfea142bba1699d650634"
+    },
+    {
+     "index": 25,
+     "name": "ONETAP_client_1.0.1.zip.part025",
+     "size": 103809024,
+     "sha256": "34a08297899653aed0d0a11eed88ecd3b2da0970f6e2b02d62f20ef8d1697ce4"
+    },
+    {
+     "index": 26,
+     "name": "ONETAP_client_1.0.1.zip.part026",
+     "size": 103809024,
+     "sha256": "d67b8ebc2892b664d9188fe675c6ecc4ec787845cb173c749a71d0eb776fea74"
+    },
+    {
+     "index": 27,
+     "name": "ONETAP_client_1.0.1.zip.part027",
+     "size": 103809024,
+     "sha256": "1b0f155d2ec64ecc67f119f75b51395aac647b67afe60f9eff1acbb0da2398ab"
+    },
+    {
+     "index": 28,
+     "name": "ONETAP_client_1.0.1.zip.part028",
+     "size": 103809024,
+     "sha256": "eb9ec935d4893505d53bfa83bfd5f1a9651b6ade5f99357ceae55b66c8938ef1"
+    },
+    {
+     "index": 29,
+     "name": "ONETAP_client_1.0.1.zip.part029",
+     "size": 103809024,
+     "sha256": "de533d6a6a5921988fbcbe344812a9745202b6a657611b356b44bd710fa198fb"
+    },
+    {
+     "index": 30,
+     "name": "ONETAP_client_1.0.1.zip.part030",
+     "size": 103809024,
+     "sha256": "6aeb48b4fb59199fddbeb2c2e83521e60e363b902fac0ce2606b81b22f1e9993"
+    },
+    {
+     "index": 31,
+     "name": "ONETAP_client_1.0.1.zip.part031",
+     "size": 103809024,
+     "sha256": "da3b2d82732d15db48a9ec2262b93d672e0370a75dd6368162d9696173dd6a34"
+    },
+    {
+     "index": 32,
+     "name": "ONETAP_client_1.0.1.zip.part032",
+     "size": 103809024,
+     "sha256": "5f7af685653265f2682107256cd75d6128c4e89e9589efb7130ef00c5b0e1a62"
+    },
+    {
+     "index": 33,
+     "name": "ONETAP_client_1.0.1.zip.part033",
+     "size": 103809024,
+     "sha256": "4250258b9b86d066704cf886dd96bb556112356fd526bb38cda8daec196846c7"
+    },
+    {
+     "index": 34,
+     "name": "ONETAP_client_1.0.1.zip.part034",
+     "size": 103809024,
+     "sha256": "d629a059bd31625d545f49bd0118df6b77b2433d034ca203c19d57d0345c30fb"
+    },
+    {
+     "index": 35,
+     "name": "ONETAP_client_1.0.1.zip.part035",
+     "size": 103809024,
+     "sha256": "a8cabaa6f88efc422879ea885c40c8913f259cc7e193333d0e5324944e62d8eb"
+    },
+    {
+     "index": 36,
+     "name": "ONETAP_client_1.0.1.zip.part036",
+     "size": 103809024,
+     "sha256": "a178b0ce118853b9fa5dd13628419a922899016fe0aa44486b2698121e3afa1a"
+    },
+    {
+     "index": 37,
+     "name": "ONETAP_client_1.0.1.zip.part037",
+     "size": 103809024,
+     "sha256": "22666c1e859a2e9d9da3e6dc842941a22f8326bea7def68f5559177317e08909"
+    },
+    {
+     "index": 38,
+     "name": "ONETAP_client_1.0.1.zip.part038",
+     "size": 103809024,
+     "sha256": "009297ab37e9da1db72d99434764cc3cd72f70922438a87ea4aca91a70dda768"
+    },
+    {
+     "index": 39,
+     "name": "ONETAP_client_1.0.1.zip.part039",
+     "size": 103809024,
+     "sha256": "df4d06a41da8ee165fe44fc75bd5540436f01e1d6fadbb22837b7fccf7726a14"
+    },
+    {
+     "index": 40,
+     "name": "ONETAP_client_1.0.1.zip.part040",
+     "size": 103809024,
+     "sha256": "c5aa4e3f71e6e547ab02114f240ae0add0fb46e3493000d2291e1857ce724a90"
+    },
+    {
+     "index": 41,
+     "name": "ONETAP_client_1.0.1.zip.part041",
+     "size": 103809024,
+     "sha256": "7810ae01dee24b64046784cd4c230820a43faf6bc0a58e81fd147e8c8fe05047"
+    },
+    {
+     "index": 42,
+     "name": "ONETAP_client_1.0.1.zip.part042",
+     "size": 103809024,
+     "sha256": "ba2e45b7fd6fedd65d4206c3893e227b3c4fa9cebd24d766270cbf1de2a94934"
+    },
+    {
+     "index": 43,
+     "name": "ONETAP_client_1.0.1.zip.part043",
+     "size": 103809024,
+     "sha256": "2c798648a9856bdba4524fea6276a86d0279733ddad7dd9aad7af4ba100eb5db"
+    },
+    {
+     "index": 44,
+     "name": "ONETAP_client_1.0.1.zip.part044",
+     "size": 103809024,
+     "sha256": "2fc479879115d8e9109da229512b0af6d0e9605a952778d353a058e3a7196537"
+    },
+    {
+     "index": 45,
+     "name": "ONETAP_client_1.0.1.zip.part045",
+     "size": 103809024,
+     "sha256": "ac7e4201751db69cfd96875d44de4e8bf6f63121081deaa8b7270c38c9f13abd"
+    },
+    {
+     "index": 46,
+     "name": "ONETAP_client_1.0.1.zip.part046",
+     "size": 103809024,
+     "sha256": "c47a43a483bf1da8f906f2442722e22304ff47d9df4ddf177bfda819757dd4cd"
+    },
+    {
+     "index": 47,
+     "name": "ONETAP_client_1.0.1.zip.part047",
+     "size": 103809024,
+     "sha256": "13c78602cc06c27cd1c63fbc4859901de4fcb5dd0a9fc4d1cdb5d35833be6c68"
+    },
+    {
+     "index": 48,
+     "name": "ONETAP_client_1.0.1.zip.part048",
+     "size": 103809024,
+     "sha256": "861d8eaf4ba5e70c4600c3c2fddb170fbaf2dc1af0f618a5a96431daa7ddf16a"
+    },
+    {
+     "index": 49,
+     "name": "ONETAP_client_1.0.1.zip.part049",
+     "size": 103809024,
+     "sha256": "92d8658665c63e581da6498d832a8f056f5c83c851c8c8e40074a1dd87b541c9"
+    },
+    {
+     "index": 50,
+     "name": "ONETAP_client_1.0.1.zip.part050",
+     "size": 103809024,
+     "sha256": "7bc395b4e3a1fc71e1652280806d83750c302ab3829ab4852ac2ecbb1404c46e"
+    },
+    {
+     "index": 51,
+     "name": "ONETAP_client_1.0.1.zip.part051",
+     "size": 103809024,
+     "sha256": "b970a7615e4a713273f2eaf4ca312bfd27c1baf9aa9067e96ca6b52d025b72c5"
+    },
+    {
+     "index": 52,
+     "name": "ONETAP_client_1.0.1.zip.part052",
+     "size": 103809024,
+     "sha256": "aaa0859270cb8b8b3d8e7a13820ae8b6455cffa1f5c0ad4b254fa3ca825f972f"
+    },
+    {
+     "index": 53,
+     "name": "ONETAP_client_1.0.1.zip.part053",
+     "size": 103809024,
+     "sha256": "2bb181c664215401a818d41a418d27a650fcef0f114e67ec0d1f512f13dc3927"
+    },
+    {
+     "index": 54,
+     "name": "ONETAP_client_1.0.1.zip.part054",
+     "size": 103809024,
+     "sha256": "ce1dd0e4bae2a72c044836b1f84be369556c0d12b8830e27c8638d0d791f0709"
+    },
+    {
+     "index": 55,
+     "name": "ONETAP_client_1.0.1.zip.part055",
+     "size": 103809024,
+     "sha256": "9d7b28e98bdc85871884e677d71e2b3f588b15c9a7d8a2ae688dee2ca1ebbdc3"
+    },
+    {
+     "index": 56,
+     "name": "ONETAP_client_1.0.1.zip.part056",
+     "size": 103809024,
+     "sha256": "ab8067f35b0e6e29dfaf5e1474a3865cd162cb621085fcbee6f09719f13b79b8"
+    },
+    {
+     "index": 57,
+     "name": "ONETAP_client_1.0.1.zip.part057",
+     "size": 103809024,
+     "sha256": "80b6bca658202e1e4bcc4929e0703e60e7c035ba5f44eda32478ed782d9a7a53"
+    },
+    {
+     "index": 58,
+     "name": "ONETAP_client_1.0.1.zip.part058",
+     "size": 103809024,
+     "sha256": "96b2d3e0877615193b5306df1d5e0271e4592ef32686ba84c9da216ff48646e2"
+    },
+    {
+     "index": 59,
+     "name": "ONETAP_client_1.0.1.zip.part059",
+     "size": 103809024,
+     "sha256": "cf785e8b1bd7ee8042d81ae4444cdd5f126922a652ee0527cf1926b0a891ecf1"
+    },
+    {
+     "index": 60,
+     "name": "ONETAP_client_1.0.1.zip.part060",
+     "size": 103809024,
+     "sha256": "f1847831ff44a02f888637caab1945e0b58583754cf7a3bb05e9f55b4740896a"
+    },
+    {
+     "index": 61,
+     "name": "ONETAP_client_1.0.1.zip.part061",
+     "size": 103809024,
+     "sha256": "39901fb99ede9c717b8631cdf12a469c7e41b5e2e9f93b7fb9933f907d799875"
+    },
+    {
+     "index": 62,
+     "name": "ONETAP_client_1.0.1.zip.part062",
+     "size": 103809024,
+     "sha256": "b8025a3ed4dd4a379084955a5297e5ab655f8edfffd2425ad7532ba02d8f56ba"
+    },
+    {
+     "index": 63,
+     "name": "ONETAP_client_1.0.1.zip.part063",
+     "size": 103809024,
+     "sha256": "e07c3a14a3c5e0ffb34b99153503ff0174e6a4efedafd0d73d8d9d13470b2863"
+    },
+    {
+     "index": 64,
+     "name": "ONETAP_client_1.0.1.zip.part064",
+     "size": 103809024,
+     "sha256": "cabea6c19e46522fbfeda20510ddf372d33919f35fb2aa03262a8f9cf03bb273"
+    },
+    {
+     "index": 65,
+     "name": "ONETAP_client_1.0.1.zip.part065",
+     "size": 103809024,
+     "sha256": "9a66dfc208563fe513e011526144aa473fc5e7c7a1419bb9316d1699892d1fb6"
+    },
+    {
+     "index": 66,
+     "name": "ONETAP_client_1.0.1.zip.part066",
+     "size": 103809024,
+     "sha256": "be2dadafbdb58c9115d8eb740646375d1f339af10b671fcdef08c0415e3b647e"
+    },
+    {
+     "index": 67,
+     "name": "ONETAP_client_1.0.1.zip.part067",
+     "size": 103809024,
+     "sha256": "5c846f530764131e962a673037379b1b991a6977839edbe34c1fab56641c4627"
+    },
+    {
+     "index": 68,
+     "name": "ONETAP_client_1.0.1.zip.part068",
+     "size": 103809024,
+     "sha256": "b6f6a473b67e550677d8d011eeeaf1e2da75c0e68acbc135a81d434279a58215"
+    },
+    {
+     "index": 69,
+     "name": "ONETAP_client_1.0.1.zip.part069",
+     "size": 103809024,
+     "sha256": "a667cf8521ff82007356996d5f633787afb29ebe6661e097062ab2f39ca16298"
+    },
+    {
+     "index": 70,
+     "name": "ONETAP_client_1.0.1.zip.part070",
+     "size": 103809024,
+     "sha256": "e05658808f8ad21f0b42176515092a3e306e0b0679100fa68da5cfa4463db008"
+    },
+    {
+     "index": 71,
+     "name": "ONETAP_client_1.0.1.zip.part071",
+     "size": 103809024,
+     "sha256": "05db92a291af7926c14ecf0654d38c80906a60b677e6a68ea8e6c69478a1ac07"
+    },
+    {
+     "index": 72,
+     "name": "ONETAP_client_1.0.1.zip.part072",
+     "size": 103809024,
+     "sha256": "80d725c1a5804a9cf31d40f3a6b3909ffd4eed503049d9a04667229cd6a82198"
+    },
+    {
+     "index": 73,
+     "name": "ONETAP_client_1.0.1.zip.part073",
+     "size": 103809024,
+     "sha256": "7286829179e206fa3b23273136afb8125ccfddd87096e4f8ecd93dce0ca12f00"
+    },
+    {
+     "index": 74,
+     "name": "ONETAP_client_1.0.1.zip.part074",
+     "size": 103809024,
+     "sha256": "a052c24faa28870ca6afc1996032532ce2171ab8f2f990e1432fea4a917da3bd"
+    },
+    {
+     "index": 75,
+     "name": "ONETAP_client_1.0.1.zip.part075",
+     "size": 103809024,
+     "sha256": "119d5c0eeae2282a84443564a9c7f440af5a65fb9d10d5dece47900d8e7898e8"
+    },
+    {
+     "index": 76,
+     "name": "ONETAP_client_1.0.1.zip.part076",
+     "size": 103809024,
+     "sha256": "25f5aaf41cbda2c61ad90b24ed0ac400473aebc00c73cfaccf6220a7d01d0c97"
+    },
+    {
+     "index": 77,
+     "name": "ONETAP_client_1.0.1.zip.part077",
+     "size": 103809024,
+     "sha256": "fa54e7dbe782d748716c3fe37bd49a9d134afaab7ae4fd8c38807035ee27836b"
+    },
+    {
+     "index": 78,
+     "name": "ONETAP_client_1.0.1.zip.part078",
+     "size": 103809024,
+     "sha256": "b5adb7e8de1ac4df00d3be0ae671032acc0fe9af08c87a293e1689f59f113367"
+    },
+    {
+     "index": 79,
+     "name": "ONETAP_client_1.0.1.zip.part079",
+     "size": 103809024,
+     "sha256": "56cbbc628756c5b3021c3e526f4c210e4a3f0c255f039711e36e38e65bf46226"
+    },
+    {
+     "index": 80,
+     "name": "ONETAP_client_1.0.1.zip.part080",
+     "size": 103809024,
+     "sha256": "0bd623b94d47e34becaa3e62f583184295c7ef1f18ef97d3127005bb7492be99"
+    },
+    {
+     "index": 81,
+     "name": "ONETAP_client_1.0.1.zip.part081",
+     "size": 103809024,
+     "sha256": "1a3ef82968b2a0b74474778e30dee18f11c91f47ecaeef3f28cf65595959aa98"
+    },
+    {
+     "index": 82,
+     "name": "ONETAP_client_1.0.1.zip.part082",
+     "size": 103809024,
+     "sha256": "778ca36651d3e499ffbed11df8d5478b832e548df2fba78dd79947d3af153cfd"
+    },
+    {
+     "index": 83,
+     "name": "ONETAP_client_1.0.1.zip.part083",
+     "size": 103809024,
+     "sha256": "18db45de6c28430b9bf54f11786e6b9e6b85fa9c77ab19a666b48a912bca3801"
+    },
+    {
+     "index": 84,
+     "name": "ONETAP_client_1.0.1.zip.part084",
+     "size": 103809024,
+     "sha256": "e7a3e02496f9b575668fb6d4a2b5a5d6f99206b20ba9ffd90babfc285942a70c"
+    },
+    {
+     "index": 85,
+     "name": "ONETAP_client_1.0.1.zip.part085",
+     "size": 103809024,
+     "sha256": "d2f990002767b1c57830afab4b0c870ca1b50dfc8cbcdc5a42200c9e6e587105"
+    },
+    {
+     "index": 86,
+     "name": "ONETAP_client_1.0.1.zip.part086",
+     "size": 103809024,
+     "sha256": "9d0e01f243df94e9de577781250b0fd089f790869e84596676c4d38f82c001c8"
+    },
+    {
+     "index": 87,
+     "name": "ONETAP_client_1.0.1.zip.part087",
+     "size": 103809024,
+     "sha256": "334efb85e43a04d02881d9939467a700277b746a4fb7b4c8c28e9feeb2550e0f"
+    },
+    {
+     "index": 88,
+     "name": "ONETAP_client_1.0.1.zip.part088",
+     "size": 103809024,
+     "sha256": "b2f46a167d08add6041d561479a9dc2ebd90166dc67eaf6bc0cb0806fe16231c"
+    },
+    {
+     "index": 89,
+     "name": "ONETAP_client_1.0.1.zip.part089",
+     "size": 103809024,
+     "sha256": "0c1584b4bddea27bb18c223fe469ae02d9aee02456343cc624d57c744581dbcb"
+    },
+    {
+     "index": 90,
+     "name": "ONETAP_client_1.0.1.zip.part090",
+     "size": 103809024,
+     "sha256": "37d5eeffb72d2eef6715275038cc20b6843ceed8c81c1b339a7f6223deaf57ac"
+    },
+    {
+     "index": 91,
+     "name": "ONETAP_client_1.0.1.zip.part091",
+     "size": 103809024,
+     "sha256": "5672c039372937c9fa6f03e689327dd9486ac08949be05bab772ee899d3fffa0"
+    },
+    {
+     "index": 92,
+     "name": "ONETAP_client_1.0.1.zip.part092",
+     "size": 103809024,
+     "sha256": "09691ef24ed232fbb255379fb09e1a41c1523fb1ec2629020cf0af9086ca1453"
+    },
+    {
+     "index": 93,
+     "name": "ONETAP_client_1.0.1.zip.part093",
+     "size": 103809024,
+     "sha256": "e80faff4453d79169ffa283646ce90120955dbc69a998af88eaf972fa192b2c3"
+    },
+    {
+     "index": 94,
+     "name": "ONETAP_client_1.0.1.zip.part094",
+     "size": 103809024,
+     "sha256": "6436226d3d356a24e87089ea9f467d0a507779370bd4ea6544e63080e34843f7"
+    },
+    {
+     "index": 95,
+     "name": "ONETAP_client_1.0.1.zip.part095",
+     "size": 103809024,
+     "sha256": "655e72240308c0340226b8bf3ccdd81e49b06822a09c0753e5d21527b1c15b9b"
+    },
+    {
+     "index": 96,
+     "name": "ONETAP_client_1.0.1.zip.part096",
+     "size": 103809024,
+     "sha256": "c70850b6192d00f6880faf74991b6634a3951a05871f02071c6afe1c1f6b7dc0"
+    },
+    {
+     "index": 97,
+     "name": "ONETAP_client_1.0.1.zip.part097",
+     "size": 103809024,
+     "sha256": "ff52aafba5105ddd6961b279f69232a8a7d80cdde114b836b6ad2f325330bd2b"
+    },
+    {
+     "index": 98,
+     "name": "ONETAP_client_1.0.1.zip.part098",
+     "size": 103809024,
+     "sha256": "f612f1e8ce6a3123580a903a5c292b0733221105b3b237445907184cb9658983"
+    },
+    {
+     "index": 99,
+     "name": "ONETAP_client_1.0.1.zip.part099",
+     "size": 103809024,
+     "sha256": "71d11f3d87fb1f386bbacd8c02117668e0201418b0c05f19d8692927a560d9bf"
+    },
+    {
+     "index": 100,
+     "name": "ONETAP_client_1.0.1.zip.part100",
+     "size": 103809024,
+     "sha256": "cbebdbe6bc0809bfb1fbf17306c6e3809433f37cf2b57754a57d1d54ce69ca24"
+    },
+    {
+     "index": 101,
+     "name": "ONETAP_client_1.0.1.zip.part101",
+     "size": 103809024,
+     "sha256": "1d2a22d840b9c383592b04d22da401e10dcd0b97c347c3371f9fb8471e7b77dc"
+    },
+    {
+     "index": 102,
+     "name": "ONETAP_client_1.0.1.zip.part102",
+     "size": 103809024,
+     "sha256": "36a0b95ae21be4399114a418225057799adabc8fabbc800512581d13513aaf77"
+    },
+    {
+     "index": 103,
+     "name": "ONETAP_client_1.0.1.zip.part103",
+     "size": 103809024,
+     "sha256": "1c69665f4751b04b69c4ebca86dcc888db3f1aa0e5aadfdcc25724d91f6d5182"
+    },
+    {
+     "index": 104,
+     "name": "ONETAP_client_1.0.1.zip.part104",
+     "size": 103809024,
+     "sha256": "7e9d0e0d9fe692c8a573283c6f0e13cdcc8d6c7e8ff74f1593756b5af686b1dd"
+    },
+    {
+     "index": 105,
+     "name": "ONETAP_client_1.0.1.zip.part105",
+     "size": 103809024,
+     "sha256": "36cc8f639649718b0a4c5c572119ca5573fcdd05e74dd3705df154575b72edf0"
+    },
+    {
+     "index": 106,
+     "name": "ONETAP_client_1.0.1.zip.part106",
+     "size": 103809024,
+     "sha256": "d9d578eea0998350688642b8751150daa04eade551cf4feadac790555190711e"
+    },
+    {
+     "index": 107,
+     "name": "ONETAP_client_1.0.1.zip.part107",
+     "size": 103809024,
+     "sha256": "420ff8f3e9cb30f8a77def124655de6093f5c7a3d817ebcca0102434aaa8ee87"
+    },
+    {
+     "index": 108,
+     "name": "ONETAP_client_1.0.1.zip.part108",
+     "size": 103809024,
+     "sha256": "8cd632d97160c1d3f1ba03714732432c64bc89eb8290d99aa1ef4658849d8b3b"
+    },
+    {
+     "index": 109,
+     "name": "ONETAP_client_1.0.1.zip.part109",
+     "size": 103809024,
+     "sha256": "5513fbb7d1683e29e6d3e992d07c8d38defff545816119665b8e90161e496a7f"
+    },
+    {
+     "index": 110,
+     "name": "ONETAP_client_1.0.1.zip.part110",
+     "size": 103809024,
+     "sha256": "2bcc90ebcdeadb9404d9cff266abfc38a2adf54e6803279141ebdc2d937a0298"
+    },
+    {
+     "index": 111,
+     "name": "ONETAP_client_1.0.1.zip.part111",
+     "size": 103809024,
+     "sha256": "c2b74f43a0e0d17fdc99f29762fc9f921040b0e96ddeb23a0bc66f88301dfff0"
+    },
+    {
+     "index": 112,
+     "name": "ONETAP_client_1.0.1.zip.part112",
+     "size": 103809024,
+     "sha256": "6234195211e61ef6f3fee6a8a16a90a43ae0b4c3ac161cd1973943bf4576da5d"
+    },
+    {
+     "index": 113,
+     "name": "ONETAP_client_1.0.1.zip.part113",
+     "size": 103809024,
+     "sha256": "fb0eb38c3fbad3d78651fd28ba8228efee340d96581db0d92ca3a8fe323e861d"
+    },
+    {
+     "index": 114,
+     "name": "ONETAP_client_1.0.1.zip.part114",
+     "size": 103809024,
+     "sha256": "a493458bf31c5747ba6962a337539dd802eebe67404a82396c2acd7ac6c7e4ba"
+    },
+    {
+     "index": 115,
+     "name": "ONETAP_client_1.0.1.zip.part115",
+     "size": 103809024,
+     "sha256": "6e3eb8948fd16cf7e42e9ce9540764e0be0dd6a4c3006a20019cf4972072ea15"
+    },
+    {
+     "index": 116,
+     "name": "ONETAP_client_1.0.1.zip.part116",
+     "size": 103809024,
+     "sha256": "79bec4b9e2ebf4ae01e98ea7c6e1209148f6c813bd40e1825337340dc9130c97"
+    },
+    {
+     "index": 117,
+     "name": "ONETAP_client_1.0.1.zip.part117",
+     "size": 103809024,
+     "sha256": "24c135e204f997ef379852a0ee812baef44b9c0e6fc3ae7a05abca4ef15ca28d"
+    },
+    {
+     "index": 118,
+     "name": "ONETAP_client_1.0.1.zip.part118",
+     "size": 103809024,
+     "sha256": "eb40480398648dc817985a347d30b25dd6cb94b5c06a7084f795048f337250a9"
+    },
+    {
+     "index": 119,
+     "name": "ONETAP_client_1.0.1.zip.part119",
+     "size": 103809024,
+     "sha256": "3c8c3b77b01cd80184559e7b6e1da53e1900c9112d6ae808a4af6d2e0689d4e6"
+    },
+    {
+     "index": 120,
+     "name": "ONETAP_client_1.0.1.zip.part120",
+     "size": 103809024,
+     "sha256": "9b2dc02c9d75fca0efe9f6eefd23de9eeec6454eed56dd1fc6137ff0ad8cd5dc"
+    },
+    {
+     "index": 121,
+     "name": "ONETAP_client_1.0.1.zip.part121",
+     "size": 103809024,
+     "sha256": "7b599bbd0c1d0b2d493828d8a32a39cc5997b55054dadfdbb168326a5f36a568"
+    },
+    {
+     "index": 122,
+     "name": "ONETAP_client_1.0.1.zip.part122",
+     "size": 103809024,
+     "sha256": "90554217432344c9d1da029a41a8ff114fb12ab192ef3db41288ca06b52e479c"
+    },
+    {
+     "index": 123,
+     "name": "ONETAP_client_1.0.1.zip.part123",
+     "size": 103809024,
+     "sha256": "3553bc0f4d98e0adb4f11fc7398afef3a3809e1d2d6ce3d5ef6bb7963c6421e7"
+    },
+    {
+     "index": 124,
+     "name": "ONETAP_client_1.0.1.zip.part124",
+     "size": 103809024,
+     "sha256": "784bd94ce10fc852cbeca4bd2a06fce7c19064c83f0aed975eb73a42c1e25322"
+    },
+    {
+     "index": 125,
+     "name": "ONETAP_client_1.0.1.zip.part125",
+     "size": 103809024,
+     "sha256": "48c8dda01512f4c590cdcbef4c789dd93a44b4026dd4a3da9192f2c9c1ed2774"
+    },
+    {
+     "index": 126,
+     "name": "ONETAP_client_1.0.1.zip.part126",
+     "size": 103809024,
+     "sha256": "8a92b483adc9a67d44aae52aad8b8ba8200f5f1393211565ef1b2534350b8f3c"
+    },
+    {
+     "index": 127,
+     "name": "ONETAP_client_1.0.1.zip.part127",
+     "size": 103809024,
+     "sha256": "4474ca91c8fcd23e01bcb6d917ff5f3a12458539549c0a1dea3ec99e627be863"
+    },
+    {
+     "index": 128,
+     "name": "ONETAP_client_1.0.1.zip.part128",
+     "size": 103809024,
+     "sha256": "02c60e7806b69506bfe56f17cd2f38920ddb49dedb4ca72a666cd93136528d0a"
+    },
+    {
+     "index": 129,
+     "name": "ONETAP_client_1.0.1.zip.part129",
+     "size": 103809024,
+     "sha256": "8fd9a5afbca2ca9ea1620d97500dbe14234b3c5c866e2706094e52f864696d1c"
+    },
+    {
+     "index": 130,
+     "name": "ONETAP_client_1.0.1.zip.part130",
+     "size": 103809024,
+     "sha256": "d1ec0e4d8d9ddf4112b127c2baa119c6a355b3061f0e9e1cdca1ee0744d9ef05"
+    },
+    {
+     "index": 131,
+     "name": "ONETAP_client_1.0.1.zip.part131",
+     "size": 103809024,
+     "sha256": "6b996b92e4bc8c879c5ad8df6cb66e302926bed7d84b0850a03b457f505be130"
+    },
+    {
+     "index": 132,
+     "name": "ONETAP_client_1.0.1.zip.part132",
+     "size": 103809024,
+     "sha256": "a64d27ef1b4094e36d91982bd186255dab0928770a93ab9c732f88c00b67999f"
+    },
+    {
+     "index": 133,
+     "name": "ONETAP_client_1.0.1.zip.part133",
+     "size": 68545313,
+     "sha256": "61844802d3fc95013de3a8e82554cc75e624fd4664f19d3896f70fdd40f59302"
+    }
+   ],
+   "total_bytes": 13771336481,
+   "total_sha256": "d697b2fc319bc092d61001da7908ffd96fac445cc2fbe8b880ef8c8998381a4a",
+   "sources": [],
+   "sources_note": "真实下载源在 res/sources.enc（加密），本字段由客户端解密后覆盖"
   }
  ]
 }
