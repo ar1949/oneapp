@@ -1,14 +1,14 @@
 {
-  "version": "1.0.26",
-  "sha256": "a1810c397ae6f8fc429d6b25156c6b00dea7e690611c3ce48c114443e11dd0ea",
-  "size": 8739296,
+  "version": "1.0.28",
+  "sha256": "7af6f8d56a53fa653573c4f8a93639e27df196b3d3bb129deaaea4069f76468e",
+  "size": 8742751,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.26.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.28.bin"
   ],
-  "notes": "修「远端打开下载器没有任何更新提示」：补 encodings.idna（缺它时所有域名线路都会失败，等于只能连内网，外网玩家永远查不到更新）；同时让统一版壳真正能自更新",
-  "released": "2026-11-12 18:09:22",
-  "asset_name": "ONETAPDownloader-1.0.26.bin",
+  "notes": "下载器首次支持 Win7：补上同样的两处修复（系统缺界面组件导致界面不出来、找窗口会和界面线程互相卡死），Win7 上也能自动装好运行库；安装提示容量改为实际值",
+  "released": "2026-11-13 15:06:20",
+  "asset_name": "ONETAPDownloader-1.0.28.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.26.exe"
+  "exe_name": "下载器v1.0.28.exe"
 }
