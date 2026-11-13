@@ -1,14 +1,14 @@
 {
-  "version": "1.0.42",
-  "sha256": "ad4120f904e23b66a4ce9c3a9c8a60186cf1d56ff1dd9852b5423a0320d6e5d5",
-  "size": 12594849,
+  "version": "1.0.43",
+  "sha256": "59d60dfc7fa2c752fd53058ddc19d52aed0a47edb57324f95205516b637bca65",
+  "size": 12594423,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.42.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.43.bin"
   ],
-  "notes": "修底栏二维码与已连接重叠；注册页人工审核显示群号+二维码；按852x520适配不滚动；公告栏避让连接状态",
-  "released": "2026-11-14 04:45:18",
-  "asset_name": "ONETAPLauncher-1.0.42.bin",
+  "notes": "修启动器本地服务缺 /api/launcher/notice 路由，顶栏流动公告一直吃兜底文案、后台改了不生效",
+  "released": "2026-11-14 04:58:41",
+  "asset_name": "ONETAPLauncher-1.0.43.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.42.exe"
+  "exe_name": "启动器v1.0.43.exe"
 }
