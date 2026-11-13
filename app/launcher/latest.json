@@ -1,14 +1,14 @@
 {
-  "version": "1.0.34",
-  "sha256": "1e401eef4ff316463098668a5e933d18f2524c0c4e3b947728771c50544edeb2",
-  "size": 8853261,
+  "version": "1.0.40",
+  "sha256": "2ccdb3e6db2dd2590d9c48bd6c79b81f12791faa8c2ca05643994561e9636360",
+  "size": 8855466,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.34.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.40.bin"
   ],
-  "notes": "修「启动时还是会闪几秒那个正在连接的红框」：以前只要启动超 2 秒没连上就把全屏遮罩弹出来，而远端正常连接本来就要 3~5 秒；现在正常连接过程中完全不遮屏（只在右上角留个小提示），只有真失败过一轮、或超过 8 秒仍连不上才弹面板说清楚",
-  "released": "2026-11-12 19:20:27",
-  "asset_name": "ONETAPLauncher-1.0.34.bin",
+  "notes": "修 Win7 上界面不出来：系统缺界面组件（shcore）时内嵌窗口永远建不出来、找窗口的方式会和界面线程互相卡死；Win7 运行库换成实测能装上的版本，安装提示容量改为实际值",
+  "released": "2026-11-13 15:03:49",
+  "asset_name": "ONETAPLauncher-1.0.40.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.34.exe"
+  "exe_name": "启动器v1.0.40.exe"
 }
