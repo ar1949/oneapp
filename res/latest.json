@@ -3,11 +3,11 @@
   "channel": "stable",
   "client_version": "1.0.1",
   "min_version": "1.0.0",
-  "released": "2026-11-13 15:06:22",
+  "released": "2026-11-14 04:45:21",
   "notes": "客户端 1.0.0 → 1.0.1 增量补丁，27 卷 × 99 MiB；分卷在飞极盘",
   "install_order": [
     "baseline-1.0.1",
-    "shell-launcher-1.0.40",
+    "shell-launcher-1.0.42",
     "shell-downloader-1.0.28",
     "patch-1.0.0-to-1.0.1"
   ],
@@ -1003,63 +1003,6 @@
       "notes": "客户端 1.0.0 → 1.0.1 增量补丁，27 卷 × 99 MiB；分卷在飞极盘"
     },
     {
-      "id": "shell-launcher-1.0.40",
-      "kind": "shell",
-      "version": "1.0.40",
-      "total_bytes": 8855466,
-      "total_sha256": "2ccdb3e6db2dd2590d9c48bd6c79b81f12791faa8c2ca05643994561e9636360",
-      "parts": [
-        {
-          "index": 1,
-          "name": "ONETAPLauncher-1.0.40.bin",
-          "size": 8855466,
-          "sha256": "2ccdb3e6db2dd2590d9c48bd6c79b81f12791faa8c2ca05643994561e9636360"
-        }
-      ],
-      "sources": [
-        {
-          "type": "jsdelivr",
-          "weight": 130,
-          "base": "https://testingcf.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "testingcf.jsdelivr.net"
-        },
-        {
-          "type": "jsdelivr",
-          "weight": 125,
-          "base": "https://jsdelivr.b-cdn.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "jsdelivr.b-cdn.net"
-        },
-        {
-          "type": "jsdelivr",
-          "weight": 120,
-          "base": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
-          "node": "gcore.jsdelivr.net"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 100,
-          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 99,
-          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "ghproxy",
-          "weight": 98,
-          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        },
-        {
-          "type": "github",
-          "weight": 50,
-          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
-        }
-      ],
-      "released": "2026-11-13 15:03:49",
-      "notes": "修 Win7 上界面不出来：系统缺界面组件（shcore）时内嵌窗口永远建不出来、找窗口的方式会和界面线程互相卡死；Win7 运行库换成实测能装上的版本，安装提示容量改为实际值"
-    },
-    {
       "id": "shell-downloader-1.0.28",
       "kind": "shell",
       "version": "1.0.28",
@@ -1115,6 +1058,63 @@
       ],
       "released": "2026-11-13 15:06:20",
       "notes": "下载器首次支持 Win7：补上同样的两处修复（系统缺界面组件导致界面不出来、找窗口会和界面线程互相卡死），Win7 上也能自动装好运行库；安装提示容量改为实际值"
+    },
+    {
+      "id": "shell-launcher-1.0.42",
+      "kind": "shell",
+      "version": "1.0.42",
+      "total_bytes": 12594849,
+      "total_sha256": "ad4120f904e23b66a4ce9c3a9c8a60186cf1d56ff1dd9852b5423a0320d6e5d5",
+      "parts": [
+        {
+          "index": 1,
+          "name": "ONETAPLauncher-1.0.42.bin",
+          "size": 12594849,
+          "sha256": "ad4120f904e23b66a4ce9c3a9c8a60186cf1d56ff1dd9852b5423a0320d6e5d5"
+        }
+      ],
+      "sources": [
+        {
+          "type": "jsdelivr",
+          "weight": 130,
+          "base": "https://testingcf.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "testingcf.jsdelivr.net"
+        },
+        {
+          "type": "jsdelivr",
+          "weight": 125,
+          "base": "https://jsdelivr.b-cdn.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "jsdelivr.b-cdn.net"
+        },
+        {
+          "type": "jsdelivr",
+          "weight": 120,
+          "base": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@main/res/shell",
+          "node": "gcore.jsdelivr.net"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 100,
+          "base": "https://ghfast.top/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 99,
+          "base": "https://gh-proxy.com/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "ghproxy",
+          "weight": 98,
+          "base": "https://ghproxy.net/https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        },
+        {
+          "type": "github",
+          "weight": 50,
+          "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
+        }
+      ],
+      "released": "2026-11-14 04:45:18",
+      "notes": "修底栏二维码与已连接重叠；注册页人工审核显示群号+二维码；按852x520适配不滚动；公告栏避让连接状态"
     }
   ],
   "alt_pages": []
