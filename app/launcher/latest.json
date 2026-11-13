@@ -1,14 +1,14 @@
 {
-  "version": "1.0.40",
-  "sha256": "2ccdb3e6db2dd2590d9c48bd6c79b81f12791faa8c2ca05643994561e9636360",
-  "size": 8855466,
+  "version": "1.0.42",
+  "sha256": "ad4120f904e23b66a4ce9c3a9c8a60186cf1d56ff1dd9852b5423a0320d6e5d5",
+  "size": 12594849,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.40.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.42.bin"
   ],
-  "notes": "修 Win7 上界面不出来：系统缺界面组件（shcore）时内嵌窗口永远建不出来、找窗口的方式会和界面线程互相卡死；Win7 运行库换成实测能装上的版本，安装提示容量改为实际值",
-  "released": "2026-11-13 15:03:49",
-  "asset_name": "ONETAPLauncher-1.0.40.bin",
+  "notes": "修底栏二维码与已连接重叠；注册页人工审核显示群号+二维码；按852x520适配不滚动；公告栏避让连接状态",
+  "released": "2026-11-14 04:45:18",
+  "asset_name": "ONETAPLauncher-1.0.42.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.40.exe"
+  "exe_name": "启动器v1.0.42.exe"
 }
