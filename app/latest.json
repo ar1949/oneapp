@@ -1,11 +1,11 @@
 {
-  "version_code": 13,
-  "version_name": "1.1.2",
-  "apk": "https://gcore.jsdelivr.net/gh/ar1949/oneapp@v1.1.2/app/onetap-mgmt-1.1.2.apk",
-  "size": 2438969,
-  "sha256": "fedc016e6ed12a7161c14c577ebee9d22a5d97a2f036edf86567a96461a8b4e6",
-  "notes": "修复外网打不开：明文口 90080 笔误改回 50080，并新增「域名解析成公网 IP」兜底线路（平台对域名 Host 强制 HTTPS，对 IP Host 放行）",
-  "updated": "2026-11-07 16:00:13",
+  "version_code": 15,
+  "version_name": "1.1.4",
+  "apk": "https://cdn.jsdelivr.net/gh/ar1949/oneapp@v1.1.4/app/onetap-mgmt-1.1.4.apk",
+  "size": 2439440,
+  "sha256": "2e787bfacbc921e6551c2f13495c293ecf8f161ff4b908e9d5df072bbaf3fa24",
+  "notes": "修安卓偶尔进不去（必须清缓存+数据才能进）：Service Worker 不再拿缓存的旧 index.html 兜底（旧壳配新脚本必白屏），改为自带离线提示页 + 8 秒超时；页面 12 秒未渲染出界面时自动清一次 HTTP 缓存并带随机参数重载 —— **不动 Cookie 和记住的账号密码**，只修一次不死循环。",
+  "updated": "2026-11-14 16:34:43",
   "channel": "android",
   "min_supported": 1
 }
