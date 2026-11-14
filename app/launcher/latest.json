@@ -1,14 +1,14 @@
 {
-  "version": "1.0.47",
-  "sha256": "d7ab32fac2cb32405f62227d9c292c058efaaf4f01efce27fbaff16bb83892ba",
-  "size": 12596784,
+  "version": "1.0.48",
+  "sha256": "cf789a0b44ca0229a70d53301a02413a56a64371ec0477ed0c22fbcc82aa1671",
+  "size": 12598581,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.47.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.48.bin"
   ],
-  "notes": "远端探测从12个连接降到2个：只探50080（8080/80/30002对远端注定超时，白占NAT会话和上行）",
-  "released": "2026-11-14 18:01:44",
-  "asset_name": "ONETAPLauncher-1.0.47.bin",
+  "notes": "远端跨网丢包时同时抢连，卡顿 1060ms→190ms",
+  "released": "2026-11-14 19:15:56",
+  "asset_name": "ONETAPLauncher-1.0.48.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.47.exe"
+  "exe_name": "启动器v1.0.48.exe"
 }
