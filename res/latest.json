@@ -3,11 +3,11 @@
   "channel": "stable",
   "client_version": "1.0.1",
   "min_version": "1.0.0",
-  "released": "2026-11-14 18:01:47",
+  "released": "2026-11-14 19:16:04",
   "notes": "客户端 1.0.0 → 1.0.1 增量补丁，27 卷 × 99 MiB；分卷在飞极盘",
   "install_order": [
     "baseline-1.0.1",
-    "shell-launcher-1.0.47",
+    "shell-launcher-1.0.48",
     "shell-downloader-1.0.28",
     "patch-1.0.0-to-1.0.1"
   ],
@@ -1060,17 +1060,17 @@
       "notes": "下载器首次支持 Win7：补上同样的两处修复（系统缺界面组件导致界面不出来、找窗口会和界面线程互相卡死），Win7 上也能自动装好运行库；安装提示容量改为实际值"
     },
     {
-      "id": "shell-launcher-1.0.47",
+      "id": "shell-launcher-1.0.48",
       "kind": "shell",
-      "version": "1.0.47",
-      "total_bytes": 12596784,
-      "total_sha256": "d7ab32fac2cb32405f62227d9c292c058efaaf4f01efce27fbaff16bb83892ba",
+      "version": "1.0.48",
+      "total_bytes": 12598581,
+      "total_sha256": "cf789a0b44ca0229a70d53301a02413a56a64371ec0477ed0c22fbcc82aa1671",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPLauncher-1.0.47.bin",
-          "size": 12596784,
-          "sha256": "d7ab32fac2cb32405f62227d9c292c058efaaf4f01efce27fbaff16bb83892ba"
+          "name": "ONETAPLauncher-1.0.48.bin",
+          "size": 12598581,
+          "sha256": "cf789a0b44ca0229a70d53301a02413a56a64371ec0477ed0c22fbcc82aa1671"
         }
       ],
       "sources": [
@@ -1113,8 +1113,8 @@
           "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
         }
       ],
-      "released": "2026-11-14 18:01:44",
-      "notes": "远端探测从12个连接降到2个：只探50080（8080/80/30002对远端注定超时，白占NAT会话和上行）"
+      "released": "2026-11-14 19:15:56",
+      "notes": "远端跨网丢包时同时抢连，卡顿 1060ms→190ms"
     }
   ],
   "alt_pages": []
