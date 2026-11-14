@@ -1,14 +1,14 @@
 {
-  "version": "1.0.43",
-  "sha256": "59d60dfc7fa2c752fd53058ddc19d52aed0a47edb57324f95205516b637bca65",
-  "size": 12594423,
+  "version": "1.0.44",
+  "sha256": "8f240e4e07117c5144cc23a55dbf117e64c1e3330676e9eedf2407175cc059e7",
+  "size": 12595913,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.43.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.44.bin"
   ],
-  "notes": "修启动器本地服务缺 /api/launcher/notice 路由，顶栏流动公告一直吃兜底文案、后台改了不生效",
-  "released": "2026-11-14 04:58:41",
-  "asset_name": "ONETAPLauncher-1.0.43.bin",
+  "notes": "线路与客户端版本合成一排省高度；回归确认 FPS 启动参数 +cl_showfps 1 生效",
+  "released": "2026-11-14 11:50:28",
+  "asset_name": "ONETAPLauncher-1.0.44.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.43.exe"
+  "exe_name": "启动器v1.0.44.exe"
 }
