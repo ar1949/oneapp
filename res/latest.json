@@ -3,11 +3,11 @@
   "channel": "stable",
   "client_version": "1.0.1",
   "min_version": "1.0.0",
-  "released": "2026-11-14 04:58:43",
+  "released": "2026-11-14 11:50:32",
   "notes": "客户端 1.0.0 → 1.0.1 增量补丁，27 卷 × 99 MiB；分卷在飞极盘",
   "install_order": [
     "baseline-1.0.1",
-    "shell-launcher-1.0.43",
+    "shell-launcher-1.0.44",
     "shell-downloader-1.0.28",
     "patch-1.0.0-to-1.0.1"
   ],
@@ -1060,17 +1060,17 @@
       "notes": "下载器首次支持 Win7：补上同样的两处修复（系统缺界面组件导致界面不出来、找窗口会和界面线程互相卡死），Win7 上也能自动装好运行库；安装提示容量改为实际值"
     },
     {
-      "id": "shell-launcher-1.0.43",
+      "id": "shell-launcher-1.0.44",
       "kind": "shell",
-      "version": "1.0.43",
-      "total_bytes": 12594423,
-      "total_sha256": "59d60dfc7fa2c752fd53058ddc19d52aed0a47edb57324f95205516b637bca65",
+      "version": "1.0.44",
+      "total_bytes": 12595913,
+      "total_sha256": "8f240e4e07117c5144cc23a55dbf117e64c1e3330676e9eedf2407175cc059e7",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPLauncher-1.0.43.bin",
-          "size": 12594423,
-          "sha256": "59d60dfc7fa2c752fd53058ddc19d52aed0a47edb57324f95205516b637bca65"
+          "name": "ONETAPLauncher-1.0.44.bin",
+          "size": 12595913,
+          "sha256": "8f240e4e07117c5144cc23a55dbf117e64c1e3330676e9eedf2407175cc059e7"
         }
       ],
       "sources": [
@@ -1113,8 +1113,8 @@
           "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
         }
       ],
-      "released": "2026-11-14 04:58:41",
-      "notes": "修启动器本地服务缺 /api/launcher/notice 路由，顶栏流动公告一直吃兜底文案、后台改了不生效"
+      "released": "2026-11-14 11:50:28",
+      "notes": "线路与客户端版本合成一排省高度；回归确认 FPS 启动参数 +cl_showfps 1 生效"
     }
   ],
   "alt_pages": []
