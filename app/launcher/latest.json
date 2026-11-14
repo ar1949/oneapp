@@ -1,14 +1,14 @@
 {
-  "version": "1.0.45",
-  "sha256": "5fbc73fe0d6dfbaeb6cd7da5206ff6cbf7222e42f602c08440427fd8ee17b157",
-  "size": 12595577,
+  "version": "1.0.46",
+  "sha256": "2b327ba73104f5de35474ca4f0b6af7f6a5213cea384843f5b7b16d847537226",
+  "size": 12596702,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.45.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPLauncher-1.0.46.bin"
   ],
-  "notes": "远端单次网络抖动不再弹「响应较慢」大红框，只在右上角留小提示；连续2次失败才弹面板",
-  "released": "2026-11-14 13:43:04",
-  "asset_name": "ONETAPLauncher-1.0.45.bin",
+  "notes": "延迟统计改中位数（原算术平均会把一次握手抖动放大成上千毫秒的显示）",
+  "released": "2026-11-14 17:38:32",
+  "asset_name": "ONETAPLauncher-1.0.46.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "启动器v1.0.45.exe"
+  "exe_name": "启动器v1.0.46.exe"
 }
