@@ -1,14 +1,14 @@
 {
-  "version": "1.0.29",
-  "sha256": "ca3d9466f36a53dad2385e319ecc6381223c44798be31d54689337cac3de3007",
-  "size": 8748442,
+  "version": "1.0.30",
+  "sha256": "d7a32d82870ac38293d5a7e9a33d84777f8453c1e114f04c53843cd5810d3b58",
+  "size": 8749048,
   "url": "",
   "urls": [
-    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.29.bin"
+    "https://github.com/ar1949/oneapp/releases/download/v1.0.0/ONETAPDownloader-1.0.30.bin"
   ],
-  "notes": "解压找包兜底；失败写状态、按钮可恢复；解压完成立即就绪、补壳转后台；坏包先校验不误解压",
-  "released": "2026-11-16 06:06:27",
-  "asset_name": "ONETAPDownloader-1.0.29.bin",
+  "notes": "修复下载完成后状态接口死锁（界面卡在「校验中」）；找包不再每轮跨盘扫描",
+  "released": "2026-11-16 09:09:39",
+  "asset_name": "ONETAPDownloader-1.0.30.bin",
   "release_tag": "v1.0.0",
-  "exe_name": "下载器v1.0.29.exe"
+  "exe_name": "下载器v1.0.30.exe"
 }
