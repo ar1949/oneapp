@@ -3,12 +3,12 @@
   "channel": "stable",
   "client_version": "1.0.1",
   "min_version": "1.0.0",
-  "released": "2026-11-16 06:06:29",
+  "released": "2026-11-16 09:09:41",
   "notes": "客户端 1.0.0 → 1.0.1 增量补丁，27 卷 × 99 MiB；分卷在飞极盘",
   "install_order": [
     "baseline-1.0.1",
     "shell-launcher-1.0.48",
-    "shell-downloader-1.0.29",
+    "shell-downloader-1.0.30",
     "patch-1.0.0-to-1.0.1"
   ],
   "assets": [
@@ -1060,17 +1060,17 @@
       "notes": "远端跨网丢包时同时抢连，卡顿 1060ms→190ms"
     },
     {
-      "id": "shell-downloader-1.0.29",
+      "id": "shell-downloader-1.0.30",
       "kind": "shell",
-      "version": "1.0.29",
-      "total_bytes": 8748442,
-      "total_sha256": "ca3d9466f36a53dad2385e319ecc6381223c44798be31d54689337cac3de3007",
+      "version": "1.0.30",
+      "total_bytes": 8749048,
+      "total_sha256": "d7a32d82870ac38293d5a7e9a33d84777f8453c1e114f04c53843cd5810d3b58",
       "parts": [
         {
           "index": 1,
-          "name": "ONETAPDownloader-1.0.29.bin",
-          "size": 8748442,
-          "sha256": "ca3d9466f36a53dad2385e319ecc6381223c44798be31d54689337cac3de3007"
+          "name": "ONETAPDownloader-1.0.30.bin",
+          "size": 8749048,
+          "sha256": "d7a32d82870ac38293d5a7e9a33d84777f8453c1e114f04c53843cd5810d3b58"
         }
       ],
       "sources": [
@@ -1113,8 +1113,8 @@
           "base": "https://github.com/ar1949/oneapp/releases/download/v1.0.0"
         }
       ],
-      "released": "2026-11-16 06:06:27",
-      "notes": "解压找包兜底；失败写状态、按钮可恢复；解压完成立即就绪、补壳转后台；坏包先校验不误解压"
+      "released": "2026-11-16 09:09:39",
+      "notes": "修复下载完成后状态接口死锁（界面卡在「校验中」）；找包不再每轮跨盘扫描"
     }
   ],
   "alt_pages": []
